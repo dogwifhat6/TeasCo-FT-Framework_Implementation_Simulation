@@ -26,35 +26,8 @@
 A Teacher LLM is only used once, offline — to teach a tiny, fast student model how to reason. In production, the LLM is gone entirely; a cascade of lightweight classifiers handles everything.
 
 <p align="center">
-  <img src="assets/training_flow.png" alt="Training Flowchart" width="48%">
-  <img src="assets/inference_flow.png" alt="Inference Flowchart" width="48%">
+  <img src="assets/architecture_flow.png" alt="TeasCo-FT Architecture & Flowchart" width="75%">
 </p>
-
-```mermaid
-flowchart TB
-    subgraph TR["🎓 Training — offline, once"]
-        direction TB
-        RT["Raw Text"] --> FE["Feature Extractor<br/>TF-IDF / MiniLM"]
-        RT --> TL["Teacher LLM<br/>GPT-4 · Claude · Gemini · Ollama"]
-        TL -->|"soft label probabilities"| BS["Base Student<br/>Logistic Regression"]
-        FE --> BS
-        BS -->|"knowledge distillation"| HM["Hard Example Mining<br/>wrong / low-confidence samples"]
-        HM --> CR["Corrector<br/>Random Forest"]
-    end
-
-    subgraph INF["🚀 Inference — production, no LLM"]
-        direction TB
-        IT["Raw Text"] --> IF["Feature Extractor"]
-        IF --> IB["Base Student"]
-        IB --> Q{"confidence ≥ threshold?"}
-        Q -->|"yes"| P1["Prediction ✓<br/>fast path, ~0.1ms"]
-        Q -->|"no"| IC["Corrector"]
-        IC --> P2["Prediction ✓<br/>slow path, ~1ms"]
-    end
-
-    BS -.->|"deployed as"| IB
-    CR -.->|"deployed as"| IC
-```
 
 **Why it beats the LLM:** LLMs are generalists. Your student is a hyper-specialist trained on the LLM's reasoning (soft probabilities), not just its hard answers. The cascade corrector catches the edge cases the base student gets wrong or is unsure about.
 
@@ -377,8 +350,7 @@ TeasCo-FT implement/
 │   ├── PROMISE_exp.arff       #   PROMISE NFR requirements
 │   └── QuRE.csv               #   QuRE industrial requirements
 ├── assets/                    # Images for README
-│   ├── training_flow.png      #   Training phase architecture diagram
-│   ├── inference_flow.png     #   Inference phase cascade diagram
+│   ├── architecture_flow.png  #   Architecture & flowchart diagram
 │   └── secreq_results.png     #   SecReq benchmark chart
 ├── tests/                     # Pytest test suite (47 tests)
 ├── requirements.txt
