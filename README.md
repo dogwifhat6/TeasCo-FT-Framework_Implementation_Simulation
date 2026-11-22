@@ -4,13 +4,36 @@ An implementation and simulation of the **TeasCo-FT** teacher–student cascade 
 
 It classifies text, for example software requirements as *security-related* vs *not*, and comes with a Streamlit app, a command-line benchmark, an offline simulation of the training rules, and a notebook.
 
+```mermaid
+flowchart LR
+    T["Input text"]
+
+    subgraph FEAT["Features: 385 dims"]
+        direction TB
+        E["MiniLM sentence embedding<br/>all-MiniLM-L6-v2: 384 dims"]
+        S["Frozen Student SLM via Ollama<br/>first-token confidence: 1 dim"]
+    end
+
+    subgraph SUP["Training only: runs once"]
+        direction TB
+        TL["70B Teacher LLM<br/>Llama 3.3 70B Instruct"]
+        GT["Ground-truth labels<br/>(optional)"]
+    end
+
+    A["Tree adapter<br/>XGBoost / CatBoost / LightGBM"]
+    P["Predicted class"]
+
+    T --> E
+    T --> S
+    E --> A
+    S --> A
+    T -.-> TL
+    TL -.->|soft or hard labels| A
+    GT -.->|gold labels| A
+    A --> P
 ```
-frozen Student SLM (local Ollama)  ─┐
-                                    ├─> 385-dim features ─> tree adapter
-sentence embedding (MiniLM, 384)   ─┘                        (XGBoost / CatBoost / LightGBM)
-                                                              ^
-70B Teacher LLM (offline, once) ── soft labels ──────────────┘
-```
+
+Solid arrows run at inference time. Dotted arrows are used only while training.
 
 At inference time only the small local models run: MiniLM, the Student SLM and the trained trees. The 70B Teacher is called once, at training time, to label the training set.
 
@@ -28,6 +51,16 @@ At inference time only the small local models run: MiniLM, the Student SLM and t
    | `objective` | Custom loss that zeroes the gradient of confidently-correct rows, re-checked every round | XGBoost |
    | `staged` | Trees added in blocks of 25; already-correct rows are down-weighted to the *gate floor* before each block | all |
    | `none` | Plain boosting (control) | all |
+
+   ```mermaid
+   flowchart TD
+       R["Training row"] --> Q{"Predicted correctly<br/>and confidently?<br/>(gate margin 0.10)"}
+       Q -- "No: a mistake" --> F["Full weight<br/>new trees learn from it"]
+       Q -- "Yes" --> G{"Gate mode"}
+       G -- "objective (XGBoost)" --> Z["Gradient set to zero"]
+       G -- "staged (all adapters)" --> W["Weight lowered to<br/>gate floor 0.10"]
+       G -- "none (control)" --> F
+   ```
 
    A **gate margin of 0.10** and a **gate floor of 0.10** keep the gate from collapsing a class or making validation F1 swing between stages (see [Simulation results](#simulation-results)).
 
