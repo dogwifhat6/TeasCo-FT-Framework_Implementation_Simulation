@@ -1,0 +1,970 @@
+text,label
+The system shall refresh the display every 60 seconds.,nonsec
+The application shall match the color of the schema set forth by Department of Homeland Security,nonsec
+If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30,nonsec
+The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.,nonsec
+If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,nonsec
+The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts,sec
+The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,nonsec
+The product shall respond fast to keep up-to-date data in the display.,nonsec
+The system shall have a MDI form that allows for the viewing of the graph and the data table.,nonsec
+The system shall display Events in a vertical table by time.,nonsec
+The system shall display the Events in a graph by time.,nonsec
+The system shall display Events or Activities.,nonsec
+The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table,nonsec
+The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,nonsec
+The table side of the display shall be split into 2 regions: sequential and temporal.,nonsec
+The top 1/4 of the table will hold events that are to occur sequentially.,nonsec
+The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,nonsec
+The system shall color code events according to their variance from current time.,nonsec
+The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,nonsec
+The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,nonsec
+The system shall allow modification of the display.,nonsec
+The system shall offer a display of all the Events in the exercise.,nonsec
+The system shall filter data by: Venues and Key Events.,nonsec
+The system shall allow a user to define the time segments,nonsec
+The system shall display the local and exercise time in separate clocks,nonsec
+The system shall offer the ability to pause and resume the refresh of data.,nonsec
+The system shall provide charts for the Activity or Event actual versus assumed time.,nonsec
+The system shall provide a history report of changes made to the Activity or Event data,nonsec
+The look and feel of the system shall conform to the user interface standards of the smart device.,nonsec
+The user interface shall have standard menus buttons for navigation,nonsec
+The system shall have a professional appearance,nonsec
+The product shall have a consistent color scheme and fonts.,nonsec
+The system shall be used by realtors with no training.,nonsec
+The system shall be intuitive and self explanatory.,nonsec
+The product shall be easy for a realtor to learn.,nonsec
+The product shall use symbols and words that are naturally understandable by the realtor community.,nonsec
+The product shall produce search results in an acceptable time,nonsec
+The search results shall be returned no later 30 seconds  after the user has entered the search criteria,nonsec
+The product shall generate a CMA report in an acceptable time.,nonsec
+The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,nonsec
+The product shall synchronize contacts and appointments in an acceptable time.,nonsec
+The product shall synchronize with the office system every hour.,nonsec
+The product shall be available for use 24 hours per day 365 days  per year,nonsec
+Out of 1000 accesses to the system the system is available 999 times.,nonsec
+The product shall operate in offline mode whenever internet connection is unavailable.,nonsec
+The product shall allow the user to view previously downloaded search results CMA reports  and appointments.,nonsec
+The product shall retain user preferences in the event of a failure.,nonsec
+100% of saved user preferences shall be restored when system comes back online.,nonsec
+The product shall be able to support multiple remote users,nonsec
+The product shall be able support 1000 simultaneous users.,nonsec
+The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,nonsec
+The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,nonsec
+90% of untrained realtors shall be able to install the product on their device without printed instructions,nonsec
+The product is expected to run on Windows CE and Palm operating systems.,nonsec
+Only registered realtors shall be able to access the system.,sec
+Every user of the system shall be authenticated and authorized.,sec
+The product shall prevent its data from incorrect data being introduced.,sec
+The system shall allow a real estate agent to query MLS information,nonsec
+The user shall be able to get driving directions to a selected property,nonsec
+The user shall be able to download appointments and contact information for clients,nonsec
+The system shall display clear property images in the search results,nonsec
+The system shall update or create new property listings in the MLS,nonsec
+Realtor shall be able to generate a CMA report based on property criteria,nonsec
+The system shall be able to call the seller or buyer to schedule an appointment,nonsec
+The realtor shall be notified of new client appointments after automatic synchronization with office system,nonsec
+The realtor shall be able to retrieve a map showing property locations for a specified area,nonsec
+The system shall notify the realtor when a seller or buyer responds to an appointment request,nonsec
+The product shall allow the user to save the property search results.,nonsec
+The system shall be easy to use by the Program Administrators/Nursing Staff Members.,nonsec
+All of the users shall be able to use the system after one day of training.,nonsec
+The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,nonsec
+The number of mistakes noted by the students shall be decreased by 50% in the first year.,nonsec
+The system shall be intuitive to the Program Administrators/Nursing Staff Members.,nonsec
+2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,nonsec
+The system shall use symbols and words that are naturally understandable by the user community.,nonsec
+The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,nonsec
+Staff members shall be able to complete a set of tasks in a timely manner.,nonsec
+The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,nonsec
+The system shall be available for use between the hours of 8am and 6pm.,nonsec
+The system shall achieve 95% up time.,nonsec
+system shall be able to handle all of the user requests/usage during business hours.,nonsec
+The system shall cater to 10 simultaneous users from 9am to 5pm.,nonsec
+The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,nonsec
+The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,nonsec
+The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,nonsec
+The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,nonsec
+The system shall operate within the Windows XP Professional operating system.,nonsec
+The system shall interface with CampusConnect\92s central server,nonsec
+The system shall interface with the faculty central server.,nonsec
+The system shall interface with the student master server.,nonsec
+We must be able to interface with any HTML browser.,nonsec
+Only authorized users shall have access to clinical site information.,sec
+Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,sec
+Only authorized users shall have access to students\92 personal information.,sec
+Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students\92 personal information.,sec
+Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,sec
+Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,sec
+The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,sec
+The system shall protect private information in accordance with the organization\92s information policy.,sec
+The system shall be built such that it is as secure as possible from malicious interference.,sec
+The system shall use the organization\92s standard virus protection software to help monitor threats to itself.,sec
+A cohort shall be associated to one Program of Study offered by the department.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,nonsec
+Students added to a cohort shall be eligible for the cohort\92s Program of Study.,nonsec
+Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,nonsec
+For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,nonsec
+Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.,nonsec
+A class shall be either a non-clinical class or a clinical class.,nonsec
+A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.,nonsec
+A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.,nonsec
+Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.,nonsec
+A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,nonsec
+Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study,nonsec
+The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.,nonsec
+The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.,nonsec
+Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,nonsec
+Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,nonsec
+A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.,nonsec
+Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,nonsec
+The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.,nonsec
+The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.,nonsec
+Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.,nonsec
+A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,nonsec
+A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.,nonsec
+The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.,nonsec
+The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).,nonsec
+The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.,nonsec
+The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.,nonsec
+The system shall be able to display a printable summary of the system log.,nonsec
+The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.,nonsec
+The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,nonsec
+The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,nonsec
+The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.,nonsec
+The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.,nonsec
+The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).,nonsec
+The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.,nonsec
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.,nonsec
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.,nonsec
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.,nonsec
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.,nonsec
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.,nonsec
+The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,nonsec
+All screens created as part of the Disputes application must comply with corporate standards for interface creation.,nonsec
+The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,nonsec
+100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,nonsec
+100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,nonsec
+100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,nonsec
+The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,nonsec
+The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,nonsec
+The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday \96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST,nonsec
+The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,nonsec
+The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,nonsec
+The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.,nonsec
+The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,nonsec
+The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,nonsec
+The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,sec
+Only users with Update access must be able to initiate dispute requests.,sec
+The Disputes application shall ensure that only authorized users are allowed to logon to the application.,sec
+All authorized users  once authenticated must be able to logon to the Disputes System,sec
+The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.,sec
+All additions of new users and modifications to user\92s access shall be recorded on the User Report.,sec
+If a user account is revoked  it can only be re-instantiated by the System Administrator.,sec
+Only the System Administrator shall be able to reset a revoked user logon account,sec
+The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,sec
+All updates to data files or database must be initiated from the Disputes System.,sec
+The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.,nonsec
+All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,nonsec
+The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.,nonsec
+All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.,nonsec
+The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,nonsec
+All actions that modify an existing dispute case must be recorded in the case history.,nonsec
+The Disputes System must be accessible by both internal and external users.,nonsec
+The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.,nonsec
+The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,nonsec
+The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.,nonsec
+The Disputes System shall provide view access capability for authorized users of the application.,nonsec
+The Disputes System shall provide update access capability for authorized users of the application.,nonsec
+The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,nonsec
+The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,nonsec
+The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.,nonsec
+The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.,nonsec
+The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,nonsec
+The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.,nonsec
+The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.,nonsec
+The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.,nonsec
+The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.,nonsec
+The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.,nonsec
+The Disputes System must provide the ability to view existing dispute cases.,nonsec
+The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.,nonsec
+A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.,nonsec
+The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,nonsec
+The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,nonsec
+The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.,nonsec
+For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.,nonsec
+All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,nonsec
+Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,nonsec
+The product must support Internet Explorer 5.5 and above.,nonsec
+The product must support Mozilla Firefox 1.0 and above.,nonsec
+The product shall interface with the Choice Parts System.  This provides the feed of recycled parts data.,nonsec
+The product shall run on the existing hardware for all environments.,nonsec
+The product shall adhere to the corporate Architecture guidelines,nonsec
+The product shall comply with corporate User Interface Guidelines,nonsec
+The product shall comply with corporate color scheme,nonsec
+The appearance of the product shall appear professional,nonsec
+The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.,nonsec
+The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,nonsec
+Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.,nonsec
+The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training,nonsec
+The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.,nonsec
+The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.,nonsec
+The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds,nonsec
+The recycled parts audit report shall be returned to the user within 10 seconds.  The audit report shall be returned within 10 seconds.,nonsec
+The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,nonsec
+The product shall adhere to the corporate online availability schedule.  The application is brought down only within 98% of the scheduled outages per the availability schedule.,nonsec
+The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,nonsec
+The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,nonsec
+The average number of recycled parts records per day shall be 50 000.,nonsec
+The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,nonsec
+For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.,nonsec
+The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,nonsec
+The maintenance of the product will fall within the established corporate maintenance windows.,nonsec
+The product shall be supported using the corporate support center.,nonsec
+Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,nonsec
+Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,sec
+Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,sec
+Only collision estimators shall search for recycled parts.  Users without the collision estimator role shall not have access to the search for recycled parts.,sec
+Only valid data shall be entered into the system. No invalid data shall be entered into the system.,sec
+One insurance company shall not be able to view another insurance companys claim data.,sec
+The product shall free of computer viruses.,sec
+The system shall prevent malicious attacks including denial of service.,sec
+The product must comply with Sarbanes-Oxley.,nonsec
+The product shall comply with the estimatics laws relating to recycled parts usage.,nonsec
+The product shall comply with insurance regulations regarding claims processing.,nonsec
+The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles,nonsec
+The vehicle data shall include vehicle year make and model,nonsec
+The vehicle location shall include street address city state and zipcode,nonsec
+The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.,nonsec
+The search radius shall be between 1 and 30 miles,nonsec
+The system shall locate the preferred repair facility with the highest ratings for the input criteria,nonsec
+The adjuster shall enter the preferred repair facility on the estimate assignment.,nonsec
+The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.,nonsec
+The preferred repair facility shall be returned to the user.,nonsec
+The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.,nonsec
+The estimator shall search for available recycled parts using damaged vehicle parts information.,nonsec
+The estimator shall search for available recycled parts using a list of preferred parts suppliers.,nonsec
+The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,nonsec
+The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,nonsec
+The system shall retain the available recycled parts and suppliers returned from the search.,nonsec
+The available recycled parts information and their suppliers shall be returned to the user.,nonsec
+The estimator shall apply selected recycled parts to the collision estimate.,nonsec
+The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,nonsec
+The adjuster shall review the collision estimate.,nonsec
+The adjuster shall request a recycled parts audit of the collision estimate.,nonsec
+The recycled parts search results provided to the estimator shall be retrieved by the system.,nonsec
+The system shall generate an audit report based on the available recycled parts and the collision estimate.,nonsec
+The audit report shall include the total number of recycled parts used in the estimate.,nonsec
+The audit report shall include the number of available recycled parts from the original search results.,nonsec
+The audit report shall include the percentage of available recycled parts used in the estimate,nonsec
+The audit report shall include the total score of the audit which sums the indivual line items.,nonsec
+The audit report shall be displayed to the user.,nonsec
+The audit report shall be available to other adjusters at later points in time.,nonsec
+The user shall select to view the preferred repair facility ratings.,nonsec
+The current repair facility ratings shall be displayed to the user.,nonsec
+The system will display a blank set of ratings if there are not ratings yet defined.,nonsec
+The user shall enter new ratings based on the audit report,nonsec
+The ratings shall be from a scale of 1-10,nonsec
+The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,nonsec
+The user shall select to save the preferred repair facility ratings.,nonsec
+The preferred repair facility ratings shall be saved by the system.,nonsec
+The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,nonsec
+The product will function alongside server software on any operating system where the Java runtime can be installed.,nonsec
+The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,nonsec
+The product must make use of web/application server technology.  Open source examples include Apache web server  Tomcat  and the JBoss application server.,nonsec
+A database management system such as Oracle  DB2  MySql or HSQL will need to be integrated with the product.,nonsec
+The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo  branding  and identity,nonsec
+The product shall have a conservative and professional appearance.,nonsec
+The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,nonsec
+The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,nonsec
+The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,nonsec
+The product shall allow the user to select a chosen language from one of the target market countries.,nonsec
+The product shall allow for customization of start page and views preferences.,nonsec
+An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.,nonsec
+The product shall use a standard navigation menu familiar to most web users.,nonsec
+The product shall allow for intuitive searching of available conference rooms.,nonsec
+The product shall conform to the Americans with Disabilities Act.,nonsec
+The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.,nonsec
+Aside from server failure  the software product shall achieve 99.99% up time.,nonsec
+The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,nonsec
+The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,nonsec
+The product shall be able to process 10 000 transactions per hour within two years of its launch.  This number will increase to 20 000 by Release 2.,nonsec
+The product shall be expected to operate for at least 5 years for each customer installation.,nonsec
+The product shall be used in office environments.,nonsec
+The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,nonsec
+The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,nonsec
+The product must be able to interface with various email servers. The product shall be able to send email.,nonsec
+The product shall be available for distribution via the Internet as a binary or ZIP file.,nonsec
+The product shall be available for distribution as a packaged CD.,nonsec
+The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.,nonsec
+A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,nonsec
+The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,nonsec
+The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the product\92s software code.,nonsec
+Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.,nonsec
+Every registered user will have access to the product\92s support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,nonsec
+The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.,nonsec
+The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.,nonsec
+The product is expected to integrate with multiple database management systems. The product will operate with Oracle  SQL Server  DB2  MySQL  HSQL  and MS Access.,nonsec
+The product shall be able to be installed in any operating environment within 2 days.,nonsec
+The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.,sec
+Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.,sec
+The product shall ensure that the database\92s data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.,sec
+The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems\92 data shall remain 100% uncorrupted each time malicious data is input into the product.,sec
+The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data.  The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,nonsec
+The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,sec
+The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,nonsec
+The product shall be able to display calendar dates and times according to the user\92s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,nonsec
+The product must be developed with the J2SE/J2EE programming language libraries,nonsec
+The product shall record meeting entries.,nonsec
+The product will notify employees of meeting invitations.,nonsec
+The product shall have the ability to send meeting reminders to employees.,nonsec
+The product shall assign the organizers contact information to each meeting they create.,nonsec
+The product will record meeting acknowledgements.,nonsec
+The product shall store new conference rooms.,nonsec
+The product shall update existing conference rooms.,nonsec
+The product will be able to delete conference rooms.,nonsec
+The product shall be able to store new room equipment.,nonsec
+The product will update existing room equipment.,nonsec
+The product shall be able to delete room equipment.,nonsec
+The product shall allow an organizer to invite other employees to meetings.,nonsec
+Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.,nonsec
+The product shall record the transportation status of equipment reserved.,nonsec
+The product shall display a map of the company building showing conference room locations.,nonsec
+The product shall record updated meeting agendas.,nonsec
+The product shall send a meeting confirmation to the meeting organizer.,nonsec
+The product shall display room equipment according to search parameters.,nonsec
+The product shall display conference rooms according to search parameters.,nonsec
+The product shall record different meeting types.,nonsec
+The product shall record all the equipment that has been reserved.,nonsec
+The product shall notify building personnel of equipment transport requests.,nonsec
+The product will allow priviledged users to view meeting schedules in multiple reporting views.,nonsec
+The product shall be able to send meeting notifications via different kinds of end-user specified methods.,nonsec
+The product shall have a customizable Look and Feel.,nonsec
+The product shall have an intuitive user interface.,nonsec
+The product will display an available status for unreserved conference rooms.,nonsec
+Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,nonsec
+The System shall allow for a minimum of  6 users to work at the same time.,nonsec
+The System shall utilize currently owned computer equipment.,nonsec
+The System shall be able to automatically backup business data and restore them on demand.,nonsec
+The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.,sec
+The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.,sec
+The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.,nonsec
+The System shall not require additional third party licenses resulting in royalty fees.,nonsec
+The System shall allow generation of Inventory Quantity Adjustment documents on demand.,nonsec
+The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,nonsec
+The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,nonsec
+The System shall allow entering  storing and modifying product formulas.,nonsec
+Product formulas shall allow use of semi-products  which have own formulas.,nonsec
+Product formula ingredients shall allow defining substitutionary ingredients.,nonsec
+Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,nonsec
+Formula substitutionary ingredients shall be kept in persisted order,nonsec
+Product shall allow entering  storing and modifying product menus used by POS terminals.,nonsec
+PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.,nonsec
+PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,nonsec
+PME Subsystem shall allow for a product to exist in more than one submenu,nonsec
+The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,nonsec
+The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,nonsec
+The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,nonsec
+Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,nonsec
+Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.,nonsec
+System shall let customers register on the website as a \93pay as you go\94 user in under 5 minutes.,nonsec
+System shall let customers register on the website as a \93unlimited movie subscriber\94 user in under 10 minutes.,nonsec
+System shall let existing customers log into the website with their email address and password in under 5 seconds.,nonsec
+System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.,nonsec
+System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,nonsec
+System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.,nonsec
+System shall let the administrator add/remove categories on the website in under 5 minutes.,nonsec
+System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,nonsec
+System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,nonsec
+The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.,nonsec
+The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.,nonsec
+The website design should be modern  clean  and concise.,nonsec
+The product should be able to be used by 90% of novice users on the Internet.,nonsec
+Users should only have to navigate through a maximum of 4 pages  to create an account with the website.,nonsec
+Users should be able to access their streaming movies in under 2 clicks after logging into the website.,nonsec
+An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,nonsec
+An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,nonsec
+The product shall retain the customer\92s buying preferences and information.,nonsec
+The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,nonsec
+The product shall use symbols and words that are naturally understandable by users familiar with websites,nonsec
+The website will use standard Internet conventions when interacting with the user.,nonsec
+Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.,nonsec
+When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.,nonsec
+When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.),nonsec
+While streaming a movie  buffering should only occur if there is latency in the user\92s connection.,nonsec
+All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.,sec
+The website shall be available for use 24 hours per day  365 days per year.,nonsec
+The website shall achieve 99.5% up time.,nonsec
+All movies shall be streamed on demand  at any time of the day.,nonsec
+The website shall continue to operate if the streaming server goes down.,nonsec
+The website shall continue to operate if the payment gateway goes down.,nonsec
+The streaming server will support 50 simultaneous streaming connections.,nonsec
+The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,nonsec
+The server will support a maximum of 1 000 simultaneous users.,nonsec
+The website shall be capable of supporting 100 000 customers.,nonsec
+The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,nonsec
+All aspects of the website shall be accessed by a web browser over the Internet.,nonsec
+The same hardware supporting the current website will be used to support the new system.,nonsec
+We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.,nonsec
+Website must interface with the CyberSource API to process credit card transactions.,nonsec
+Website must be fully operational with MSN TV2.,nonsec
+Movies shall be encoded and streamed via Windows Media Player 9.0.,nonsec
+Movies shall be encoded for 56k and 256k streams.,nonsec
+Promotional updates to the website should take a day to update.,nonsec
+Izogn Administrator must be able to update the category listings on the website within 2 minutes.,nonsec
+Izogn Administrator must be able to add new products to the website within 2 minutes.,nonsec
+The system will provide a 24 hour 800 toll free number for support to its customers.,nonsec
+The website will provide a help section with answers and solutions to common problems.,nonsec
+Velkat staff will be available for phone support between 7am-7pm  M-F to provide technical support to the Izogn administrators.,nonsec
+The product shall be able to be installed in the specified environment within 1 working day.,nonsec
+Only registered customers can purchase streaming movies.,sec
+A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.,sec
+Only authorized personnel can access customer records in the database.,sec
+Only administrators can activate a pre-paid card.,sec
+Only authorized personnel can access sales information.,sec
+The website shall prevent its data from being corrupted when incorrect data is entered in.,sec
+The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.,sec
+Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,sec
+The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.,sec
+The system shall notify customers of changes to its information policy.,sec
+The system shall reveal private information only in compliance with the organization\92s information policy.,sec
+All customer information will be stored on a secure database  accessible only to authorized personnel.,sec
+All credit card information will be encrypted in the database.,sec
+The streaming server will have anti-virus software to prevent infection of malicious viruses.,sec
+The website should cater to all tribes in Nigeria.,nonsec
+The website shall not be offensive to religious or ethnic groups.,nonsec
+The website should appeal to all Africans  not only Nigerians.,nonsec
+The website should use Flash to provide animation on the home page.,nonsec
+IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,nonsec
+The website will comply with W3C standards.,nonsec
+The PHP code will comply with PEAR standards.,nonsec
+The website will allow customers to search for movies by title  actor  or director.,nonsec
+viewing a movie details the website will display the movies description actor and director entered in by the administrator.,nonsec
+Website shall request  and authorize credit card payment before allowing a user to stream a movie.,nonsec
+shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.,nonsec
+Website shall allow customers to browse movies by categories entered in by izogn administrator.,nonsec
+Website shall allow customers to view reviews of selected movies by other customers.,nonsec
+Website shall allow customers to add their own movie review for a selected movie.,nonsec
+Website shall allow the Izogn administrator to approve a review posted by a customer.,nonsec
+System will allow customers to pay for a streaming movie with a pre-paid card.,nonsec
+Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.,nonsec
+System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.,nonsec
+System shall allow users to update their billing and contact information via the \93My Account\94 section of the website.,nonsec
+Pre-paid cards shall be distributed via email or via a printed paper card.,nonsec
+Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.,nonsec
+Website must be able to support free trial periods with various parameters set by the Izogn Manager.,nonsec
+All streaming movie sales will be logged in the database  and accessible by the administrator.,nonsec
+All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.,nonsec
+Daily usage statistics should be logged  and accessible by the administrator.,nonsec
+The owner shall have free access to all of the streaming movies.,nonsec
+Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,nonsec
+No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,nonsec
+For leads that process longer than 25 seconds the system will record the event and duration,nonsec
+The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,nonsec
+The lead washing process will operate within the established physical web service structure.,nonsec
+The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.,nonsec
+Defect reports will be available to technical units on a 24x7 basis.,nonsec
+Washing parameters will be updated during scheduled maintenance hours.,nonsec
+The vendor will verify the invalid lead.,nonsec
+Vendor will submit a credit validation record to be applied to the enterprise billing system.,nonsec
+If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,nonsec
+The leads washing functionality will validate all leads received by the web service for valid data,nonsec
+The leads washing functionality will insert all leads captured by the web service.,nonsec
+If the leads score falls within the high average score then it will be process by the ARA functionality.,nonsec
+If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,nonsec
+If the leads score falls within the low average then it will be returned to the supplying vendor,nonsec
+The leads washing functionality will compile both contact and academic scoring information for a total score.,nonsec
+The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,nonsec
+The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.,nonsec
+The leads washing functionality will have an interface in which lead data parameters can be maintained.,nonsec
+The leads washing functionality will verify the users authentication and rights to make parameter updates.,nonsec
+The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,nonsec
+Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,nonsec
+The leads washing functionality shall receive a period list of available reps from the enterprise system.,nonsec
+The product shall simulate the look of ships at sea.,nonsec
+The product shall display the grids within a circle as a view from a periscope.,nonsec
+The product shall display each type of ship in a grid using an image of the specific type of ship.,nonsec
+When the offensive player takes a shot  the product shall simulate the sound of a ship at sea.,nonsec
+When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.,nonsec
+When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.,nonsec
+When a ship is sunk  the product shall simulate the sound of a sinking ship.,nonsec
+The product shall be available 24 hours per day  seven days per week.,nonsec
+The product shall able to handle a large number of games simultaneously.,nonsec
+The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,nonsec
+The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,nonsec
+The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.,nonsec
+The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.,nonsec
+The product shall provide players no access to information that might reveal the identity of another player,sec
+The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,nonsec
+The product shall maintain a list of players.,nonsec
+The product shall allow a user to identify himself or herself as a player.,nonsec
+Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.,nonsec
+The product shall allow a user to remove himself or herself from the list of players at any time.,nonsec
+The product shall make inactive players unavailable for selection from the list of players.,nonsec
+The product shall remove players who have been inactive for 24 hours from the list of players.,nonsec
+The product shall allow a player to initiate a game by selecting another available player from the list of players.,nonsec
+Once a game is initiated  the product shall display a defensive grid to each player,nonsec
+Once a game is initiated  the product shall display an offensive grid to each player.,nonsec
+The product shall prevent a player from viewing the offensive or defensive grids of the other player.,nonsec
+Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.,nonsec
+The product shall allow a player to position ships horizontally on their grid.,nonsec
+The product shall allow the player to position ships vertically on their grid.,nonsec
+The product shall allow the player to position ships diagonally on their grid,nonsec
+The product shall prevent the player from overlapping ships on their grid.,nonsec
+When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.,nonsec
+For each turn  the product shall identify one player as offensive status and one player as defensive status.,nonsec
+The product shall maintain the status of each player for a turn  either offensive or defensive.,nonsec
+At the start of each turn  the product shall notify each player of his or her status.,nonsec
+For each turn  the product shall allow the offensive player to define a shot.,nonsec
+For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,nonsec
+For each shot  the product shall notify the players whether the shot was a hit or miss.,nonsec
+For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,nonsec
+For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,nonsec
+When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.,nonsec
+When the hit results in sinking a ship  the product shall mark the ship as sunk on the defensive grid of the defensive player.,nonsec
+When the hit results in sinking a ship  the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,nonsec
+When the hit results in sinking a ship  the product shall mark the ship as sunk on the offensive grid of the offensive player.,nonsec
+If the shot was marked as a hit  the product shall allow the offensive player to define a shot.,nonsec
+If the shot was marked as a miss  the product shall change the status of the offensive player to defensive,nonsec
+If the shot was marked as a miss  the product shall change the status of the defensive player to offensive,nonsec
+The product shall continue to assign turns until the game is ended.,nonsec
+The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.,nonsec
+The product shall allow a player to end a game at any time during the game.,nonsec
+When a game is ended  the product shall notify the players that the game is ended.,nonsec
+The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).,nonsec
+When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.,nonsec
+When a game is ended  the product shall allow each player to remove himself or herself from the list of players.,nonsec
+The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,nonsec
+The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,nonsec
+The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,nonsec
+On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.,nonsec
+On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.,nonsec
+The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,nonsec
+The system must be available for use between 7:00AM and 11:59PM all days of the year.,nonsec
+The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator.,nonsec
+The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,sec
+The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,sec
+The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,sec
+The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.,nonsec
+The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.,nonsec
+The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,nonsec
+The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,nonsec
+The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,nonsec
+The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,nonsec
+The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),nonsec
+The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,nonsec
+The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,nonsec
+The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,nonsec
+The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,nonsec
+The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,nonsec
+The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,nonsec
+The product shall be robust.The product shall have fault avoidance based on standards adoption.,nonsec
+The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,nonsec
+The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.,nonsec
+The product shall be platform independent.The product shall enable access to any type of development environment and platform.,nonsec
+The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,nonsec
+The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,nonsec
+The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,nonsec
+The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.,nonsec
+The product shall have security.The product shall provide authentication  and authorization.,sec
+The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,sec
+The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,sec
+The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,nonsec
+The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,nonsec
+The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,nonsec
+The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,nonsec
+The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,nonsec
+The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,nonsec
+Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),nonsec
+A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,nonsec
+All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),nonsec
+The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,nonsec
+The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.,nonsec
+The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,nonsec
+The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,nonsec
+The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,nonsec
+The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,nonsec
+The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.,nonsec
+All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,nonsec
+The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,sec
+The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.,sec
+Each team owner will need to use a username and password in order to be authenticated to reach the team owner\92s page,sec
+The Commissioner will be the only authorized user per league to adjust league settings.,sec
+Each page shall contain a navigation menu which shows the index into which the current page is contained.,nonsec
+Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,nonsec
+The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,nonsec
+A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,nonsec
+Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.,nonsec
+Users shall be able to view at least 25 NFL player statistics and points on each page.,nonsec
+The application shall ask the user to confirm dropping a player or trading a player before performing the action.,nonsec
+The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,nonsec
+The application shall have a downtime of at most 10 minutes per year.,nonsec
+The application shall run on a web application server.,nonsec
+A primary database will be used to store cached data for active users.,nonsec
+A secondary database will be used to store historical statistics and data.,nonsec
+Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,nonsec
+New System version releases shall be released at the beginning of each NFL season.,nonsec
+The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.,nonsec
+98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space:  400MB.,nonsec
+98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,nonsec
+The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.,nonsec
+Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.,nonsec
+New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.,nonsec
+Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.,sec
+User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,sec
+The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,nonsec
+The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,nonsec
+The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.,nonsec
+The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.,nonsec
+The system shall operate on Unix and Windows operating systems.,nonsec
+The system shall be evoked by typing “pine” into a command or shell prompt.,nonsec
+The system shall use the SMTP mail protocol.,nonsec
+The system shall support the ability to perform a send and receive operation.,nonsec
+The system shall support the ability to perform a send only operation.,nonsec
+The system shall support the ability to perform a receive only operation.,nonsec
+The system shall use a text-based interface to display a listing of available mail.,nonsec
+The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.,nonsec
+The system shall display and embed in each message a date/timestamp of when the message was sent.,nonsec
+The system shall allow a text search that users may use to find mail messages.,nonsec
+The system search feature should support the use of regular expressions in search.,nonsec
+The system shall provide an option to withdraw money.,nonsec
+The system shall query the user for the amount of money.,nonsec
+The system shall query the user for the account type.,nonsec
+The system shall validate the amount is available in the user’s account before releasing funds to the user.,nonsec
+The system shall validate the amount is a multiple of $20.,nonsec
+The system shall debit the user’s account upon withdrawal of funds.,nonsec
+The system shall be able to issue a specific amount of money to the user.,nonsec
+The meeting scheduler system shall be able to select a participant as an important participant.,nonsec
+The meeting scheduler system shall cancel a meeting due to canceling of an important participant.,nonsec
+The meeting scheduler system shall reschedule a meeting to support conflict resolutions.,nonsec
+The meeting scheduler shall be accessed from the Web.,nonsec
+The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.,nonsec
+The meeting scheduler system may provide the “meeting initiator” a summary of the scan of “potential meeting participants” showing available “time slots” and schedule conflicts as a means of informing the “meeting initiator” of the overall results of the system.,nonsec
+The meeting scheduler system may be able to include an agenda for a meeting proposal.,nonsec
+The meeting scheduler system may suggest a “virtual meeting” for available “time slots” if no location is available or feasible for the meeting.,nonsec
+The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.,nonsec
+A meeting scheduler system will temporarily reserve the “time slots” for the proposed meeting.,nonsec
+A meeting scheduler system will inform the “potential meeting participant” of the meeting.,nonsec
+The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.,nonsec
+The system must be quickly accessible by both managers and chefs.,nonsec
+The system must be intuitive and simple in the way it displays all relevant data and relationships.,nonsec
+The menus of the system must be easily navigable by the users with buttons that are easy to understand.,nonsec
+All the functions of the system must be available to the user every time the system is turned on.,nonsec
+The calculations performed by the system must comply according to the norms set by the user and should not vary unless explicitly changed by the user.,nonsec
+The client should agree to EULA before using our software.,nonsec
+All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.,nonsec
+Responses to queries shall take no longer than 7 seconds to load onto the screen after the user submits the query.,nonsec
+The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,nonsec
+All network transactions that involve financial information or personally identifiable information shall be encrypted.,sec
+Users shall be required to log in to the Cafeteria Ordering System for all operations except viewing a menu.,nonsec
+Patrons shall log in according to the restricted computer system access policy.,sec
+The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.,nonsec
+Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.,sec
+Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.,nonsec
+System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.,sec
+The online registration system is “self-service style” system that shall initially address the student registration needs.,nonsec
+All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.,nonsec
+95% of users will not need to read the user manual to be able to use the application.,nonsec
+Changes made to the Manage My ID website can be adopted without altering the iOS application.,nonsec
+The application should be connected to the Internet.,nonsec
+The application should be connected to the GPS device.,nonsec
+The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.,nonsec
+Test environments should be built for the application to allow testing of the applications different functions.,nonsec
+The application should be portable with iOS and Android.,nonsec
+The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.,nonsec
+The system shall allow the user to scroll the campus map from the campus map tab.,nonsec
+The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.,nonsec
+The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.,nonsec
+The system shall provide a way to return to the startup screen.,nonsec
+It should generate a report about registered complaint to the admin and response report to the user who has submitted his queries.,nonsec
+The system should maintain correct schedules of labs and the documentation of all the lab equipment.,nonsec
+The system should use the company colors and logos.,nonsec
+The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).,nonsec
+The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,nonsec
+The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.,nonsec
+The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.,nonsec
+A waiter password used for tablet login must have a bit-strength of at least 64 bits.,sec
+A waiter password used for tablet login must be changed every three months.,sec
+A waiter shall only be able to log into one tablet at any given instance of time.,sec
+A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.,sec
+A display shall not require a user to log in.,sec
+A surface computer shall not require a user to log in.,sec
+A tablet shall require a user to log in using a username and password.,sec
+The system will fully function in major browsers.,nonsec
+The system will support mobile users in some way.,nonsec
+Responses to view information shall take no longer than 5 seconds to appear on the screen.,nonsec
+The system shall accommodate large data items without fault.,nonsec
+System will use secured database.,sec
+Unauthorised users can only read data without modifying anything.,sec
+ABS shall handle all expected and unexpected errors in ways that prevent loss in information and long downtime period.,nonsec
+Authenticate and Login user to the web app.,nonsec
+Enable new users to register to the tech support system.,nonsec
+Enable a registered user to change his password if he forgets his password.,nonsec
+Enable a registered user to view his profile. Additional information viz. questions asked by him and answers posted by him are also displayed.,nonsec
+Enable a user to view questions and their corresponding answers.,nonsec
+Enable a logged in user to ask questions.,nonsec
+Enable a logged in user to post answers.,nonsec
+Enable a logged in user to up vote and down vote answers.,nonsec
+Provide an interface for the admin to approve posts so that posts are not visible without admin approval.,nonsec
+Enable the admin to generate reports which contains all the posts and their corresponding replies.,nonsec
+Information transmission should be securely transmitted to server without any changes in information.,sec
+Be intuitive even to first time users,nonsec
+Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language,nonsec
+All transactions at the Flea Market require a valid user ID and password.,sec
+Secure data transfer over the Internet could be provided using SSL encryption that will be configured by the host system administrator.,sec
+The IP addresses where the transaction was made from will be logged.,sec
+User passwords will be stored in the database in an encrypted format.,sec
+Most of the system functions will be controlled using the administrative interface.,nonsec
+Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.,nonsec
+Information recorded must include an optional field for context.,nonsec
+Information should be tagged according to who is entering the data.,nonsec
+It must be able to download the most recent medical record.,nonsec
+It must store the most recent copy of information in its application data folder.,nonsec
+It must only update the parts that have changed when connecting to the server.,nonsec
+It must be able to change and update information on the server.,nonsec
+The application must log the user out when it is exited.,sec
+A correct combination of username and password is required for a user to login.,sec
+It should give a drill-down view of all data in the medical record after logging in.,nonsec
+The user must be able to set an option to hide information based on who has tagged it.,nonsec
+The user must be able to add photos from his/her photo library to his/her medical record.,nonsec
+It must allow a user to login.,nonsec
+It must allow a user to logout.,nonsec
+All information must be viewable on the website.,nonsec
+All information must be updatable on the website.,nonsec
+It must allow a user to download a backup of their medical information.,nonsec
+Logout must be automatic after 1 hour of inactivity.,sec
+Full data backups must be created daily.,sec
+A user must be logged on to be able to view or edit any medical information.,nonsec
+Each account must securely store all of its data.,sec
+Each account must have a separate identifying account number.,nonsec
+The system shall allow user to choose filling that they want.,nonsec
+The system shall allow user to choose their preferable topping.,nonsec
+The system shall allow user to decorate their doughnut.,nonsec
+The system shall give the user an opportunity for the user to choose the selection of doughnut provided.,nonsec
+The system should take the customer name.,nonsec
+The system should keep the customer contact number.,nonsec
+The system should keep the customer email.,nonsec
+The system should ask the user to key in the pickup date.,nonsec
+The system should require the user to state time when should the doughnut be delivered.,nonsec
+The system should have to keep the location where the doughnut will be send.,nonsec
+The website is available whenever the users want to use it.,nonsec
+The system use SSL (secured socket layer) in all transactions that include any confidential customer information.,sec
+The system must automatically log out all customers after a period of inactivity.,sec
+The system should not leave any cookies on the customer’s computer containing the user’s password.,sec
+The system’s back-end servers shall only be accessible to authenticated administrators.,sec
+Sensitive data will be encrypted before being sent over insecure connections like the internet.,sec
+The system provides storage of all databases on redundant computers with automatic switchover.,nonsec
+The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.,nonsec
+An end-user may use this system on any OS; either it is Windows or Linux.,nonsec
+The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.,nonsec
+The system should be able to manage all the information incoming from the database and the catalogue.,nonsec
+The product is Web based therefore it will be used in any environment that allows Web access.,nonsec
+For the system to successfully operate the registration system should be integrated with other IT services and the portal.,nonsec
+The system should need to be entirely self-supporting since the users would be using it only to register courses.,nonsec
+The Web interface should be compatible with standards in order to be usable via all major Web browsers in a wide variety of environments.,nonsec
+Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The  and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.,sec
+The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.,sec
+The Operational Interface shall have a Mean Time Between Failures of no less than 7 days.,nonsec
+The system shall be available 99.5% of the time.,nonsec
+The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.,sec
+Each user shall either be trusted or not trusted.,sec
+All source code and development related documents shall be controlled under a version control system.,nonsec
+All source code shall adhere to an agreed upon and well-defined set of coding standards for each development language used.,nonsec
+Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.,nonsec
+High level of performance requires high speed network and high level of connectivity.,nonsec
+The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.,nonsec
+Every user of the software is provided a unique login ID and a password which is stored in the database hashed by SHA2 algorithm.,sec
+The software is available for use from the supermarket opening time to the closing time.,nonsec
+The system shall accommodate high number of items and users without any fault.,nonsec
+System use shall not cause any harm to human users.,sec
+System will use secured database,sec
+Normal users can just read information but they cannot edit or modify anything except their personal and some other information.,sec
+System will have different types of users and every user has access constraints.,sec
+Control the database and keep track of all records of customers and employee details.,nonsec
+Contact with the vendors and give permission to sell their product under the site after testing the product’s quality.,nonsec
+View the details of all employees and control the whole site.,nonsec
+Customers must have a valid login id to enter into the site.,sec
+New users can sign up by creating new ID.,nonsec
+Can view all available products and can compare them and make a choice for purchasing products.,nonsec
+Can purchase any product through valid credit card.,nonsec
+Can give feedback to the 24X7 Customer Care Service center about their impression for the site and services.,nonsec
+Customer must logout of the site after purchasing products.,nonsec
+Can only visit the site without registration.,nonsec
+Vendors must take permission from the Administrator for selling their products under the site. Administrator will test product’s quality according to its market price to permit vendor for selling purpose.,nonsec
+Can consult with the Administrator regarding product’s quality and advertisements.,nonsec
+View the personal details of the customer.,nonsec
+Responsible for properly allocating the selected product according to the customer’s choice and delivering product to the customer.,nonsec
+Keep track of each product item’s stocks for selling purpose.,nonsec
+Responsible for informing administrator when any product item’s stock goes under the minimum level.,nonsec
+Taking permission from the Administrator for the product to be purchased from vendor.,nonsec
+Responsible for managing stocks of each product items.,nonsec
+Keep track of all the payment transactions made by the customers and update the payment information.,nonsec
+Responsible for contacting the banks for the validation of the a/c number provided by the customer while purchasing and make the transaction from the given a/c.,nonsec
+Consult with the Administrator about the payment details of the customers for the updating of the database.,nonsec
+Provide feasible solutions to the customers on their complaints and queries.,nonsec
+The system should require the user to state time when should the doughnut be delivered,nonsec
+The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.,nonsec
+The data transaction between client and server must be encrypted using SSL technology.,sec
+All the passwords that are generated or accepted must be stored in database in an encrypted form.,sec
+To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.,sec
+The system should warn ECA users about the malfunction of the system.,nonsec
+The system should be simple to use,nonsec
+The physician/pharmacist must have a valid user login to access the system.,nonsec
+A failed login will alert the physician/pharmacist.,nonsec
+A list of available patients is displayed after login.,nonsec
+An error message alerts when an invalid patient is entered.,nonsec
+Backspace/reset capability is implemented for typing errors.,nonsec
+Selected or specified patient’s information is loaded.,nonsec
+Return to List is available if the patient loaded is not correct.,nonsec
+Navigation to each selected tab.,nonsec
+The font will be larger enough for easy reading.,nonsec
+Icons will clearly illustrate the feature it represents.,nonsec
+Basic Patient information is showed first.,nonsec
+Customized information is displayed.,nonsec
+Each entry is shown in full.,nonsec
+The text and time/date of a note that has been entered is displayed starting with most recent.,nonsec
+New and Delete buttons will allow the physician/pharmacist to add a notation to the patient’s file.,nonsec
+A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.,nonsec
+All users of the system shall login using some form of unique identification.,sec
+All login attempts shall be done so in a secure manner.,sec
+The system shall be compatible with the Microsoft Windows Operating System.,nonsec
+The system shall allow the administrator to remove equipment.,nonsec
+The system shall allow the administrator to install additional distributed location templates.,nonsec
+The system shall allow the administrator to remove physical locations.,nonsec
+The system shall allow administrators to define negotiation rules for the organization.,nonsec
+The system shall give the mediator privileges to schedule location and equipment resources.,nonsec
+The system shall allow the mediator to negotiate a meeting date.,nonsec
+The system shall allow the mediator to solve a date conflict.,nonsec
+The system shall allow the mediator to negotiate a location / equipment.,nonsec
+The system shall allow the mediator to solve a location conflict.,nonsec
+The system shall allow the mediator to send and receive messages from users.,nonsec
+The system shall allow the initiator to view the information of any meetings which they initiated.,nonsec
+The system shall allow the initiator to cancel any meetings which they initiated.,nonsec
+The system shall allow the initiator to send and receive messages from users.,nonsec
+The system shall authenticate users at the beginning each session.,nonsec
+The system shall allow the user to view their schedule.,nonsec
+The system shall notify the user of any schedule changes.,nonsec
+The system shall allow users to send and receive messages.,nonsec
+The system shall request a user response to initiator or mediator messages.,nonsec
+The system shall allow the user to modify the date preference set of an already submitted meeting response.,nonsec
+The system shall allow the user to modify the location preference set of an already submitted meeting response.,nonsec
+The system shall allow the user to modify the equipment requirement set of an already submitted meeting response.,nonsec
+The system shall allow the user to modify the date exclusion set of an already submitted meeting response.,nonsec
+The system shall allow the user to change the password.,nonsec
+The system shall allow the user to view past attended meetings.,nonsec
+The system shall allow the user to view pending meetings.,nonsec
+The system shall show the meetings to the user in ascending time order by default.,nonsec
+The system shall allow users to view equipment information.,nonsec
+The system shall allow users to view other users’ information.,nonsec
+The system shall allow user to specify custom meeting locations.,nonsec
+The system shall allow users to view location information.,nonsec
+The system shall allow users to search  for available distributed location templates(if any).,nonsec
+The system shall allow users to view information concerning the available distributed location templates(if any).,nonsec
+The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.,nonsec
+The system shall utilize HTTPS communication to ensure data confidentiality.,sec
+User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.,sec
+Personal information security is defined outside the scope of the SDMS by the database server.,sec
+Users shall be required to log into the system for all operations except the operations on the login page.,sec
+The system shall run on Windows Server 2003.,nonsec
+The system shall be compatible with IIS6.0 and above or  Apache 2.0 and above.,nonsec
+The system shall display all the products that can be configured.,nonsec
+The system shall allow user to select the product to configure.,nonsec
+The system shall display all the available components of the product to configure.,nonsec
+The system shall enable user to add one or more component to the configuration.,nonsec
+The system shall notify the user about any conflict in the current configuration.,nonsec
+The system shall allow user to confirm the completion of current configuration.,nonsec
+The system shall display detailed information of the selected products.,nonsec
+The system shall provide browsing options to see product details.,nonsec
+The system shall display detailed product categorization to the user.,nonsec
+The system shall enable user to enter the search text on the screen.,nonsec
+The system shall enable user to select multiple options on the screen to search.,nonsec
+The system shall display all the matching products based on the search.,nonsec
+The system shall display only 10 matching result on the current screen.,nonsec
+The system shall enable user to navigate between the search results.,nonsec
+The system shall notify the user when no matching product is found on the search.,nonsec
+The system shall allow user to create profile and set his credential.,nonsec
+The system shall authenticate user credentials to view the profile.,nonsec
+The system shall allow user to update the profile information.,nonsec
+The system shall display both the active and completed order history in the customer profile.,nonsec
+The system shall allow user to select the order from the order history.,nonsec
+The system shall display the detailed information about the selected order.,nonsec
+The system shall display the most frequently searched items by the user in the profile.,nonsec
+The system shall allow user to register for newsletters and surveys in the profile.,nonsec
+The system shall allow user to select the support type he wants.,nonsec
+The system shall allow user to enter the customer and product information for the support.,nonsec
+The system shall display the customer support contact numbers on the screen.,nonsec
+The system shall allow user to enter the contact number for support personnel to call.,nonsec
+The system shall display the online help upon request.,nonsec
+The system shall display the FAQ’s upon request.,nonsec
+The system shall maintain customer email information as a required part of customer profile.,nonsec
+The system shall send an order confirmation to the user through email.,nonsec
+The system shall display detailed invoice for current order once it is confirmed.,nonsec
+The system shall optionally allow user to print the invoice.,nonsec
+The system shall provide shopping cart during online purchase.,nonsec
+The system shall allow user to add/remove products in the shopping cart.,nonsec
+The system shall display different shipping options provided by shipping department.,nonsec
+The system shall enable user to select the shipping method during payment process.,nonsec
+The system shall display the shipping charges.,nonsec
+The system shall display tentative duration for shipping.,nonsec
+The system shall allow user to enter the order information for tracking.,nonsec
+The system shall display the current tracking information about the order.,nonsec
+The system shall calculate tax for the order.,nonsec
+The system shall display tax information for the order.,nonsec
+The system shall display available payment methods for payment.,nonsec
+The system shall allow user to select the payment method for order.,nonsec
+The system shall display the orders that are eligible to change.,nonsec
+The system shall allow user to select the order to be changed.,nonsec
+The system shall allow user to cancel the order.,nonsec
+The system shall notify the user about any changes made to the order.,nonsec
+The system shall enable the user to enter their reviews and ratings.,nonsec
+The system shall display all the available financing options.,nonsec
+The system shall allow user to select the financing option.,nonsec
+The system shall notify the use about the financing request.,nonsec
+The system shall allow user to view detailed sitemap.,nonsec
+The system shall display all the available promotions to the user.,nonsec
+The system shall allow user to select available promotion.,nonsec
+The system shall allow user to confirm the purchase.,nonsec
+The system shall enable user to enter the payment information.,nonsec
+The system shall provide a uniform look and feel between all the web pages.,nonsec
+The system shall provide a digital image for each product in the product catalog.,nonsec
+The system shall provide use of icons and toolbars.,nonsec
+The system shall provide handicap access.,nonsec
+The system shall provide multi language support.,nonsec
+The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,nonsec
+The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,nonsec
+The product shall be based on web and has to be run from a web server.,nonsec
+The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,nonsec
+The performance shall depend upon hardware components of the client/customer.,nonsec
+The system shall use secure sockets in all transactions that include any confidential customer information.,sec
+The system shall automatically log out all customers after a period of inactivity.,sec
+The system shall confirm all transactions with the customer’s web browser.,nonsec
+The system shall not leave any cookies on the customer’s computer containing the user’s password.,sec
+The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,sec
+The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.,sec
+The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.,sec
+The system’s back-end servers shall never display a customer’s password.  The customer’s password may be reset but never shown.,sec
+The system’s back-end databases shall be encrypted.,sec
+The system shall allow the user to register for an account from any page in the system.,nonsec
+The system will use a single password per user to login to the E-Store System.,sec
+The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.,sec
+Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.,nonsec
+The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.,nonsec
+The application should be able to support 100 concurrent users without any performance degradation.,nonsec
+The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.,nonsec
+The MTBF (if any) should not be less than 2 months.,nonsec
+A secure server will be required to ensure confidentiality of customer’s credit card and other details.,sec
+The user interface of the system should be very user friendly.,nonsec
+It should not take more than 120 seconds for a new user to register for an account.,nonsec
+It should not take more than 90 seconds for a registered user to place an order.,nonsec
+The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.,nonsec
+The system should be portable to various operating environments.,nonsec
+Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.,nonsec
+The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,nonsec
+The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.,nonsec
+The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.,sec
