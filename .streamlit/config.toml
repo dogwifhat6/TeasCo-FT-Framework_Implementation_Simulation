@@ -1,0 +1,9 @@
+[server]
+# Streamlit's module watcher walks torch's lazy submodules and crashes on them
+# ("Tried to instantiate class '__path__._path'"). Restart after code edits.
+fileWatcherType = "none"
+maxUploadSize = 200
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
