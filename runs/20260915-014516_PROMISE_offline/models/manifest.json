@@ -1,0 +1,74 @@
+{
+  "classes": [
+    "nonsec",
+    "sec"
+  ],
+  "student": {
+    "backend": "mock",
+    "model": "mock-student",
+    "host": "http://localhost:11434",
+    "scoring": "logprobs",
+    "debias": true
+  },
+  "embedder": "hashing-384",
+  "class_descriptions": {
+    "nonsec": "not security-related",
+    "sec": "security-related"
+  },
+  "models": {
+    "xgboost__ground_truth": {
+      "file": "xgboost__ground_truth.json",
+      "adapter": "xgboost",
+      "gate_mode": "objective",
+      "best_n_trees": 50
+    },
+    "catboost__ground_truth": {
+      "file": "catboost__ground_truth.cbm",
+      "adapter": "catboost",
+      "gate_mode": "staged",
+      "best_n_trees": 50
+    },
+    "lightgbm__ground_truth": {
+      "file": "lightgbm__ground_truth.txt",
+      "adapter": "lightgbm",
+      "gate_mode": "staged",
+      "best_n_trees": 50
+    },
+    "xgboost__teacher_hard": {
+      "file": "xgboost__teacher_hard.json",
+      "adapter": "xgboost",
+      "gate_mode": "objective",
+      "best_n_trees": 25
+    },
+    "catboost__teacher_hard": {
+      "file": "catboost__teacher_hard.cbm",
+      "adapter": "catboost",
+      "gate_mode": "staged",
+      "best_n_trees": 25
+    },
+    "lightgbm__teacher_hard": {
+      "file": "lightgbm__teacher_hard.txt",
+      "adapter": "lightgbm",
+      "gate_mode": "staged",
+      "best_n_trees": 25
+    },
+    "xgboost__teacher_soft": {
+      "file": "xgboost__teacher_soft.json",
+      "adapter": "xgboost",
+      "gate_mode": "objective",
+      "best_n_trees": 25
+    },
+    "catboost__teacher_soft": {
+      "file": "catboost__teacher_soft.cbm",
+      "adapter": "catboost",
+      "gate_mode": "staged",
+      "best_n_trees": 25
+    },
+    "lightgbm__teacher_soft": {
+      "file": "lightgbm__teacher_soft.txt",
+      "adapter": "lightgbm",
+      "gate_mode": "staged",
+      "best_n_trees": 25
+    }
+  }
+}

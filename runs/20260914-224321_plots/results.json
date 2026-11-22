@@ -1,0 +1,1018 @@
+{
+  "classes": [
+    "nonsec",
+    "sec"
+  ],
+  "config": {
+    "student": {
+      "backend": "mock",
+      "model": "qwen2.5:0.5b",
+      "host": "http://localhost:11434",
+      "scoring": "logprobs",
+      "debias": true
+    },
+    "teacher": {
+      "backend": "mock",
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "base_url": "https://openrouter.ai/api/v1",
+      "extra_body": null,
+      "batch_size": 25,
+      "max_failure_rate": 0.05,
+      "tokens_per_minute": null
+    },
+    "train": {
+      "adapters": [
+        "xgboost",
+        "catboost",
+        "lightgbm"
+      ],
+      "supervisions": [
+        "ground_truth",
+        "teacher_hard",
+        "teacher_soft"
+      ],
+      "gate_modes": {},
+      "embedder": "hashing",
+      "class_weight": "balanced",
+      "n_estimators": 200,
+      "learning_rate": 0.1,
+      "max_depth": 6,
+      "rounds_per_stage": 25,
+      "patience": 6,
+      "gate_margin": 0.1,
+      "val_split": 0.15,
+      "random_state": 42
+    },
+    "class_descriptions": {
+      "nonsec": "nonsec",
+      "sec": "sec"
+    },
+    "train_dataset": "PROMISE train",
+    "test_sets": {
+      "PROMISE held-out": 194,
+      "SecReq": 444
+    },
+    "embedder": "hashing-384"
+  },
+  "train_size": 775,
+  "fit_summaries": [
+    {
+      "key": "xgboost__ground_truth",
+      "adapter": "xgboost",
+      "supervision": "ground_truth",
+      "gate_mode": "objective",
+      "fit_seconds": 0.29378294944763184,
+      "best_val_f1": 0.5943012211668928,
+      "best_n_trees": 50,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "val_macro_f1": [
+          0.5626168224299065,
+          0.5943012211668928,
+          0.5626168224299065,
+          0.5943012211668928,
+          0.5626168224299065,
+          0.5943012211668928,
+          0.5626168224299065,
+          0.5943012211668928
+        ],
+        "gate_ratio": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          175,
+          200
+        ]
+      }
+    },
+    {
+      "key": "catboost__ground_truth",
+      "adapter": "catboost",
+      "supervision": "ground_truth",
+      "gate_mode": "staged",
+      "fit_seconds": 0.3667159080505371,
+      "best_val_f1": 0.8765264586160109,
+      "best_n_trees": 50,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          0.9173193717277487,
+          0.974013151399064,
+          0.9966393421691054,
+          1.0
+        ],
+        "val_macro_f1": [
+          0.8623529411764705,
+          0.8765264586160109,
+          0.8623529411764705,
+          0.8189975247524752
+        ],
+        "gate_ratio": [
+          1.0,
+          0.041033434650455926,
+          0.0121580547112462,
+          0.001519756838905775
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100
+        ]
+      }
+    },
+    {
+      "key": "lightgbm__ground_truth",
+      "adapter": "lightgbm",
+      "supervision": "ground_truth",
+      "gate_mode": "staged",
+      "fit_seconds": 0.28375983238220215,
+      "best_val_f1": 0.8377253814147019,
+      "best_n_trees": 25,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          0.9441489361702128,
+          0.9441489361702128,
+          0.9441489361702128,
+          0.9441489361702128,
+          0.9441489361702128,
+          0.9441489361702128,
+          0.9441489361702128
+        ],
+        "val_macro_f1": [
+          0.8377253814147019,
+          0.8377253814147019,
+          0.8377253814147019,
+          0.8377253814147019,
+          0.8377253814147019,
+          0.8377253814147019,
+          0.8377253814147019
+        ],
+        "gate_ratio": [
+          1.0,
+          0.02735562310030395,
+          0.02735562310030395,
+          0.02735562310030395,
+          0.02735562310030395,
+          0.02735562310030395,
+          0.02735562310030395
+        ],
+        "n_trees": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      }
+    },
+    {
+      "key": "xgboost__teacher_hard",
+      "adapter": "xgboost",
+      "supervision": "teacher_hard",
+      "gate_mode": "objective",
+      "fit_seconds": 0.21648406982421875,
+      "best_val_f1": 0.7592592592592593,
+      "best_n_trees": 25,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          1.0,
+          0.9959262767531559,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "val_macro_f1": [
+          0.7592592592592593,
+          0.7278582930756844,
+          0.7592592592592593,
+          0.7160194174757282,
+          0.7592592592592593,
+          0.7160194174757282,
+          0.7592592592592593
+        ],
+        "gate_ratio": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          175
+        ]
+      }
+    },
+    {
+      "key": "catboost__teacher_hard",
+      "adapter": "catboost",
+      "supervision": "teacher_hard",
+      "gate_mode": "staged",
+      "fit_seconds": 0.2501239776611328,
+      "best_val_f1": 0.7984688995215311,
+      "best_n_trees": 25,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          0.9177334572712992,
+          0.9543224731580896,
+          0.9959262767531559,
+          1.0
+        ],
+        "val_macro_f1": [
+          0.7984688995215311,
+          0.7984688995215311,
+          0.7836538461538461,
+          0.7536842105263157
+        ],
+        "gate_ratio": [
+          1.0,
+          0.034954407294832825,
+          0.0182370820668693,
+          0.001519756838905775
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100
+        ]
+      }
+    },
+    {
+      "key": "lightgbm__teacher_hard",
+      "adapter": "lightgbm",
+      "supervision": "teacher_hard",
+      "gate_mode": "staged",
+      "fit_seconds": 0.2691469192504883,
+      "best_val_f1": 0.8142857142857143,
+      "best_n_trees": 25,
+      "train_rows": 658,
+      "history": {
+        "train_macro_f1": [
+          0.9272767462422635,
+          0.9272767462422635,
+          0.9272767462422635,
+          0.9272767462422635,
+          0.9272767462422635,
+          0.9272767462422635,
+          0.9272767462422635
+        ],
+        "val_macro_f1": [
+          0.8142857142857143,
+          0.8142857142857143,
+          0.8142857142857143,
+          0.8142857142857143,
+          0.8142857142857143,
+          0.8142857142857143,
+          0.8142857142857143
+        ],
+        "gate_ratio": [
+          1.0,
+          0.030395136778115502,
+          0.030395136778115502,
+          0.030395136778115502,
+          0.030395136778115502,
+          0.030395136778115502,
+          0.030395136778115502
+        ],
+        "n_trees": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      }
+    },
+    {
+      "key": "xgboost__teacher_soft",
+      "adapter": "xgboost",
+      "supervision": "teacher_soft",
+      "gate_mode": "objective",
+      "fit_seconds": 0.6075780391693115,
+      "best_val_f1": 0.7247058823529412,
+      "best_n_trees": 25,
+      "train_rows": 1316,
+      "history": {
+        "train_macro_f1": [
+          0.8508433049257497,
+          0.8483638039637424,
+          0.8584115805946793,
+          0.8609788574264334,
+          0.8584115805946793,
+          0.866182546886703,
+          0.863569044845086
+        ],
+        "val_macro_f1": [
+          0.7247058823529412,
+          0.7103960396039604,
+          0.6808327351040919,
+          0.7144292893036611,
+          0.6808327351040919,
+          0.7211187033211505,
+          0.7103960396039604
+        ],
+        "gate_ratio": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          175
+        ]
+      }
+    },
+    {
+      "key": "catboost__teacher_soft",
+      "adapter": "catboost",
+      "supervision": "teacher_soft",
+      "gate_mode": "staged",
+      "fit_seconds": 0.455974817276001,
+      "best_val_f1": 0.7836538461538461,
+      "best_n_trees": 25,
+      "train_rows": 1316,
+      "history": {
+        "train_macro_f1": [
+          0.8417612207866028,
+          0.8394860953000487,
+          0.846599504967684,
+          0.85334418667752,
+          0.8558668191885511,
+          0.8508433049257497,
+          0.8609788574264334
+        ],
+        "val_macro_f1": [
+          0.7836538461538461,
+          0.7836538461538461,
+          0.7697262479871175,
+          0.7697262479871175,
+          0.7565880721220527,
+          0.7441547518923466,
+          0.7441547518923466
+        ],
+        "gate_ratio": [
+          1.0,
+          0.0668693009118541,
+          0.0729483282674772,
+          0.07142857142857142,
+          0.06990881458966565,
+          0.06838905775075987,
+          0.07142857142857142
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          175
+        ]
+      }
+    },
+    {
+      "key": "lightgbm__teacher_soft",
+      "adapter": "lightgbm",
+      "supervision": "teacher_soft",
+      "gate_mode": "staged",
+      "fit_seconds": 0.9721009731292725,
+      "best_val_f1": 0.7323529411764707,
+      "best_n_trees": 25,
+      "train_rows": 1316,
+      "history": {
+        "train_macro_f1": [
+          0.8584115805946793,
+          0.2097191426459719,
+          0.8223500044997466,
+          0.5679102742910274,
+          0.8098833381488516,
+          0.7216486594637855,
+          0.8410500040260891
+        ],
+        "val_macro_f1": [
+          0.7323529411764707,
+          0.13574197323191692,
+          0.7103960396039604,
+          0.508535168469032,
+          0.7103960396039604,
+          0.554945054945055,
+          0.6629167238304294
+        ],
+        "gate_ratio": [
+          1.0,
+          0.0668693009118541,
+          0.790273556231003,
+          0.08662613981762918,
+          0.3434650455927052,
+          0.09270516717325228,
+          0.16869300911854104
+        ],
+        "n_trees": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          175
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "key": "xgboost__ground_truth",
+      "adapter": "xgboost",
+      "supervision": "ground_truth",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.7429374039327927,
+      "weighted_f1": 0.8776842127119899,
+      "accuracy": 0.8711340206185567,
+      "confusion": [
+        [
+          153,
+          16
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 162,
+        "sec": 32
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__ground_truth",
+      "adapter": "catboost",
+      "supervision": "ground_truth",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.8273582506992118,
+      "weighted_f1": 0.9251194623343059,
+      "accuracy": 0.9278350515463918,
+      "confusion": [
+        [
+          164,
+          5
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 173,
+        "sec": 21
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__ground_truth",
+      "adapter": "lightgbm",
+      "supervision": "ground_truth",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.8366051182377714,
+      "weighted_f1": 0.9297553090946736,
+      "accuracy": 0.9329896907216495,
+      "confusion": [
+        [
+          165,
+          4
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 174,
+        "sec": 20
+      },
+      "collapsed": false
+    },
+    {
+      "key": "xgboost__teacher_hard",
+      "adapter": "xgboost",
+      "supervision": "teacher_hard",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.6522407170294494,
+      "weighted_f1": 0.8664625051150389,
+      "accuracy": 0.8917525773195877,
+      "confusion": [
+        [
+          167,
+          2
+        ],
+        [
+          19,
+          6
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 186,
+        "sec": 8
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__teacher_hard",
+      "adapter": "catboost",
+      "supervision": "teacher_hard",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.770013102888875,
+      "weighted_f1": 0.8993669831643637,
+      "accuracy": 0.9020618556701031,
+      "confusion": [
+        [
+          161,
+          8
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 172,
+        "sec": 22
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__teacher_hard",
+      "adapter": "lightgbm",
+      "supervision": "teacher_hard",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.7864024222405726,
+      "weighted_f1": 0.9106245441982287,
+      "accuracy": 0.9175257731958762,
+      "confusion": [
+        [
+          165,
+          4
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 177,
+        "sec": 17
+      },
+      "collapsed": false
+    },
+    {
+      "key": "xgboost__teacher_soft",
+      "adapter": "xgboost",
+      "supervision": "teacher_soft",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.7495697074010327,
+      "weighted_f1": 0.8817981794630657,
+      "accuracy": 0.8762886597938144,
+      "confusion": [
+        [
+          154,
+          15
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 163,
+        "sec": 31
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__teacher_soft",
+      "adapter": "catboost",
+      "supervision": "teacher_soft",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.7860294117647059,
+      "weighted_f1": 0.9055563978168586,
+      "accuracy": 0.9072164948453608,
+      "confusion": [
+        [
+          161,
+          8
+        ],
+        [
+          10,
+          15
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 171,
+        "sec": 23
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__teacher_soft",
+      "adapter": "lightgbm",
+      "supervision": "teacher_soft",
+      "test_set": "PROMISE held-out",
+      "n": 194,
+      "macro_f1": 0.8063872255489022,
+      "weighted_f1": 0.9100973311109738,
+      "accuracy": 0.9072164948453608,
+      "confusion": [
+        [
+          158,
+          11
+        ],
+        [
+          7,
+          18
+        ]
+      ],
+      "baseline_macro_f1": 0.465564738292011,
+      "student_macro_f1": 0.8223443223443223,
+      "predicted_distribution": {
+        "nonsec": 165,
+        "sec": 29
+      },
+      "collapsed": false
+    },
+    {
+      "key": "xgboost__ground_truth",
+      "adapter": "xgboost",
+      "supervision": "ground_truth",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.5638432579452731,
+      "weighted_f1": 0.5927159422029135,
+      "accuracy": 0.6103603603603603,
+      "confusion": [
+        [
+          208,
+          59
+        ],
+        [
+          114,
+          63
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 122,
+        "nonsec": 322
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__ground_truth",
+      "adapter": "catboost",
+      "supervision": "ground_truth",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.5848869823461474,
+      "weighted_f1": 0.6195681740146349,
+      "accuracy": 0.6554054054054054,
+      "confusion": [
+        [
+          237,
+          30
+        ],
+        [
+          123,
+          54
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 84,
+        "nonsec": 360
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__ground_truth",
+      "adapter": "lightgbm",
+      "supervision": "ground_truth",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.5661012729140082,
+      "weighted_f1": 0.6039366714135629,
+      "accuracy": 0.6463963963963963,
+      "confusion": [
+        [
+          239,
+          28
+        ],
+        [
+          129,
+          48
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 76,
+        "nonsec": 368
+      },
+      "collapsed": false
+    },
+    {
+      "key": "xgboost__teacher_hard",
+      "adapter": "xgboost",
+      "supervision": "teacher_hard",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.5364609488568786,
+      "weighted_f1": 0.5817482739776912,
+      "accuracy": 0.6441441441441441,
+      "confusion": [
+        [
+          250,
+          17
+        ],
+        [
+          141,
+          36
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "nonsec": 391,
+        "sec": 53
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__teacher_hard",
+      "adapter": "catboost",
+      "supervision": "teacher_hard",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.6479268180564494,
+      "weighted_f1": 0.672358485174519,
+      "accuracy": 0.6891891891891891,
+      "confusion": [
+        [
+          229,
+          38
+        ],
+        [
+          100,
+          77
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 115,
+        "nonsec": 329
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__teacher_hard",
+      "adapter": "lightgbm",
+      "supervision": "teacher_hard",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.6512175962293794,
+      "weighted_f1": 0.6765355300312096,
+      "accuracy": 0.6959459459459459,
+      "confusion": [
+        [
+          234,
+          33
+        ],
+        [
+          102,
+          75
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 108,
+        "nonsec": 336
+      },
+      "collapsed": false
+    },
+    {
+      "key": "xgboost__teacher_soft",
+      "adapter": "xgboost",
+      "supervision": "teacher_soft",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.6530862819511105,
+      "weighted_f1": 0.6743090897572425,
+      "accuracy": 0.6846846846846847,
+      "confusion": [
+        [
+          219,
+          48
+        ],
+        [
+          92,
+          85
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 133,
+        "nonsec": 311
+      },
+      "collapsed": false
+    },
+    {
+      "key": "catboost__teacher_soft",
+      "adapter": "catboost",
+      "supervision": "teacher_soft",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.6542293685150828,
+      "weighted_f1": 0.6779079636222495,
+      "accuracy": 0.6936936936936937,
+      "confusion": [
+        [
+          229,
+          38
+        ],
+        [
+          98,
+          79
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 117,
+        "nonsec": 327
+      },
+      "collapsed": false
+    },
+    {
+      "key": "lightgbm__teacher_soft",
+      "adapter": "lightgbm",
+      "supervision": "teacher_soft",
+      "test_set": "SecReq",
+      "n": 444,
+      "macro_f1": 0.6657818628422012,
+      "weighted_f1": 0.6876012536445959,
+      "accuracy": 0.7004504504504504,
+      "confusion": [
+        [
+          227,
+          40
+        ],
+        [
+          93,
+          84
+        ]
+      ],
+      "baseline_macro_f1": 0.3755274261603376,
+      "student_macro_f1": 0.740133779264214,
+      "predicted_distribution": {
+        "sec": 124,
+        "nonsec": 320
+      },
+      "collapsed": false
+    }
+  ],
+  "reference": [
+    {
+      "test_set": "PROMISE held-out",
+      "kind": "majority_baseline",
+      "macro_f1": 0.465564738292011,
+      "n": 194
+    },
+    {
+      "test_set": "PROMISE held-out",
+      "kind": "student_zero_shot",
+      "macro_f1": 0.8223443223443223,
+      "accuracy": 0.9175257731958762,
+      "n": 194
+    },
+    {
+      "test_set": "SecReq",
+      "kind": "majority_baseline",
+      "macro_f1": 0.3755274261603376,
+      "n": 444
+    },
+    {
+      "test_set": "SecReq",
+      "kind": "student_zero_shot",
+      "macro_f1": 0.740133779264214,
+      "accuracy": 0.7477477477477478,
+      "n": 444
+    }
+  ],
+  "diagnostics": {
+    "student_distinct_confidences": 625,
+    "student_confidence_mean": 0.6478261947631836,
+    "student_confidence_std": 0.07824652642011642,
+    "student_train_macro_f1": 0.7927973691949843,
+    "student_conf_correct_corr": -0.20847142683029465,
+    "teacher_usage": {
+      "calls": 775,
+      "total_tokens": 0,
+      "cached": 0,
+      "rate_limit_hits": 0
+    },
+    "teacher_failed": 0,
+    "teacher_label_distribution": {
+      "nonsec": 696,
+      "sec": 79
+    },
+    "teacher_train_agreement": {
+      "macro_f1": 0.7568345089218407,
+      "accuracy": 0.9006451612903226
+    }
+  },
+  "warnings": [],
+  "timings": {
+    "features": 0.01024007797241211,
+    "teacher": 0.0024776458740234375,
+    "train": 4.010127067565918,
+    "evaluate": 0.06116795539855957,
+    "total": 4.095891952514648
+  }
+}

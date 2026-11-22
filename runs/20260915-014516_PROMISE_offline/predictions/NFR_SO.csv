@@ -1,0 +1,401 @@
+text,label,student_slm,xgboost__ground_truth,xgboost__ground_truth__confidence,catboost__ground_truth,catboost__ground_truth__confidence,lightgbm__ground_truth,lightgbm__ground_truth__confidence,xgboost__teacher_hard,xgboost__teacher_hard__confidence,catboost__teacher_hard,catboost__teacher_hard__confidence,lightgbm__teacher_hard,lightgbm__teacher_hard__confidence,xgboost__teacher_soft,xgboost__teacher_soft__confidence,catboost__teacher_soft,catboost__teacher_soft__confidence,lightgbm__teacher_soft,lightgbm__teacher_soft__confidence
+laravel encrypt decrypt password with secret key [closed],sec,sec,sec,0.5838,sec,0.9172,sec,0.9576,sec,0.5448,sec,0.8315,sec,0.7823,sec,0.6679,sec,0.7706,sec,0.8115
+What cross-platform coding language should I use? [closed],nonsec,nonsec,nonsec,0.548,nonsec,0.7878,nonsec,0.8174,nonsec,0.5642,nonsec,0.8926,nonsec,0.9318,sec,0.5035,nonsec,0.5605,nonsec,0.5379
+How to customize IDS/IPS rules? [closed],sec,nonsec,nonsec,0.6498,nonsec,0.9015,nonsec,0.9565,nonsec,0.5847,nonsec,0.9049,nonsec,0.9512,nonsec,0.5326,nonsec,0.553,nonsec,0.578
+App.config dllmap entry portability,nonsec,nonsec,nonsec,0.5389,nonsec,0.6158,nonsec,0.8939,nonsec,0.5881,nonsec,0.8834,nonsec,0.9573,nonsec,0.5696,nonsec,0.5588,nonsec,0.5998
+SQL query optimization. Estimated vs actual number of rows,nonsec,nonsec,sec,0.5366,nonsec,0.6943,nonsec,0.5081,nonsec,0.584,nonsec,0.8076,nonsec,0.9328,nonsec,0.5089,nonsec,0.561,sec,0.5146
+Not using functions for speed? (C++),nonsec,nonsec,nonsec,0.5287,nonsec,0.6756,nonsec,0.8999,nonsec,0.5881,nonsec,0.7982,nonsec,0.9573,nonsec,0.5882,nonsec,0.5557,nonsec,0.5561
+azure function logError slow,nonsec,nonsec,sec,0.504,nonsec,0.8621,nonsec,0.8338,nonsec,0.5881,nonsec,0.8638,nonsec,0.9563,nonsec,0.5593,nonsec,0.5533,nonsec,0.5492
+Entity component architecture : want to split big entity -> hard to refactor,nonsec,nonsec,nonsec,0.5685,nonsec,0.7686,nonsec,0.8982,nonsec,0.5728,nonsec,0.8834,nonsec,0.9441,nonsec,0.534,nonsec,0.5684,nonsec,0.5696
+More efficient alternative to nested For loop,nonsec,nonsec,nonsec,0.5546,nonsec,0.8466,nonsec,0.8971,nonsec,0.5881,nonsec,0.8829,nonsec,0.9542,nonsec,0.5822,nonsec,0.5548,nonsec,0.5761
+How to serve AI models in a multi-tenant environment in scale?,nonsec,nonsec,sec,0.5317,nonsec,0.8356,nonsec,0.7913,nonsec,0.5511,nonsec,0.8287,nonsec,0.9157,sec,0.5148,nonsec,0.5518,nonsec,0.566
+What does scaling of the upper bound of your algorithm's runtime tell you?,nonsec,nonsec,nonsec,0.5524,nonsec,0.7808,nonsec,0.8781,nonsec,0.6464,nonsec,0.8409,nonsec,0.9401,nonsec,0.5038,nonsec,0.5573,nonsec,0.5366
+Is C++ 0x/TR1 safe to use when portability matters?,nonsec,nonsec,nonsec,0.6779,nonsec,0.6166,nonsec,0.8932,nonsec,0.5983,nonsec,0.9345,nonsec,0.9573,nonsec,0.5398,nonsec,0.5651,nonsec,0.5691
+How to shard a Set?,nonsec,nonsec,nonsec,0.5716,nonsec,0.6274,nonsec,0.8982,nonsec,0.5579,nonsec,0.8279,nonsec,0.9371,sec,0.5113,nonsec,0.5579,sec,0.5024
+Simple http server in nodejs: response time 1 millisecond is a lot?,nonsec,nonsec,nonsec,0.5777,nonsec,0.934,nonsec,0.7023,nonsec,0.6019,nonsec,0.8727,nonsec,0.9519,nonsec,0.5601,nonsec,0.5468,nonsec,0.5483
+Find the minimum cost combination algorithm,nonsec,nonsec,nonsec,0.5944,nonsec,0.739,nonsec,0.9301,nonsec,0.5881,nonsec,0.745,nonsec,0.9518,nonsec,0.5728,nonsec,0.5552,nonsec,0.5775
+Python efficient way to search for a pattern in text file,nonsec,nonsec,nonsec,0.5973,nonsec,0.9262,nonsec,0.9415,nonsec,0.5992,nonsec,0.8212,nonsec,0.947,nonsec,0.5652,nonsec,0.5399,nonsec,0.5868
+The Runtime measurement in Java outputs unreal time values after looping the same testrun for the 3rd time [duplicate],nonsec,nonsec,nonsec,0.6046,nonsec,0.9128,nonsec,0.9612,nonsec,0.6317,nonsec,0.7951,nonsec,0.949,nonsec,0.5592,nonsec,0.5551,nonsec,0.579
+Hosting digital asset link json file in a path instead of domain root?,sec,nonsec,sec,0.5537,nonsec,0.7226,nonsec,0.7295,nonsec,0.5676,nonsec,0.76,nonsec,0.8998,nonsec,0.5251,nonsec,0.5078,nonsec,0.552
+C++/WinRT: Does it make any sense to put keywords on runtime class implementations?,nonsec,nonsec,sec,0.7012,nonsec,0.7683,nonsec,0.5181,nonsec,0.6293,nonsec,0.768,nonsec,0.9164,sec,0.5802,sec,0.5099,nonsec,0.5051
+Using PowerShell to list defaults Computer-wide Launch and Activation Permissions for all users,sec,sec,sec,0.5488,sec,0.7576,sec,0.7805,nonsec,0.6229,sec,0.5251,sec,0.7835,sec,0.6399,sec,0.723,sec,0.75
+How to change database details in JPA,nonsec,nonsec,nonsec,0.57,nonsec,0.8527,nonsec,0.9423,nonsec,0.5837,nonsec,0.727,nonsec,0.926,nonsec,0.5152,nonsec,0.5472,nonsec,0.597
+How do I fix my devtool React user timings?,nonsec,nonsec,sec,0.5443,nonsec,0.7655,nonsec,0.7701,nonsec,0.6498,nonsec,0.8901,nonsec,0.9581,nonsec,0.5731,nonsec,0.5597,nonsec,0.5111
+PHP all commands are extremely slow,nonsec,nonsec,sec,0.5427,nonsec,0.7486,nonsec,0.7623,nonsec,0.5995,nonsec,0.9107,nonsec,0.9534,nonsec,0.552,nonsec,0.555,nonsec,0.5391
+Is it wise to render a server response using dangerouslySetInnerHTML to the page without sanitization?,sec,nonsec,nonsec,0.6153,nonsec,0.9334,nonsec,0.9326,nonsec,0.5603,nonsec,0.9378,nonsec,0.8711,nonsec,0.5206,nonsec,0.5541,nonsec,0.5655
+How to use CacheConfiguration.setIndexedTypes for Ignite Cache,nonsec,nonsec,nonsec,0.6848,nonsec,0.8711,nonsec,0.9449,nonsec,0.5724,nonsec,0.9211,nonsec,0.9462,nonsec,0.5334,nonsec,0.5563,nonsec,0.5663
+Using $_GET in system() function - security question,sec,sec,nonsec,0.5254,nonsec,0.6917,nonsec,0.8016,nonsec,0.5881,nonsec,0.8376,nonsec,0.9573,nonsec,0.5811,nonsec,0.5574,nonsec,0.5242
+Using memcached on a high end web application,nonsec,nonsec,sec,0.5085,nonsec,0.8624,nonsec,0.8684,nonsec,0.5721,nonsec,0.6514,nonsec,0.942,nonsec,0.5408,nonsec,0.5263,nonsec,0.5601
+Is this php login system secure? [closed],sec,sec,nonsec,0.5272,nonsec,0.684,sec,0.6017,sec,0.5446,sec,0.8753,sec,0.9269,sec,0.7176,sec,0.7801,sec,0.872
+time.time() or time.perf_counter() — which is faster?,nonsec,nonsec,nonsec,0.5017,nonsec,0.55,nonsec,0.5333,nonsec,0.5788,nonsec,0.8601,nonsec,0.9453,nonsec,0.5381,nonsec,0.5463,nonsec,0.5841
+BadHttpRequestException and Performance Problems in .NET Core Web API,nonsec,nonsec,nonsec,0.5959,nonsec,0.8635,nonsec,0.9585,nonsec,0.6195,nonsec,0.8397,nonsec,0.9564,nonsec,0.5896,nonsec,0.5717,nonsec,0.6031
+JWT.io is verifying the token based on empty secret and saying signature is verified,sec,nonsec,nonsec,0.5894,nonsec,0.8522,nonsec,0.9257,nonsec,0.6332,nonsec,0.8547,nonsec,0.9569,nonsec,0.5614,nonsec,0.5462,nonsec,0.6114
+How to optimise multi dimension numpy array calculation?,nonsec,nonsec,nonsec,0.6289,nonsec,0.8478,nonsec,0.954,nonsec,0.5515,nonsec,0.8948,nonsec,0.9418,nonsec,0.5524,nonsec,0.56,nonsec,0.5284
+Resolving Overloaded Webserver Issues,nonsec,nonsec,nonsec,0.5239,nonsec,0.7351,nonsec,0.8705,nonsec,0.5881,nonsec,0.8778,nonsec,0.9573,nonsec,0.57,nonsec,0.5593,nonsec,0.5798
+Most efficient way to limit a SQL query using count(*) of objects within table?,nonsec,nonsec,sec,0.5213,nonsec,0.8033,nonsec,0.8062,nonsec,0.6193,nonsec,0.9348,nonsec,0.9486,nonsec,0.5586,nonsec,0.5656,nonsec,0.5515
+Oracle DataGuard,nonsec,nonsec,sec,0.512,nonsec,0.814,nonsec,0.8966,nonsec,0.5515,nonsec,0.805,nonsec,0.8629,nonsec,0.5628,nonsec,0.5567,nonsec,0.5773
+Is there a way to speed up this Python script?,nonsec,nonsec,nonsec,0.558,nonsec,0.875,nonsec,0.9456,nonsec,0.5881,nonsec,0.9338,nonsec,0.9493,nonsec,0.538,nonsec,0.5377,nonsec,0.5202
+Is there a safe way to run eval in a webpage and avoid it to access the content of the rest of the page?,sec,sec,nonsec,0.6618,nonsec,0.888,nonsec,0.9542,nonsec,0.5701,nonsec,0.8363,nonsec,0.8976,nonsec,0.527,nonsec,0.5285,nonsec,0.5395
+Java programs with failover at different levels of scalability,nonsec,nonsec,sec,0.5004,sec,0.5592,nonsec,0.7891,nonsec,0.5983,nonsec,0.7819,nonsec,0.946,nonsec,0.5445,nonsec,0.5577,nonsec,0.5361
+Postgres HA (based on WAL-shipping) fails,nonsec,nonsec,nonsec,0.5542,nonsec,0.5599,nonsec,0.7614,nonsec,0.6011,nonsec,0.8551,nonsec,0.952,nonsec,0.5846,nonsec,0.5494,nonsec,0.5563
+Rstudio very slow when editing large code,nonsec,nonsec,sec,0.5134,nonsec,0.7056,nonsec,0.8158,nonsec,0.5993,nonsec,0.8808,nonsec,0.9537,nonsec,0.5118,nonsec,0.563,nonsec,0.5597
+Can we send the api endpoint urls for scan without its payload and http method?,sec,nonsec,nonsec,0.6372,nonsec,0.8207,nonsec,0.9594,nonsec,0.6414,nonsec,0.8789,nonsec,0.9472,nonsec,0.5747,nonsec,0.5641,nonsec,0.5555
+Fast x-y radar plot android,nonsec,nonsec,sec,0.5159,nonsec,0.6811,nonsec,0.784,nonsec,0.5884,nonsec,0.8141,nonsec,0.9573,nonsec,0.5706,nonsec,0.5583,nonsec,0.5709
+Is ConfigParser slow? ConfigParser vs. an ugly algorithm,nonsec,nonsec,sec,0.5372,nonsec,0.8224,nonsec,0.7432,nonsec,0.6194,nonsec,0.8614,nonsec,0.9502,nonsec,0.5127,nonsec,0.5501,nonsec,0.5539
+Empty response from springboot server with token keycloak,sec,nonsec,nonsec,0.5328,nonsec,0.828,nonsec,0.6977,nonsec,0.6099,nonsec,0.6998,nonsec,0.9215,sec,0.5097,nonsec,0.5124,nonsec,0.5628
+How to remove duplicate pairs from an ArrayList in Java?,nonsec,nonsec,nonsec,0.6908,nonsec,0.9556,nonsec,0.9522,nonsec,0.6528,nonsec,0.8288,nonsec,0.949,nonsec,0.5527,nonsec,0.5625,nonsec,0.5852
+EF Improve performance of Many-to-Many / .Include .ThenInclude,nonsec,nonsec,nonsec,0.5667,nonsec,0.5695,nonsec,0.7059,nonsec,0.6259,nonsec,0.8423,nonsec,0.9543,nonsec,0.5268,nonsec,0.5499,nonsec,0.5684
+Perfomance depending on index type,nonsec,nonsec,nonsec,0.53,nonsec,0.7746,nonsec,0.8651,nonsec,0.5881,nonsec,0.8791,nonsec,0.951,nonsec,0.5443,nonsec,0.5511,nonsec,0.5781
+How to solve MultiVPN issue?,sec,nonsec,nonsec,0.6116,nonsec,0.7192,nonsec,0.9365,nonsec,0.5826,nonsec,0.7821,nonsec,0.9259,nonsec,0.5568,nonsec,0.5605,nonsec,0.5937
+Iterate State Monad and Collect Results in Sequence with Good Performance,nonsec,nonsec,sec,0.5453,nonsec,0.8148,nonsec,0.7912,nonsec,0.6291,nonsec,0.8648,nonsec,0.9025,nonsec,0.6011,nonsec,0.5415,nonsec,0.5771
+Storing session data in flutter across pages best practice,sec,nonsec,nonsec,0.5218,nonsec,0.6127,nonsec,0.7882,nonsec,0.6027,nonsec,0.8126,nonsec,0.8965,nonsec,0.5308,nonsec,0.566,nonsec,0.5408
+what are best practices for deploying new features for spring boot application?,nonsec,nonsec,sec,0.52,nonsec,0.5947,nonsec,0.8938,nonsec,0.6222,nonsec,0.9079,nonsec,0.9561,sec,0.5062,nonsec,0.5488,nonsec,0.5695
+which query consumes less resources an update or a select,nonsec,nonsec,sec,0.5727,nonsec,0.9002,nonsec,0.7831,nonsec,0.5881,nonsec,0.9221,nonsec,0.9573,nonsec,0.5869,nonsec,0.5533,nonsec,0.557
+Is strcpy generally unsafe or are there legitimate use-cases of that function?,sec,nonsec,sec,0.5572,sec,0.5373,sec,0.5979,nonsec,0.6178,nonsec,0.7179,nonsec,0.8943,nonsec,0.5184,nonsec,0.5289,sec,0.5111
+Certificate CRL check in OSX,sec,nonsec,nonsec,0.5239,nonsec,0.9122,nonsec,0.9058,nonsec,0.5881,nonsec,0.8051,nonsec,0.9498,nonsec,0.5647,nonsec,0.5562,nonsec,0.569
+Is there a better way of assign values to a class property in MATLAB?,nonsec,nonsec,nonsec,0.5681,nonsec,0.6719,nonsec,0.7009,nonsec,0.638,nonsec,0.8392,nonsec,0.9459,nonsec,0.5556,nonsec,0.542,nonsec,0.6018
+How to deal with multiple database results from different servers for a request,nonsec,nonsec,nonsec,0.6068,nonsec,0.8816,nonsec,0.8922,nonsec,0.583,nonsec,0.8632,nonsec,0.9335,nonsec,0.5003,nonsec,0.5532,nonsec,0.5665
+conan packages vs mingwin conflicts how to fix?,nonsec,nonsec,nonsec,0.5489,nonsec,0.8222,nonsec,0.8136,nonsec,0.5977,nonsec,0.8595,nonsec,0.9443,nonsec,0.5315,nonsec,0.553,nonsec,0.5347
+I haven't been able to apply the available fix,sec,nonsec,nonsec,0.5813,nonsec,0.8263,nonsec,0.925,nonsec,0.5836,nonsec,0.863,nonsec,0.9427,nonsec,0.5439,nonsec,0.5446,nonsec,0.5256
+Alternative for ForEach loop in Javascript?,nonsec,nonsec,nonsec,0.5389,nonsec,0.7291,nonsec,0.8158,nonsec,0.5988,nonsec,0.874,nonsec,0.9514,nonsec,0.5399,nonsec,0.5527,nonsec,0.5592
+How to secure access token beyond XSS and CSRF,sec,sec,sec,0.5718,sec,0.6924,nonsec,0.5338,sec,0.5189,sec,0.866,sec,0.8155,sec,0.6979,sec,0.7356,sec,0.8118
+Credential handles keeps going in process monitor,sec,nonsec,nonsec,0.5541,nonsec,0.7602,nonsec,0.8714,nonsec,0.5129,nonsec,0.7926,nonsec,0.9517,nonsec,0.5428,nonsec,0.5555,nonsec,0.5901
+what mean these error when tuning a rf with tune_race: Error : arrange() failed at implicit mutate() step. x Can't recycle input of size 0 to size 1,nonsec,nonsec,sec,0.5489,nonsec,0.6099,nonsec,0.5692,nonsec,0.6118,nonsec,0.894,nonsec,0.9519,sec,0.5034,nonsec,0.5521,nonsec,0.559
+How do i restrict JSP files in Tomcat 9 to only run in one subdirectory /jsp,sec,nonsec,nonsec,0.5397,nonsec,0.7118,nonsec,0.6353,nonsec,0.6405,nonsec,0.6129,nonsec,0.9292,nonsec,0.5385,nonsec,0.519,nonsec,0.5748
+Java (8) Webstart: avoiding security popups,sec,sec,sec,0.6056,sec,0.6707,nonsec,0.7047,nonsec,0.5881,sec,0.7564,nonsec,0.9553,sec,0.5998,sec,0.5886,sec,0.5231
+How binary file can be portable in C programming?,nonsec,nonsec,sec,0.5443,nonsec,0.7631,nonsec,0.7996,nonsec,0.5959,nonsec,0.7619,nonsec,0.9408,nonsec,0.5223,nonsec,0.5486,nonsec,0.5254
+Is it better to compress every line individually or compress an entire file?,nonsec,nonsec,nonsec,0.5668,nonsec,0.9615,nonsec,0.7687,nonsec,0.6303,nonsec,0.8578,nonsec,0.9558,nonsec,0.5205,nonsec,0.5536,nonsec,0.5574
+"How to save and use file ""safely"" in express nodejs?",sec,nonsec,nonsec,0.5793,nonsec,0.7266,nonsec,0.8461,nonsec,0.5961,nonsec,0.9348,nonsec,0.9453,nonsec,0.5411,nonsec,0.5493,nonsec,0.5455
+Is python really slow or is it because I havent optimized the python code?,nonsec,nonsec,nonsec,0.5435,nonsec,0.8044,nonsec,0.9317,nonsec,0.6202,nonsec,0.8956,nonsec,0.9563,nonsec,0.6124,nonsec,0.5598,nonsec,0.5707
+Is it possible to not to increase heap usage of the Angular application?,nonsec,nonsec,sec,0.5261,nonsec,0.7947,nonsec,0.5546,nonsec,0.5613,nonsec,0.8216,nonsec,0.9282,nonsec,0.557,nonsec,0.5562,nonsec,0.5615
+mpi_run on multicore architecture --bind-to l3 or --bind-to core,nonsec,nonsec,nonsec,0.5725,nonsec,0.8115,nonsec,0.7709,nonsec,0.6076,nonsec,0.8711,nonsec,0.9496,nonsec,0.5127,nonsec,0.5433,nonsec,0.5177
+Why is Firefox Sync icon showing in my task bar when my Mac is completely offline?,sec,nonsec,nonsec,0.5686,nonsec,0.8872,nonsec,0.8275,nonsec,0.6342,nonsec,0.8914,nonsec,0.9483,nonsec,0.5563,nonsec,0.5675,nonsec,0.5942
+Data aggregations with advanced filtering? (Elasticsearch),nonsec,nonsec,sec,0.5001,nonsec,0.7268,nonsec,0.7745,nonsec,0.6032,nonsec,0.9158,nonsec,0.947,nonsec,0.548,nonsec,0.5337,nonsec,0.5317
+How can I avoid calling same function inside an inner pythonical style loop,nonsec,nonsec,sec,0.5786,nonsec,0.9024,nonsec,0.7701,nonsec,0.5589,nonsec,0.7982,nonsec,0.9056,sec,0.5123,nonsec,0.5538,nonsec,0.5133
+How can I create a method to detect when a notification is clicked using xamarin coss-platform portable?,nonsec,nonsec,nonsec,0.6067,nonsec,0.9721,nonsec,0.9652,nonsec,0.5564,nonsec,0.773,nonsec,0.9088,nonsec,0.5464,nonsec,0.5579,nonsec,0.5502
+Why ToBindingList() method very slow?,nonsec,nonsec,sec,0.5289,nonsec,0.5507,nonsec,0.7369,nonsec,0.6207,nonsec,0.7995,nonsec,0.9321,nonsec,0.5402,nonsec,0.5538,nonsec,0.5578
+Any patterns for high availability of a Windows Service?,nonsec,nonsec,sec,0.5696,nonsec,0.8352,nonsec,0.8207,nonsec,0.5851,nonsec,0.7929,nonsec,0.949,nonsec,0.5627,nonsec,0.5352,nonsec,0.5769
+Why is setting textContent triggering reflow?,nonsec,nonsec,sec,0.5192,nonsec,0.7282,nonsec,0.6869,nonsec,0.5881,nonsec,0.8222,nonsec,0.9542,nonsec,0.5424,nonsec,0.5567,nonsec,0.562
+Achive both Load balancing and HA with MySQL NDB cluster,nonsec,nonsec,nonsec,0.6057,nonsec,0.8713,nonsec,0.8203,nonsec,0.5976,nonsec,0.9149,nonsec,0.9474,nonsec,0.5659,nonsec,0.5674,nonsec,0.5576
+AWS Elb backend authentication,sec,sec,sec,0.605,sec,0.7396,sec,0.6349,sec,0.5324,sec,0.8805,sec,0.7885,sec,0.6939,sec,0.772,sec,0.7949
+Passing multiple quoted arguments to command in bourne shell,nonsec,nonsec,nonsec,0.6661,nonsec,0.8249,nonsec,0.9625,nonsec,0.5731,nonsec,0.8462,nonsec,0.9315,nonsec,0.5761,nonsec,0.564,nonsec,0.5638
+How does a server verify a JWT? Where does the Public Key come from?,sec,nonsec,nonsec,0.5286,nonsec,0.6048,nonsec,0.7,nonsec,0.6421,nonsec,0.7515,nonsec,0.9516,nonsec,0.5233,nonsec,0.5482,nonsec,0.5466
+http header Content-Security-Policy doesn't show images in Wordpress site,sec,sec,sec,0.5821,sec,0.8819,sec,0.8822,sec,0.5434,sec,0.8252,sec,0.8332,sec,0.6772,sec,0.7702,sec,0.8086
+How to mark that a transition has ended after onclick?,nonsec,nonsec,nonsec,0.6498,nonsec,0.8479,nonsec,0.9531,nonsec,0.6072,nonsec,0.8979,nonsec,0.93,sec,0.5097,nonsec,0.5533,nonsec,0.5927
+What is the best way of loading tensorflow.keras model on CPU from C for minimum load time?,nonsec,nonsec,nonsec,0.658,nonsec,0.9622,nonsec,0.962,nonsec,0.6565,nonsec,0.8891,nonsec,0.896,nonsec,0.6033,nonsec,0.5586,nonsec,0.5733
+Cookie Initially Set with Secure Attribute loses Secure Attribute,sec,sec,sec,0.5235,nonsec,0.6937,nonsec,0.5911,nonsec,0.516,sec,0.8885,sec,0.8689,sec,0.6966,sec,0.7092,sec,0.8085
+Denial Of Service Resource Exhaustion on request,sec,nonsec,sec,0.5589,nonsec,0.6133,nonsec,0.8131,nonsec,0.6206,nonsec,0.893,nonsec,0.9573,nonsec,0.511,nonsec,0.5614,nonsec,0.5062
+Granting full gcs bucket permissions to a GCP service account,sec,sec,sec,0.6129,sec,0.7227,nonsec,0.5957,nonsec,0.5026,sec,0.8097,sec,0.5963,sec,0.6701,sec,0.6166,sec,0.7026
+Can Cython further reduce Python method calling overhead for this function?,nonsec,nonsec,nonsec,0.6342,nonsec,0.8233,nonsec,0.9516,nonsec,0.5506,nonsec,0.897,nonsec,0.95,nonsec,0.5133,nonsec,0.5587,nonsec,0.5815
+Is it crazy to not rely on a caching system like memcached nowadays ( for dynamic sites )?,nonsec,nonsec,nonsec,0.5188,nonsec,0.6568,nonsec,0.8538,nonsec,0.6206,sec,0.537,nonsec,0.9397,sec,0.512,sec,0.5364,nonsec,0.5664
+Large data set for web application - use an API for each query or store locally on database?,nonsec,nonsec,sec,0.5179,nonsec,0.9663,nonsec,0.9494,nonsec,0.5534,nonsec,0.8973,nonsec,0.9249,nonsec,0.5315,nonsec,0.5295,nonsec,0.5726
+Measuring the performance of a count query in MongoDB,nonsec,nonsec,nonsec,0.5438,nonsec,0.8189,nonsec,0.9351,nonsec,0.6304,nonsec,0.8039,nonsec,0.9573,nonsec,0.57,nonsec,0.5653,nonsec,0.6209
+c++ Initializing a struct with an array as a member,nonsec,nonsec,sec,0.6184,nonsec,0.7034,nonsec,0.676,nonsec,0.5988,nonsec,0.7751,nonsec,0.9401,sec,0.5175,nonsec,0.5391,sec,0.5048
+How is a single threaded server able to cater to multiple clients even thru non-blocking I/O?,nonsec,nonsec,nonsec,0.5755,nonsec,0.6738,sec,0.514,nonsec,0.5537,nonsec,0.619,nonsec,0.924,nonsec,0.5496,nonsec,0.5433,nonsec,0.5558
+NextJS 10 with Material UI compiling too slow,nonsec,nonsec,nonsec,0.5105,nonsec,0.805,nonsec,0.922,nonsec,0.5644,nonsec,0.911,nonsec,0.9284,nonsec,0.5482,nonsec,0.5572,nonsec,0.5216
+My Python code TimeLimitExceeded. How do I optimize and reduce the number of operations in my code?,nonsec,nonsec,nonsec,0.6052,nonsec,0.9603,nonsec,0.9522,nonsec,0.6431,nonsec,0.8923,nonsec,0.9519,nonsec,0.5921,nonsec,0.5585,nonsec,0.5863
+Slow data return in nodejs query from mongoDB,nonsec,nonsec,nonsec,0.5192,nonsec,0.7361,nonsec,0.5972,nonsec,0.6342,nonsec,0.7222,nonsec,0.9494,nonsec,0.5425,nonsec,0.548,nonsec,0.5405
+How can I broaden my range of skills at home and what kinds of things are worth learning? [closed],nonsec,nonsec,nonsec,0.5208,nonsec,0.6132,nonsec,0.753,nonsec,0.5988,nonsec,0.8673,nonsec,0.9563,nonsec,0.513,nonsec,0.5586,nonsec,0.5521
+Ansible: Conditionally handling plugins and passing variables or registers to them,sec,nonsec,nonsec,0.5781,nonsec,0.7702,nonsec,0.8139,nonsec,0.6201,nonsec,0.9334,nonsec,0.9532,nonsec,0.544,nonsec,0.5627,nonsec,0.6092
+How to include Duo Authentication to Django UI after Windows Authentication,sec,sec,sec,0.5858,sec,0.5013,nonsec,0.6299,sec,0.5474,sec,0.8587,sec,0.8627,sec,0.6609,sec,0.7206,sec,0.7616
+Where is mapping of __default__ user to unconfined_u defined in SELinux policy?,sec,nonsec,nonsec,0.5007,nonsec,0.8167,nonsec,0.7651,nonsec,0.5997,nonsec,0.8623,nonsec,0.9501,nonsec,0.535,nonsec,0.5468,nonsec,0.5606
+Finding an applications scalibility point using JMeter,nonsec,nonsec,sec,0.5827,nonsec,0.7038,nonsec,0.7687,nonsec,0.5881,nonsec,0.8403,nonsec,0.9042,nonsec,0.5598,nonsec,0.5386,nonsec,0.5529
+Will normalising my database kill the scalability?,nonsec,nonsec,sec,0.5089,nonsec,0.8893,nonsec,0.8551,nonsec,0.5515,nonsec,0.7987,nonsec,0.9455,nonsec,0.521,nonsec,0.5563,nonsec,0.5508
+iOs 15.1 - Performance issue with array filtering using NSPredicate,nonsec,nonsec,nonsec,0.583,nonsec,0.7934,nonsec,0.8385,nonsec,0.6321,nonsec,0.888,nonsec,0.9464,nonsec,0.5627,nonsec,0.5419,nonsec,0.5646
+HAProxy multiple frontend/listeners,nonsec,nonsec,nonsec,0.5126,nonsec,0.5368,nonsec,0.8217,nonsec,0.5613,nonsec,0.8237,nonsec,0.95,nonsec,0.5601,nonsec,0.5449,nonsec,0.5486
+What are the first steps in hardening a legacy Rails application?,nonsec,nonsec,nonsec,0.6325,nonsec,0.9504,nonsec,0.9755,nonsec,0.5994,nonsec,0.8909,nonsec,0.9429,nonsec,0.5831,nonsec,0.5534,nonsec,0.579
+Ping Federate Clustering HA for Admin Console,nonsec,nonsec,sec,0.569,nonsec,0.6788,nonsec,0.7414,nonsec,0.5881,nonsec,0.8336,nonsec,0.9573,nonsec,0.5384,nonsec,0.5513,nonsec,0.5299
+Security risks - uploading a JavaScript file in Node CMS portfolio website,sec,sec,sec,0.5759,sec,0.6613,sec,0.5311,nonsec,0.6118,nonsec,0.8047,nonsec,0.9432,nonsec,0.5539,nonsec,0.5429,nonsec,0.561
+Improve profvis performance for profiling shiny app,nonsec,nonsec,sec,0.5786,nonsec,0.9407,nonsec,0.8463,nonsec,0.6195,nonsec,0.8002,nonsec,0.9015,nonsec,0.5878,nonsec,0.5526,nonsec,0.5124
+Executing continuously running threads/task in thread pool executor with context switching,nonsec,nonsec,sec,0.6341,nonsec,0.5256,nonsec,0.5577,nonsec,0.569,nonsec,0.8362,nonsec,0.9032,nonsec,0.5182,nonsec,0.5508,nonsec,0.5454
+Does Neo4j clustering require atleast 3 nodes?,nonsec,nonsec,nonsec,0.5715,nonsec,0.9607,nonsec,0.9577,nonsec,0.6118,nonsec,0.9332,nonsec,0.9497,nonsec,0.5413,nonsec,0.5512,nonsec,0.5785
+Unable to scan all Urls of site map at once,sec,nonsec,nonsec,0.5086,nonsec,0.6785,nonsec,0.6577,nonsec,0.5453,nonsec,0.7989,nonsec,0.912,nonsec,0.5532,nonsec,0.5376,nonsec,0.5195
+What exactly are signals and slots in Qt?,nonsec,nonsec,sec,0.5122,nonsec,0.7921,nonsec,0.916,nonsec,0.5984,nonsec,0.7959,nonsec,0.9548,nonsec,0.5917,nonsec,0.5537,nonsec,0.6021
+NodeJS Express Socket.io Impletation in a Seperate File,nonsec,nonsec,sec,0.6044,nonsec,0.6272,nonsec,0.6272,nonsec,0.5839,nonsec,0.7848,nonsec,0.9533,nonsec,0.5755,nonsec,0.5551,nonsec,0.6026
+Conway's Game of Life in Python - Competitive Programming - how to optimize,nonsec,nonsec,nonsec,0.6198,nonsec,0.8876,nonsec,0.9161,nonsec,0.5579,nonsec,0.6894,nonsec,0.8824,nonsec,0.5076,nonsec,0.5458,nonsec,0.5923
+what is efficient way to do operator on two array with different size and with some nan values?,nonsec,nonsec,nonsec,0.6086,nonsec,0.7516,nonsec,0.8912,nonsec,0.6205,nonsec,0.9179,nonsec,0.9241,nonsec,0.5438,nonsec,0.5481,nonsec,0.5421
+'X509Certificate2' does not contain a definition for 'CopyWithPrivateKey',sec,nonsec,nonsec,0.5254,nonsec,0.6453,nonsec,0.881,nonsec,0.6006,nonsec,0.8409,nonsec,0.9573,nonsec,0.5933,nonsec,0.5727,nonsec,0.5866
+Apple mail client open rate adjustment calculator,nonsec,nonsec,nonsec,0.5715,nonsec,0.747,nonsec,0.9456,nonsec,0.5881,nonsec,0.8968,nonsec,0.9573,nonsec,0.5643,nonsec,0.5659,nonsec,0.5542
+How to improve the security in webapp [closed],sec,sec,nonsec,0.5119,nonsec,0.9347,nonsec,0.9314,nonsec,0.5422,nonsec,0.8251,nonsec,0.9363,nonsec,0.5427,nonsec,0.5565,nonsec,0.5552
+Can I use Blazor Webassembly app on zero-client systems?,nonsec,nonsec,nonsec,0.5253,nonsec,0.541,nonsec,0.6991,nonsec,0.5958,nonsec,0.8899,nonsec,0.9433,nonsec,0.5102,nonsec,0.5503,nonsec,0.5823
+how to generate list of sequence number in faster way using python,nonsec,nonsec,nonsec,0.5194,nonsec,0.8727,nonsec,0.8661,nonsec,0.5422,nonsec,0.8747,nonsec,0.9247,nonsec,0.5638,nonsec,0.5522,nonsec,0.5607
+C++ opencv method is slower than python,nonsec,nonsec,nonsec,0.5601,nonsec,0.9081,nonsec,0.9071,nonsec,0.632,nonsec,0.9017,nonsec,0.9548,nonsec,0.5805,nonsec,0.5726,nonsec,0.5711
+established connections on closed ingress ports,sec,nonsec,sec,0.5246,nonsec,0.8926,nonsec,0.8384,nonsec,0.5506,nonsec,0.8943,nonsec,0.9473,nonsec,0.5065,nonsec,0.5622,nonsec,0.5455
+How to migrate salted MD5 password from Spring Security 3.x to 5.x?,sec,sec,sec,0.5454,sec,0.8854,nonsec,0.675,nonsec,0.5357,sec,0.773,sec,0.8562,sec,0.7098,sec,0.6777,sec,0.7247
+Rest API server fault tolerance,nonsec,nonsec,sec,0.5273,nonsec,0.669,nonsec,0.7124,nonsec,0.5881,nonsec,0.9242,nonsec,0.9573,nonsec,0.5621,nonsec,0.5649,nonsec,0.5855
+Docker redis unauthorised access,sec,sec,sec,0.6167,sec,0.6977,sec,0.8327,sec,0.5508,sec,0.9181,sec,0.8637,sec,0.6915,sec,0.7866,sec,0.8507
+Using portable python to connect to an Access database,nonsec,sec,nonsec,0.5486,nonsec,0.8058,nonsec,0.9537,nonsec,0.6506,nonsec,0.6007,nonsec,0.9329,sec,0.52,nonsec,0.5118,nonsec,0.5329
+Why is the BigInteger.ModPow function in C# much slower than that in Java?,nonsec,nonsec,nonsec,0.5257,nonsec,0.5979,nonsec,0.9306,nonsec,0.5995,nonsec,0.9282,nonsec,0.9485,nonsec,0.5191,nonsec,0.5654,nonsec,0.5578
+Delete 'Server' response header in Django framework - V3.0.5,sec,nonsec,nonsec,0.5078,nonsec,0.5397,nonsec,0.8557,nonsec,0.6006,nonsec,0.9207,nonsec,0.9529,nonsec,0.5238,nonsec,0.569,nonsec,0.5234
+How could I secure this API?,sec,sec,sec,0.5906,sec,0.7733,nonsec,0.6646,sec,0.5439,sec,0.866,sec,0.8689,sec,0.6976,sec,0.7242,sec,0.7927
+Buffer overflow example [duplicate],sec,nonsec,nonsec,0.5239,nonsec,0.6345,nonsec,0.8705,nonsec,0.61,nonsec,0.8227,nonsec,0.9564,nonsec,0.5471,nonsec,0.5588,nonsec,0.5797
+Golang: How to generate random float using only crypto/rand,sec,nonsec,sec,0.5618,nonsec,0.6242,nonsec,0.832,nonsec,0.5847,nonsec,0.9346,nonsec,0.9406,nonsec,0.5223,nonsec,0.5465,nonsec,0.5758
+Where is the salt specified in security.json for Apache Solr?,sec,sec,sec,0.5005,nonsec,0.6465,nonsec,0.927,nonsec,0.6201,nonsec,0.9206,nonsec,0.9571,nonsec,0.5364,nonsec,0.5514,nonsec,0.5362
+Apiman 2.0.0 security vulnerabilities,sec,sec,sec,0.5862,nonsec,0.5105,nonsec,0.8048,sec,0.5439,sec,0.8523,sec,0.8507,sec,0.6817,sec,0.6859,sec,0.7792
+Poor Parallelization Scaling with Rust,nonsec,nonsec,sec,0.5318,nonsec,0.6514,nonsec,0.7254,nonsec,0.6011,nonsec,0.9411,nonsec,0.9573,nonsec,0.5432,nonsec,0.5391,nonsec,0.5741
+ThreadPool with MvvmCross,nonsec,nonsec,nonsec,0.5715,nonsec,0.8689,nonsec,0.9617,nonsec,0.6011,nonsec,0.928,nonsec,0.9569,nonsec,0.5729,nonsec,0.5612,nonsec,0.6006
+How to encrypt data for specific columns in mysql?,sec,sec,nonsec,0.516,nonsec,0.665,nonsec,0.6319,nonsec,0.6386,nonsec,0.7705,nonsec,0.9083,nonsec,0.5117,nonsec,0.5434,nonsec,0.5585
+Why is this code faster with Python than with C++? [closed],nonsec,nonsec,nonsec,0.5614,nonsec,0.5731,nonsec,0.5714,nonsec,0.6116,nonsec,0.8864,nonsec,0.9369,sec,0.5145,nonsec,0.5621,nonsec,0.5624
+Does the size of Timber global $context has impact on performance,nonsec,nonsec,nonsec,0.5346,nonsec,0.7724,nonsec,0.8214,nonsec,0.6303,nonsec,0.8559,nonsec,0.9573,nonsec,0.5732,nonsec,0.5446,nonsec,0.5605
+Postgresql-Patroni-Etcd election handicapping,nonsec,nonsec,nonsec,0.5335,nonsec,0.7158,nonsec,0.9588,nonsec,0.5792,nonsec,0.9223,nonsec,0.9419,sec,0.5483,nonsec,0.5622,nonsec,0.5664
+Spring Boot API how to validate NONCE value sent in request header to avoid replay attacks,sec,sec,nonsec,0.5981,nonsec,0.6889,nonsec,0.8823,nonsec,0.605,nonsec,0.9051,nonsec,0.9316,sec,0.5359,nonsec,0.5506,nonsec,0.5659
+Do I need to Treat the Firebase Service Account Name as a Secret?,sec,nonsec,nonsec,0.5686,nonsec,0.794,nonsec,0.9514,nonsec,0.5785,nonsec,0.8171,nonsec,0.9397,nonsec,0.5245,nonsec,0.5515,nonsec,0.6312
+How to install external libraries with Portable Python?,nonsec,nonsec,nonsec,0.6739,nonsec,0.7542,nonsec,0.9437,nonsec,0.609,nonsec,0.8974,nonsec,0.9393,nonsec,0.5718,nonsec,0.5579,nonsec,0.5684
+Can I improve debugging by assigning value to variable before returning without sacrificing performance?,nonsec,nonsec,sec,0.5215,nonsec,0.8952,nonsec,0.7639,nonsec,0.6018,nonsec,0.8439,nonsec,0.8149,nonsec,0.5402,nonsec,0.5571,nonsec,0.5026
+Unable to grab success or failure i.e rc of long running Ansible task in a loop,nonsec,nonsec,nonsec,0.5813,nonsec,0.9259,sec,0.5008,nonsec,0.6108,nonsec,0.8895,nonsec,0.9508,nonsec,0.5068,nonsec,0.5527,nonsec,0.5472
+How to multi-thread child_process.exec() in Node.js?,nonsec,nonsec,nonsec,0.553,nonsec,0.9444,nonsec,0.8877,nonsec,0.5515,nonsec,0.7707,nonsec,0.9451,nonsec,0.5431,nonsec,0.5497,nonsec,0.5753
+How to validate token from another API in my spring boot API application?,sec,nonsec,nonsec,0.5369,nonsec,0.7728,nonsec,0.8973,nonsec,0.6309,nonsec,0.9341,nonsec,0.9396,sec,0.5133,nonsec,0.5468,nonsec,0.5496
+Faster for-loops with arrays in Python,nonsec,nonsec,nonsec,0.5771,nonsec,0.5716,nonsec,0.8836,nonsec,0.5919,nonsec,0.8779,nonsec,0.8965,nonsec,0.5519,nonsec,0.5543,nonsec,0.5817
+Web Cache Deception vulnerability (flagged by NetSparker),sec,nonsec,nonsec,0.6197,nonsec,0.9209,nonsec,0.9529,nonsec,0.6197,nonsec,0.8941,nonsec,0.954,nonsec,0.58,nonsec,0.5499,nonsec,0.5657
+Mysql: Views VS recurrent table joins,nonsec,nonsec,nonsec,0.6004,nonsec,0.8835,nonsec,0.9667,nonsec,0.6228,nonsec,0.9523,nonsec,0.9475,nonsec,0.5805,nonsec,0.5588,nonsec,0.5647
+How fast does Microsoft Defenfder for Cloud scan documents in a blob?,nonsec,nonsec,nonsec,0.5386,nonsec,0.8883,nonsec,0.9208,nonsec,0.6318,nonsec,0.9177,nonsec,0.9533,nonsec,0.5395,nonsec,0.5665,nonsec,0.5495
+Architecture of processing incoming requests in a service,nonsec,nonsec,sec,0.5029,nonsec,0.7471,nonsec,0.7918,nonsec,0.58,nonsec,0.8544,nonsec,0.9496,nonsec,0.5445,nonsec,0.5397,nonsec,0.569
+working with high-availability RabbitMQ server pair via WCF,nonsec,nonsec,sec,0.5971,nonsec,0.6185,sec,0.7105,nonsec,0.6247,nonsec,0.8685,nonsec,0.9566,nonsec,0.5449,nonsec,0.5482,nonsec,0.5585
+Why doesn't my OpenMP program scale with number of threads?,nonsec,nonsec,sec,0.5359,nonsec,0.5181,nonsec,0.7377,nonsec,0.6011,nonsec,0.7964,nonsec,0.9435,nonsec,0.5446,nonsec,0.5553,nonsec,0.5806
+How does mysql handle massive connections in real world?,nonsec,nonsec,sec,0.5699,nonsec,0.8128,nonsec,0.5559,nonsec,0.6145,nonsec,0.7973,nonsec,0.9092,nonsec,0.5201,nonsec,0.544,sec,0.5283
+REACT app - NPM high vulnerabilities that can't be fixed,sec,nonsec,sec,0.5999,nonsec,0.7669,nonsec,0.6729,nonsec,0.5596,nonsec,0.9105,nonsec,0.9411,sec,0.5472,nonsec,0.5527,nonsec,0.5216
+gVim access environment variable with special characters,nonsec,sec,sec,0.616,nonsec,0.8181,nonsec,0.5805,nonsec,0.5879,nonsec,0.795,nonsec,0.9177,sec,0.5171,nonsec,0.5243,nonsec,0.5031
+Using GNU C Libraries and other Data structure libraries on Mac/Windows/Linux.?,nonsec,nonsec,sec,0.5291,nonsec,0.7969,nonsec,0.8952,nonsec,0.5903,nonsec,0.8286,nonsec,0.9552,nonsec,0.571,nonsec,0.559,nonsec,0.5648
+Problem with elapsed time using MPI_Wtime,nonsec,nonsec,sec,0.5443,nonsec,0.8135,nonsec,0.5947,nonsec,0.5919,nonsec,0.8496,nonsec,0.945,nonsec,0.5052,nonsec,0.5519,nonsec,0.5136
+How to make a fault tolerant system which can immediately handle the situation when a server goes down,nonsec,nonsec,nonsec,0.5667,nonsec,0.9406,nonsec,0.862,nonsec,0.5953,nonsec,0.8821,nonsec,0.9458,nonsec,0.5224,nonsec,0.55,nonsec,0.5539
+Grafana 8 - slow performance loading dashboards,nonsec,nonsec,nonsec,0.5696,nonsec,0.6851,nonsec,0.8646,nonsec,0.6428,nonsec,0.887,nonsec,0.9573,nonsec,0.5747,nonsec,0.5604,nonsec,0.5711
+performant way to see if any element has a background-image,nonsec,nonsec,nonsec,0.6639,nonsec,0.803,nonsec,0.9126,nonsec,0.6062,nonsec,0.8995,nonsec,0.9245,nonsec,0.5197,nonsec,0.5581,nonsec,0.594
+Using a sub domain with an sql database?,sec,nonsec,nonsec,0.5357,nonsec,0.8263,nonsec,0.8494,nonsec,0.5648,nonsec,0.9203,nonsec,0.9552,sec,0.5009,nonsec,0.5444,nonsec,0.504
+How to design for scalable set operations?,nonsec,nonsec,nonsec,0.6143,nonsec,0.887,nonsec,0.9516,nonsec,0.5977,nonsec,0.9444,nonsec,0.9504,nonsec,0.5507,nonsec,0.549,nonsec,0.5806
+"Assigning security roles by ""lower"" admins",sec,sec,sec,0.5861,sec,0.7425,sec,0.6339,sec,0.511,sec,0.87,sec,0.8088,sec,0.6786,sec,0.7545,sec,0.8286
+Task from deleted UP device moved to newly added one,sec,nonsec,nonsec,0.5548,nonsec,0.66,nonsec,0.7581,nonsec,0.6094,nonsec,0.7355,nonsec,0.9257,sec,0.5057,nonsec,0.524,nonsec,0.541
+How to vectorize the creation of N rotation matrix from a vector of angles?,nonsec,nonsec,nonsec,0.5245,nonsec,0.9447,nonsec,0.9189,nonsec,0.6309,nonsec,0.7755,nonsec,0.9402,nonsec,0.5512,nonsec,0.5538,nonsec,0.5791
+.NET Client/Server Scaleability & Asynchronous I/O - Excess Thread Issues,nonsec,nonsec,nonsec,0.5571,nonsec,0.8444,nonsec,0.9206,nonsec,0.5769,nonsec,0.8899,nonsec,0.9456,nonsec,0.5668,nonsec,0.5616,nonsec,0.5832
+OpenMP parallel for -- Multiple parallel for's Vs. one parallel that includes within it multiple for's,nonsec,nonsec,nonsec,0.5254,nonsec,0.7547,nonsec,0.8427,nonsec,0.5301,nonsec,0.6958,nonsec,0.7323,sec,0.5269,nonsec,0.5197,sec,0.526
+Is sharing your C:/Users name a security risk?,sec,sec,nonsec,0.5412,sec,0.7436,nonsec,0.7254,sec,0.5439,sec,0.8551,sec,0.8507,sec,0.6613,sec,0.7203,sec,0.7541
+Correct way to fetch data from API in NodeJS Express App,sec,nonsec,nonsec,0.6303,nonsec,0.975,nonsec,0.9326,nonsec,0.6342,nonsec,0.9004,nonsec,0.9426,nonsec,0.5676,nonsec,0.5503,nonsec,0.5593
+Json dependencies NPM update- How fix vulnerabilities manually,sec,nonsec,nonsec,0.5227,nonsec,0.7765,nonsec,0.7108,nonsec,0.5905,nonsec,0.8979,nonsec,0.9535,nonsec,0.5239,nonsec,0.5506,nonsec,0.5046
+Sample a function and store its values,nonsec,nonsec,nonsec,0.6092,nonsec,0.7312,nonsec,0.9297,nonsec,0.5992,nonsec,0.8811,nonsec,0.9539,nonsec,0.5389,nonsec,0.5494,nonsec,0.5705
+"Why does adding an ""if"" to a C++ code make it significantly faster?",nonsec,nonsec,nonsec,0.6303,nonsec,0.9787,nonsec,0.97,nonsec,0.6584,nonsec,0.9214,nonsec,0.952,nonsec,0.5385,nonsec,0.5632,nonsec,0.585
+What's the benefit of using jQuery offset over getBoundingClientRect,nonsec,nonsec,sec,0.5015,nonsec,0.7303,nonsec,0.9527,nonsec,0.5881,nonsec,0.8387,nonsec,0.9407,nonsec,0.5294,nonsec,0.5518,nonsec,0.5435
+Is HTTP Content-Security-Policy set per page or per GET?,sec,sec,sec,0.5977,sec,0.6289,sec,0.6516,nonsec,0.6001,nonsec,0.8694,nonsec,0.9437,nonsec,0.5342,nonsec,0.5527,nonsec,0.5408
+"Reduce/split size of Flutter generated web-output file ""main.dart.js""?",nonsec,nonsec,nonsec,0.5177,nonsec,0.9764,nonsec,0.796,nonsec,0.6532,nonsec,0.9135,nonsec,0.9539,nonsec,0.515,nonsec,0.5629,nonsec,0.5464
+How to write routes for distributed and scaled Apache Camel K that relies on cache: and direct:,nonsec,nonsec,nonsec,0.6141,nonsec,0.9275,nonsec,0.896,nonsec,0.6069,nonsec,0.8914,nonsec,0.9362,nonsec,0.5214,nonsec,0.542,nonsec,0.5011
+Swift Array firstIndex takes 20 seconds when matching 2 small arrays of structures,nonsec,nonsec,sec,0.5212,nonsec,0.8918,nonsec,0.6738,nonsec,0.6101,nonsec,0.9069,nonsec,0.9373,nonsec,0.5511,nonsec,0.5555,nonsec,0.576
+CPU Intensive App Scaling,nonsec,nonsec,sec,0.5443,nonsec,0.6359,nonsec,0.8497,nonsec,0.5881,nonsec,0.5978,nonsec,0.9557,nonsec,0.5449,nonsec,0.5303,nonsec,0.5766
+Fortran 2D grid w/ Periodic Boundary Conditions - efficient implementation,nonsec,nonsec,sec,0.6195,nonsec,0.8439,nonsec,0.8854,nonsec,0.5881,nonsec,0.9163,nonsec,0.9525,nonsec,0.5414,nonsec,0.5605,nonsec,0.5374
+Python how do i make list appends / extends quicker?,nonsec,nonsec,nonsec,0.5287,nonsec,0.7923,nonsec,0.8886,nonsec,0.6195,nonsec,0.8661,nonsec,0.953,nonsec,0.5601,nonsec,0.5419,nonsec,0.5848
+Should the default case of switch statment have a break?,nonsec,nonsec,nonsec,0.5644,nonsec,0.9448,nonsec,0.9323,nonsec,0.5887,nonsec,0.8648,nonsec,0.9239,nonsec,0.5425,nonsec,0.5447,nonsec,0.5621
+Customize web browser policies for specific purposes,sec,nonsec,sec,0.5512,nonsec,0.8601,nonsec,0.848,nonsec,0.61,nonsec,0.6915,nonsec,0.9564,sec,0.5027,nonsec,0.534,nonsec,0.5777
+Jmeter load testing for login,nonsec,sec,sec,0.5906,sec,0.8032,nonsec,0.7339,sec,0.6205,sec,0.8868,sec,0.913,sec,0.6759,sec,0.7383,sec,0.7417
+How to failover to new Master node when using Redis with Sentinel and redis-py?,nonsec,nonsec,nonsec,0.6077,nonsec,0.8731,nonsec,0.9513,nonsec,0.5938,nonsec,0.8461,nonsec,0.8527,nonsec,0.524,nonsec,0.5585,nonsec,0.5263
+Zend_Translate Strategy for a huge grown web site,nonsec,nonsec,sec,0.5025,nonsec,0.7636,nonsec,0.821,nonsec,0.5683,nonsec,0.9232,nonsec,0.9487,nonsec,0.5542,nonsec,0.559,nonsec,0.5854
+Runtime of MPI_Win_create at origin is increasing with increase in the size of the target window,nonsec,nonsec,nonsec,0.7218,nonsec,0.8809,nonsec,0.9687,nonsec,0.5676,nonsec,0.7814,nonsec,0.9177,nonsec,0.5576,nonsec,0.5659,nonsec,0.5896
+How to avoid response maniputaion for OTP verification,sec,nonsec,nonsec,0.5601,nonsec,0.8126,nonsec,0.7737,nonsec,0.6309,nonsec,0.8878,nonsec,0.937,nonsec,0.5551,nonsec,0.5164,nonsec,0.5409
+Connection refused error while connecting to jmeter slave docker container,nonsec,nonsec,sec,0.5071,nonsec,0.8048,nonsec,0.6691,nonsec,0.5719,nonsec,0.6686,nonsec,0.9287,sec,0.5319,nonsec,0.516,nonsec,0.5295
+Portable XAML Styles in a Class Library,nonsec,nonsec,nonsec,0.5239,nonsec,0.9116,nonsec,0.8856,nonsec,0.5995,nonsec,0.8595,nonsec,0.9573,nonsec,0.5748,nonsec,0.5613,nonsec,0.5839
+Change or modify your login name while in GitHub so changes and modifications can be logged under another name - How to rectify it?,sec,sec,sec,0.5064,nonsec,0.8681,sec,0.6507,sec,0.5231,sec,0.8628,sec,0.8606,sec,0.6974,sec,0.7112,sec,0.7532
+Should I clone or denormalize my database for portable use?,nonsec,nonsec,nonsec,0.5805,nonsec,0.6384,nonsec,0.7481,nonsec,0.6041,nonsec,0.7657,nonsec,0.9479,nonsec,0.5813,nonsec,0.5332,nonsec,0.5441
+Can you have more than 1 node per REDIS cluster in AWS ElastiCache?,nonsec,nonsec,sec,0.5841,nonsec,0.9052,nonsec,0.6843,nonsec,0.6378,nonsec,0.8421,nonsec,0.9427,nonsec,0.534,nonsec,0.5492,nonsec,0.5739
+Allow user to login from one device only,sec,sec,nonsec,0.5217,nonsec,0.6872,nonsec,0.5237,nonsec,0.6394,nonsec,0.693,nonsec,0.9406,nonsec,0.5108,nonsec,0.52,nonsec,0.5602
+Improving speed for solving linear equation,nonsec,nonsec,sec,0.5551,nonsec,0.9053,nonsec,0.8249,nonsec,0.5481,nonsec,0.5101,nonsec,0.9071,nonsec,0.5343,nonsec,0.5073,nonsec,0.5322
+Is hardcoded object properties in the angular template perform better in browser when compared to having a pipe to read value,nonsec,nonsec,nonsec,0.5697,nonsec,0.8478,nonsec,0.9491,nonsec,0.5428,nonsec,0.8629,nonsec,0.9095,nonsec,0.5069,nonsec,0.5443,nonsec,0.5539
+Is this OAuth flow secure?,sec,sec,sec,0.5407,sec,0.683,sec,0.5508,sec,0.533,sec,0.853,sec,0.8751,sec,0.7044,sec,0.7392,sec,0.8072
+I have tried to run this file in html but give me that error uncaught-reference script-is-not-defined,nonsec,nonsec,nonsec,0.5123,sec,0.5343,nonsec,0.7461,nonsec,0.6206,nonsec,0.8446,nonsec,0.9464,nonsec,0.5111,nonsec,0.5337,nonsec,0.5652
+How can I find out which Cocoa classes and APIs are portable across MacOSX and IOS?,nonsec,nonsec,nonsec,0.575,nonsec,0.8661,nonsec,0.9503,nonsec,0.6198,nonsec,0.9368,nonsec,0.9519,nonsec,0.566,nonsec,0.5567,nonsec,0.6087
+Saving cookies via Python HTTP class,sec,nonsec,sec,0.5562,nonsec,0.7897,nonsec,0.6488,nonsec,0.5839,nonsec,0.7733,nonsec,0.954,nonsec,0.5094,nonsec,0.5447,nonsec,0.5243
+columns combinations incredibly slow dask,nonsec,nonsec,sec,0.5719,nonsec,0.8661,nonsec,0.7152,nonsec,0.5881,nonsec,0.8846,nonsec,0.9569,nonsec,0.5537,nonsec,0.5627,nonsec,0.5645
+How to speed up this for loop by replace the append function,nonsec,nonsec,nonsec,0.568,nonsec,0.964,nonsec,0.9823,nonsec,0.6088,nonsec,0.5311,nonsec,0.9366,nonsec,0.5487,sec,0.5433,sec,0.5167
+does List.remove() or List.removeAll() free memory usage?,nonsec,nonsec,nonsec,0.5186,nonsec,0.7476,nonsec,0.7554,nonsec,0.6283,nonsec,0.9141,nonsec,0.9573,nonsec,0.569,nonsec,0.5753,nonsec,0.6143
+Why isn't it using the index?,nonsec,nonsec,nonsec,0.5271,nonsec,0.88,nonsec,0.952,nonsec,0.5881,nonsec,0.8272,nonsec,0.9527,nonsec,0.5673,nonsec,0.5533,nonsec,0.5762
+(When) are parallel sorts practical and how do you write an efficient one?,nonsec,nonsec,nonsec,0.5336,nonsec,0.8257,nonsec,0.8779,nonsec,0.6484,nonsec,0.8565,nonsec,0.944,nonsec,0.5503,nonsec,0.5214,nonsec,0.5565
+Disable AWS S3 Management Console,sec,nonsec,nonsec,0.5355,nonsec,0.5766,nonsec,0.8244,nonsec,0.5992,nonsec,0.8704,nonsec,0.9539,nonsec,0.5178,nonsec,0.5371,nonsec,0.5685
+Should you request timeouts on locks in .NET?,nonsec,nonsec,sec,0.5693,nonsec,0.8733,nonsec,0.7956,nonsec,0.6332,nonsec,0.789,nonsec,0.9507,nonsec,0.5093,nonsec,0.5571,nonsec,0.5509
+For loop with while statement sticking on certain iterations,nonsec,nonsec,nonsec,0.5465,nonsec,0.8661,nonsec,0.9477,nonsec,0.605,nonsec,0.9346,nonsec,0.9459,nonsec,0.5693,nonsec,0.567,nonsec,0.5699
+What are the implications of leaving an expired certificate in the Java certificate store?,sec,nonsec,nonsec,0.5134,nonsec,0.9365,nonsec,0.9441,nonsec,0.6317,nonsec,0.7973,nonsec,0.9471,nonsec,0.5145,nonsec,0.5481,nonsec,0.5843
+Secure Node API for React Front End,sec,sec,sec,0.5443,nonsec,0.8648,nonsec,0.792,nonsec,0.5646,nonsec,0.8891,nonsec,0.9552,nonsec,0.5382,nonsec,0.5541,nonsec,0.5734
+Client access to Superglobals,sec,sec,sec,0.6216,sec,0.6679,sec,0.7352,sec,0.5508,sec,0.9091,sec,0.851,sec,0.6963,sec,0.7911,sec,0.8211
+Fibonacci: non-recursive vs memoized recursive puzzling timing results,nonsec,nonsec,sec,0.5509,nonsec,0.7597,nonsec,0.9177,nonsec,0.5994,nonsec,0.8199,nonsec,0.9532,nonsec,0.5711,nonsec,0.5537,nonsec,0.5716
+Rails Engines scalability issue,nonsec,nonsec,sec,0.515,nonsec,0.6075,nonsec,0.8123,nonsec,0.5881,nonsec,0.8269,nonsec,0.9531,nonsec,0.5641,nonsec,0.5677,nonsec,0.5822
+Is there a security concern in RxJS library?,sec,sec,nonsec,0.5856,nonsec,0.8273,nonsec,0.8446,nonsec,0.5881,nonsec,0.8524,nonsec,0.956,nonsec,0.601,nonsec,0.5607,nonsec,0.5394
+Unable to add ACE to SACl of Kernel Object using SetKernelObjectSecurity,sec,sec,nonsec,0.5099,sec,0.5865,sec,0.7757,nonsec,0.5368,sec,0.6884,sec,0.8657,sec,0.6599,sec,0.6935,sec,0.7355
+How to safely and securely interact with a Database from a WPF App,sec,sec,sec,0.5722,sec,0.7523,nonsec,0.7108,nonsec,0.5463,sec,0.8906,sec,0.8118,sec,0.6412,sec,0.7186,sec,0.7584
+Page Speed Insights and Measure Versus GT Metrix different results,nonsec,nonsec,sec,0.5749,nonsec,0.5197,nonsec,0.7074,nonsec,0.6419,nonsec,0.8941,nonsec,0.9182,nonsec,0.5483,nonsec,0.5549,nonsec,0.5401
+dense matrix vs sparse matrix in python,nonsec,nonsec,nonsec,0.5562,nonsec,0.7389,nonsec,0.8406,nonsec,0.5881,nonsec,0.8538,nonsec,0.9392,nonsec,0.5848,nonsec,0.5616,nonsec,0.5698
+How to find out max number of concurrent requests per second that server could handle in Jmeter,nonsec,nonsec,nonsec,0.5566,nonsec,0.9571,nonsec,0.8816,nonsec,0.5961,nonsec,0.8734,nonsec,0.9275,nonsec,0.5268,nonsec,0.5492,nonsec,0.5636
+Regex group optimization [duplicate],nonsec,nonsec,nonsec,0.5715,nonsec,0.7129,nonsec,0.9624,nonsec,0.5992,nonsec,0.8811,nonsec,0.9539,nonsec,0.5459,nonsec,0.5564,nonsec,0.5696
+shared object error when using binary on different machine,nonsec,nonsec,nonsec,0.5862,nonsec,0.7989,nonsec,0.9126,nonsec,0.6093,nonsec,0.9437,nonsec,0.9569,nonsec,0.544,nonsec,0.5546,nonsec,0.5464
+temperary shared parallelism (OMP) within distributed environment (MPI),nonsec,nonsec,sec,0.5969,nonsec,0.6016,nonsec,0.8036,nonsec,0.5881,nonsec,0.8417,nonsec,0.9018,nonsec,0.5719,nonsec,0.5624,nonsec,0.5703
+Qt GUI non responsive on Windows XP,nonsec,nonsec,nonsec,0.5086,nonsec,0.5986,nonsec,0.8807,nonsec,0.5881,nonsec,0.8227,nonsec,0.9392,nonsec,0.5146,nonsec,0.5593,nonsec,0.539
+Limitations of variable function name `##` syntax,nonsec,nonsec,nonsec,0.5143,nonsec,0.5427,nonsec,0.805,nonsec,0.5647,nonsec,0.8598,nonsec,0.9526,nonsec,0.583,nonsec,0.5606,nonsec,0.6027
+Python merge/join two dataframe by geometric condition,nonsec,nonsec,nonsec,0.5243,nonsec,0.8102,nonsec,0.9394,nonsec,0.6544,nonsec,0.8669,nonsec,0.9457,nonsec,0.5051,nonsec,0.5493,sec,0.5124
+Port existing sencha touch web app to ios native app,nonsec,nonsec,nonsec,0.5684,nonsec,0.795,nonsec,0.8479,nonsec,0.5881,nonsec,0.9035,nonsec,0.9484,nonsec,0.5617,nonsec,0.5632,nonsec,0.5741
+Is it ok to run the docker container as a non-root user but with sudo privileges?,sec,nonsec,nonsec,0.5289,nonsec,0.8467,nonsec,0.9107,nonsec,0.5858,nonsec,0.917,nonsec,0.9223,nonsec,0.5597,nonsec,0.5542,nonsec,0.5484
+Kubernetes single point of failure and load balancing,nonsec,nonsec,nonsec,0.5742,nonsec,0.6043,nonsec,0.6781,nonsec,0.5458,nonsec,0.6654,nonsec,0.9413,nonsec,0.5372,nonsec,0.5429,nonsec,0.5773
+Samba restrictions are stopping any mount,sec,nonsec,sec,0.5506,nonsec,0.529,nonsec,0.8048,nonsec,0.5992,nonsec,0.8868,nonsec,0.9537,nonsec,0.5387,nonsec,0.547,nonsec,0.5734
+What is the risk of data capture/leak from web extensions when we run this tool on webpage?,sec,nonsec,nonsec,0.67,nonsec,0.8467,nonsec,0.8383,nonsec,0.662,nonsec,0.8261,nonsec,0.9125,nonsec,0.5271,nonsec,0.5456,nonsec,0.5021
+Hide Request/Response header for get request from fiddler or other apps,sec,nonsec,sec,0.5024,nonsec,0.9419,nonsec,0.8183,nonsec,0.6461,nonsec,0.8623,nonsec,0.9427,sec,0.5043,nonsec,0.5524,nonsec,0.5654
+Docker. Mount check [closed],sec,nonsec,nonsec,0.5018,nonsec,0.5756,nonsec,0.713,nonsec,0.5881,nonsec,0.8389,nonsec,0.947,nonsec,0.5511,nonsec,0.5566,nonsec,0.5772
+Why is any (True for ... if cond) much faster than any (cond for ...)?,nonsec,nonsec,sec,0.5454,nonsec,0.8577,nonsec,0.7811,nonsec,0.5992,nonsec,0.9241,nonsec,0.952,nonsec,0.593,nonsec,0.5538,nonsec,0.5724
+Rate Limit Bot Traffic Using Fail2ban,sec,nonsec,nonsec,0.6398,nonsec,0.8326,nonsec,0.9703,nonsec,0.6001,nonsec,0.884,nonsec,0.9571,nonsec,0.5629,nonsec,0.5608,nonsec,0.5633
+ambiguity of complexity analysis of for loop containing O(1) operations,nonsec,nonsec,nonsec,0.5566,nonsec,0.796,nonsec,0.8741,nonsec,0.5703,nonsec,0.8041,nonsec,0.9381,nonsec,0.5391,nonsec,0.5592,nonsec,0.5761
+Do you really need secure random UUIDs?,sec,sec,sec,0.5563,sec,0.6291,nonsec,0.6368,sec,0.5113,sec,0.8336,sec,0.8689,sec,0.6878,sec,0.7109,sec,0.78
+Ideal performance with filtering generic collections in large Unity/C# game,nonsec,nonsec,nonsec,0.5003,nonsec,0.7661,nonsec,0.8253,nonsec,0.6345,nonsec,0.9336,nonsec,0.9277,nonsec,0.5544,nonsec,0.5457,nonsec,0.5522
+How much can we scale the data in Neo4j,nonsec,nonsec,nonsec,0.6398,nonsec,0.843,nonsec,0.9155,nonsec,0.6116,nonsec,0.922,nonsec,0.9375,nonsec,0.562,nonsec,0.5592,nonsec,0.5481
+Web Server Performance Degradation,nonsec,nonsec,nonsec,0.5457,nonsec,0.8578,nonsec,0.7124,nonsec,0.6195,nonsec,0.9073,nonsec,0.9573,nonsec,0.5882,nonsec,0.5576,nonsec,0.5779
+React Native - Native module vs JS performance,nonsec,nonsec,nonsec,0.5535,nonsec,0.9191,nonsec,0.8955,nonsec,0.64,nonsec,0.8981,nonsec,0.9565,nonsec,0.585,nonsec,0.5588,nonsec,0.5767
+Major GC decreasing performance,nonsec,nonsec,sec,0.5443,sec,0.5255,nonsec,0.7022,nonsec,0.6195,nonsec,0.8227,nonsec,0.9573,nonsec,0.5432,nonsec,0.5264,nonsec,0.5513
+Are statically compiled pure standard C++ programs portable provided running on the same architecture?,nonsec,nonsec,nonsec,0.5034,nonsec,0.5101,nonsec,0.7895,nonsec,0.5855,nonsec,0.6346,nonsec,0.9032,sec,0.5234,sec,0.515,nonsec,0.5579
+most efficient way to join array with separators in awk,nonsec,nonsec,nonsec,0.5572,nonsec,0.5514,nonsec,0.7676,nonsec,0.6319,nonsec,0.8901,nonsec,0.9417,sec,0.5006,nonsec,0.5629,nonsec,0.5409
+Merging parquet file with Spark,nonsec,nonsec,nonsec,0.5945,nonsec,0.8891,nonsec,0.9369,nonsec,0.6011,nonsec,0.9073,nonsec,0.9539,nonsec,0.5556,nonsec,0.5572,nonsec,0.5683
+Jumpy behavior while creating sticky header using css transform,nonsec,nonsec,sec,0.5076,nonsec,0.8912,nonsec,0.8606,nonsec,0.6301,nonsec,0.9174,nonsec,0.9514,nonsec,0.572,nonsec,0.5522,nonsec,0.5559
+How to add fault tolerance support to an existing MPI based system such that the system continues even after a machine goes down?,nonsec,nonsec,nonsec,0.5758,nonsec,0.891,nonsec,0.9491,nonsec,0.5649,nonsec,0.7778,nonsec,0.9454,nonsec,0.5786,nonsec,0.536,nonsec,0.5521
+How to efficiently send large String to java selenium textarea element,nonsec,nonsec,sec,0.5549,nonsec,0.785,nonsec,0.7743,nonsec,0.6071,nonsec,0.526,nonsec,0.8651,sec,0.5151,nonsec,0.5119,sec,0.5425
+Best way to manage code changes for application in Amazon EC2 with Auto Scaling,nonsec,nonsec,sec,0.5141,nonsec,0.8232,nonsec,0.8386,nonsec,0.6283,nonsec,0.9603,nonsec,0.9487,nonsec,0.5631,nonsec,0.564,nonsec,0.6118
+Creating x509 certificates programmatically in Objective-C using the CommonCrypto framework,sec,nonsec,nonsec,0.7391,nonsec,0.9202,nonsec,0.9865,nonsec,0.5881,nonsec,0.9276,nonsec,0.9539,nonsec,0.6018,nonsec,0.5612,nonsec,0.5598
+Using grep to find CRITICAL vulnerabilities in report file,sec,nonsec,nonsec,0.568,nonsec,0.8314,nonsec,0.8844,nonsec,0.5626,nonsec,0.8449,nonsec,0.8939,nonsec,0.5386,nonsec,0.5395,nonsec,0.5398
+Using AccessCHK with pipe,sec,sec,sec,0.5391,nonsec,0.6548,nonsec,0.6881,nonsec,0.5879,nonsec,0.7212,nonsec,0.9083,sec,0.5288,nonsec,0.5196,nonsec,0.5386
+Azure storage queue triggered Azure function High Availability,nonsec,nonsec,sec,0.5046,nonsec,0.9844,nonsec,0.8799,nonsec,0.5665,nonsec,0.8564,nonsec,0.9539,nonsec,0.574,nonsec,0.5635,nonsec,0.5941
+How to resolve CORS policy Error with 'Access-Control-Allow-Credentials' header in the response?,sec,sec,sec,0.6497,sec,0.709,sec,0.7872,sec,0.5046,sec,0.9207,sec,0.8972,sec,0.6524,sec,0.771,sec,0.7884
+Why does C# use late binding on a COM interface despite referencing a type library?,nonsec,nonsec,sec,0.5956,nonsec,0.5436,sec,0.5236,nonsec,0.6005,nonsec,0.8538,nonsec,0.9524,nonsec,0.5175,nonsec,0.5517,nonsec,0.5507
+ReactJS - Updating the state causes lag,nonsec,nonsec,nonsec,0.5962,nonsec,0.6669,nonsec,0.9401,nonsec,0.5292,nonsec,0.8811,nonsec,0.8685,nonsec,0.5511,nonsec,0.5588,nonsec,0.5892
+Efficient numpy slicing of a large 3D array,nonsec,nonsec,nonsec,0.5363,nonsec,0.6129,nonsec,0.7861,nonsec,0.5881,nonsec,0.8668,nonsec,0.9457,nonsec,0.5349,nonsec,0.546,nonsec,0.5364
+Simplest solution for high availability of SQL server 2008?,nonsec,nonsec,nonsec,0.5578,nonsec,0.8192,nonsec,0.879,nonsec,0.5985,nonsec,0.8827,nonsec,0.917,nonsec,0.5805,nonsec,0.5606,nonsec,0.5242
+How to port dirent.h usage from gcc to Windows compiler,nonsec,nonsec,nonsec,0.6146,nonsec,0.9368,nonsec,0.8097,nonsec,0.6269,nonsec,0.8683,nonsec,0.9364,nonsec,0.5449,nonsec,0.554,nonsec,0.5498
+Multi Availability Zone VIP in AWS,nonsec,nonsec,nonsec,0.5734,nonsec,0.8755,nonsec,0.9482,nonsec,0.5467,nonsec,0.8471,nonsec,0.9189,nonsec,0.5551,nonsec,0.5606,nonsec,0.569
+Why is `twisted.web.client` taking 66 times longer than `requests.post`,nonsec,nonsec,nonsec,0.5667,nonsec,0.942,nonsec,0.8463,nonsec,0.5875,nonsec,0.773,nonsec,0.9545,nonsec,0.5152,nonsec,0.5231,nonsec,0.5402
+Should I use Resharper to tidy up other peoples code?,nonsec,nonsec,nonsec,0.5344,nonsec,0.7064,nonsec,0.7043,nonsec,0.6118,nonsec,0.8993,nonsec,0.9573,nonsec,0.5508,nonsec,0.5498,nonsec,0.5486
+How to mitigate Log4j Security Vulnerability (CVE-2021-45105) without upgrading,sec,sec,sec,0.6053,sec,0.8096,sec,0.5626,sec,0.5359,sec,0.8024,sec,0.8583,sec,0.6778,sec,0.6873,sec,0.7808
+How to handle loadbalancing in Solr?,nonsec,nonsec,nonsec,0.5359,nonsec,0.7234,nonsec,0.9419,nonsec,0.5477,sec,0.5418,nonsec,0.9512,nonsec,0.5478,nonsec,0.5391,nonsec,0.5646
+Database normalization design - single or multiple tables,nonsec,nonsec,nonsec,0.5016,nonsec,0.6797,nonsec,0.7314,nonsec,0.5222,nonsec,0.8179,nonsec,0.9432,nonsec,0.557,nonsec,0.5557,nonsec,0.5777
+Is there a way to minimize my time during large file read in c++?,nonsec,nonsec,sec,0.5446,nonsec,0.59,nonsec,0.6642,nonsec,0.5788,nonsec,0.8642,nonsec,0.9467,nonsec,0.527,nonsec,0.5518,nonsec,0.5436
+Improve and speed up code to determine large number of combinations,nonsec,nonsec,nonsec,0.6026,nonsec,0.9755,nonsec,0.9112,nonsec,0.5613,nonsec,0.9485,nonsec,0.9156,nonsec,0.5472,nonsec,0.5551,nonsec,0.5767
+Jmeter - extract different rows from csv for every thread for every iteration,nonsec,nonsec,nonsec,0.5365,nonsec,0.6205,sec,0.5088,nonsec,0.6274,nonsec,0.8875,nonsec,0.9485,nonsec,0.5298,nonsec,0.5528,nonsec,0.5505
+FirebaseFirestore - is there a rule or a way to authorize only my web app to read from database? [duplicate],sec,sec,nonsec,0.5432,sec,0.5742,sec,0.9228,nonsec,0.551,sec,0.8121,sec,0.8451,sec,0.669,sec,0.7581,sec,0.7493
+.NET Fault tolerant StateServer,nonsec,nonsec,sec,0.5147,nonsec,0.7956,nonsec,0.8554,nonsec,0.5512,nonsec,0.8097,nonsec,0.9284,nonsec,0.5412,nonsec,0.5574,nonsec,0.5545
+How to run Dart Editor without firewall privileges?,nonsec,nonsec,nonsec,0.6048,nonsec,0.7951,nonsec,0.932,nonsec,0.5847,nonsec,0.82,nonsec,0.944,nonsec,0.5718,nonsec,0.5621,nonsec,0.5392
+PHP5 + MongoDB 2.6 + PHP driver 1.5.1 - C10k Apache worker/prefork,nonsec,nonsec,nonsec,0.5382,nonsec,0.8381,nonsec,0.8762,nonsec,0.5849,nonsec,0.9009,nonsec,0.9544,nonsec,0.5413,nonsec,0.5507,nonsec,0.5633
+How to lazy load div elements when comes into viewport in angular?,nonsec,nonsec,sec,0.5518,nonsec,0.5848,nonsec,0.7506,nonsec,0.6159,nonsec,0.8801,nonsec,0.9411,sec,0.5014,nonsec,0.5632,nonsec,0.5283
+GWT - Ensure SQL password is never handed to the client,sec,sec,nonsec,0.5266,nonsec,0.9762,nonsec,0.9439,nonsec,0.6772,nonsec,0.8672,nonsec,0.9573,nonsec,0.5108,nonsec,0.55,sec,0.5074
+How to test the performance impact of a single script on a website?,nonsec,nonsec,nonsec,0.5218,nonsec,0.7925,nonsec,0.9035,nonsec,0.5308,nonsec,0.6446,nonsec,0.9315,nonsec,0.5238,nonsec,0.5499,nonsec,0.5262
+Which way is the most efficient to define a empty String in Swift?,nonsec,nonsec,nonsec,0.6291,nonsec,0.9147,nonsec,0.9569,nonsec,0.6193,nonsec,0.8962,nonsec,0.9475,nonsec,0.5412,nonsec,0.5649,nonsec,0.5833
+How to optimize checking for boundaries in regular expression?,nonsec,nonsec,nonsec,0.6334,nonsec,0.8913,nonsec,0.9291,nonsec,0.5866,nonsec,0.7944,nonsec,0.9344,nonsec,0.5691,nonsec,0.5639,nonsec,0.5905
+Should I use db.collection.distinct()?,nonsec,nonsec,sec,0.5226,nonsec,0.5708,nonsec,0.6498,nonsec,0.6118,nonsec,0.5648,nonsec,0.9543,nonsec,0.5204,nonsec,0.5433,nonsec,0.5821
+Conditional-compilation vs run-time checks for client-specific customization?,nonsec,nonsec,nonsec,0.5485,nonsec,0.8537,nonsec,0.7636,nonsec,0.5789,nonsec,0.9112,nonsec,0.9482,nonsec,0.5127,nonsec,0.5642,nonsec,0.5431
+How to find out which hook has changed with the help of hook number/index displayed in FlameGraph,nonsec,nonsec,nonsec,0.5343,nonsec,0.768,nonsec,0.9486,nonsec,0.6083,nonsec,0.9272,nonsec,0.9305,nonsec,0.5559,nonsec,0.5481,nonsec,0.6263
+Pime and Probe vs Evict and Reload,sec,nonsec,nonsec,0.5026,sec,0.518,nonsec,0.8883,nonsec,0.5801,nonsec,0.7398,nonsec,0.9526,nonsec,0.5284,nonsec,0.541,nonsec,0.5833
+Poor performance when migrating from AWS to Azure,nonsec,nonsec,nonsec,0.6927,nonsec,0.8158,nonsec,0.9494,nonsec,0.664,nonsec,0.9065,nonsec,0.9573,nonsec,0.5694,nonsec,0.5573,nonsec,0.5637
+how can i edit something in gpedit.msc with cmd/batchscript,sec,nonsec,sec,0.5368,nonsec,0.9025,nonsec,0.8841,nonsec,0.6549,nonsec,0.8898,nonsec,0.9565,nonsec,0.5484,nonsec,0.551,nonsec,0.5651
+Azure HSTS security on ports 454 and 455,sec,sec,sec,0.5404,sec,0.822,nonsec,0.5523,nonsec,0.5223,sec,0.849,sec,0.8098,sec,0.6715,sec,0.7274,sec,0.8027
+How to write maintainable merge() method?,nonsec,nonsec,nonsec,0.6379,nonsec,0.7516,nonsec,0.9319,nonsec,0.6139,nonsec,0.7514,nonsec,0.9442,nonsec,0.5731,nonsec,0.5592,nonsec,0.5899
+How does I/O work in Akka?,nonsec,nonsec,nonsec,0.5038,nonsec,0.8943,nonsec,0.8638,nonsec,0.6006,nonsec,0.894,nonsec,0.9506,nonsec,0.5692,nonsec,0.5632,nonsec,0.5667
+Is it possible to get the unsigned integer quotient and remained at once in C?,nonsec,nonsec,nonsec,0.5214,nonsec,0.8982,nonsec,0.5528,nonsec,0.519,nonsec,0.7016,nonsec,0.883,nonsec,0.5575,nonsec,0.5616,nonsec,0.5112
+efficiently reading digit matrix without delimiter in python,nonsec,nonsec,nonsec,0.5959,nonsec,0.7032,nonsec,0.9176,nonsec,0.5881,nonsec,0.8639,nonsec,0.9506,nonsec,0.5668,nonsec,0.5509,nonsec,0.5236
+How should I structure this data in my database?,nonsec,nonsec,nonsec,0.5973,nonsec,0.8516,nonsec,0.9127,nonsec,0.5306,nonsec,0.7993,nonsec,0.9241,nonsec,0.5384,nonsec,0.5606,nonsec,0.5658
+Improving efficiency/speed in for loop,nonsec,nonsec,nonsec,0.5239,nonsec,0.8894,nonsec,0.9094,nonsec,0.5627,nonsec,0.8187,nonsec,0.9257,nonsec,0.5531,nonsec,0.5605,nonsec,0.5478
+Securing NodeJS RESTful API and React client app,sec,sec,sec,0.5033,sec,0.5494,nonsec,0.7317,sec,0.5188,sec,0.7887,sec,0.8034,sec,0.6375,sec,0.7398,sec,0.723
+Is this a good Silverlight startup strategy?,nonsec,nonsec,nonsec,0.5069,nonsec,0.5655,nonsec,0.5309,nonsec,0.5958,nonsec,0.8269,nonsec,0.9454,nonsec,0.504,nonsec,0.5534,nonsec,0.5814
+How to scale an application with tomcat and stateless j2ee architecture with spring mvc?,nonsec,nonsec,nonsec,0.5682,nonsec,0.9647,nonsec,0.9401,nonsec,0.6612,nonsec,0.9025,nonsec,0.9501,nonsec,0.5226,nonsec,0.5563,nonsec,0.5533
+Scalable Node.js application architecture,nonsec,nonsec,sec,0.5142,nonsec,0.8576,nonsec,0.7858,nonsec,0.5881,nonsec,0.8332,nonsec,0.9432,nonsec,0.5732,nonsec,0.5471,nonsec,0.6032
+Can I make an application made as a C# Windows Application developed in Visual Studio 2012 as a portable application?,nonsec,nonsec,nonsec,0.6031,nonsec,0.7086,nonsec,0.8227,nonsec,0.5964,nonsec,0.9157,nonsec,0.9225,sec,0.5073,nonsec,0.5495,nonsec,0.5799
+Most efficient way to use resample on groupby with start and end datetime while preserving certain columns - and calculate statistics after that,nonsec,nonsec,sec,0.5013,nonsec,0.9431,nonsec,0.8844,nonsec,0.6297,nonsec,0.8669,nonsec,0.9486,nonsec,0.5398,nonsec,0.5403,nonsec,0.5582
+Delegating a portable library's functionality to the user interface,nonsec,nonsec,nonsec,0.5747,nonsec,0.8163,nonsec,0.9464,nonsec,0.601,nonsec,0.8805,nonsec,0.9527,nonsec,0.5739,nonsec,0.5569,nonsec,0.6027
+setTimeout() Irregular Execution Behaviour [duplicate],nonsec,nonsec,sec,0.5568,sec,0.7095,nonsec,0.6976,nonsec,0.5881,nonsec,0.9042,nonsec,0.952,nonsec,0.5502,nonsec,0.5528,nonsec,0.566
+Make relational data unreadable to developers with credentials,sec,nonsec,nonsec,0.5254,nonsec,0.5578,nonsec,0.8156,nonsec,0.6228,nonsec,0.9305,nonsec,0.9081,nonsec,0.5127,nonsec,0.551,nonsec,0.5238
+Searching for a substring in a list of a billion unique strings,nonsec,nonsec,nonsec,0.5421,nonsec,0.8165,nonsec,0.8284,nonsec,0.6242,nonsec,0.8496,nonsec,0.9435,nonsec,0.532,nonsec,0.5583,nonsec,0.5599
+SQLite query planner not using the best (covering) index,nonsec,nonsec,nonsec,0.5397,nonsec,0.8022,nonsec,0.9614,nonsec,0.5971,nonsec,0.5974,nonsec,0.9512,nonsec,0.5456,nonsec,0.5512,nonsec,0.554
+Compare two sheets and highlight differences on each sheet - is looping the only way?,nonsec,nonsec,sec,0.5213,nonsec,0.8339,nonsec,0.8243,nonsec,0.526,nonsec,0.8383,nonsec,0.9203,nonsec,0.5103,nonsec,0.5663,nonsec,0.5688
+Searching numerous very large (50GB+) txt files for text matching [closed],nonsec,nonsec,sec,0.512,nonsec,0.9041,nonsec,0.7778,nonsec,0.6059,nonsec,0.8954,nonsec,0.8194,nonsec,0.5267,nonsec,0.5473,nonsec,0.5195
+How Can I make portable xampp project,nonsec,nonsec,sec,0.5153,nonsec,0.6677,nonsec,0.7789,nonsec,0.5988,nonsec,0.8843,nonsec,0.9564,nonsec,0.5311,nonsec,0.5493,nonsec,0.5651
+Angular against XSS,sec,nonsec,nonsec,0.5239,nonsec,0.7209,nonsec,0.8429,nonsec,0.5881,nonsec,0.8545,nonsec,0.954,nonsec,0.5822,nonsec,0.5639,nonsec,0.5659
+What does it take to scale Django? [closed],nonsec,nonsec,nonsec,0.5945,nonsec,0.8875,nonsec,0.9197,nonsec,0.6115,nonsec,0.8976,nonsec,0.9528,nonsec,0.5438,nonsec,0.5481,nonsec,0.5661
+Improve Postgres performance,nonsec,nonsec,nonsec,0.5239,nonsec,0.8748,nonsec,0.8687,nonsec,0.6195,nonsec,0.8811,nonsec,0.9573,nonsec,0.5972,nonsec,0.5623,nonsec,0.5842
+Error in exporting json file with one query from mongoexport,nonsec,nonsec,sec,0.5135,nonsec,0.622,nonsec,0.6334,nonsec,0.6213,sec,0.5264,nonsec,0.9161,sec,0.5146,sec,0.5086,nonsec,0.5355
+How bad is unprivileged_userns_clone option for systems security?,sec,sec,sec,0.5372,nonsec,0.7216,nonsec,0.7225,nonsec,0.5997,nonsec,0.8353,nonsec,0.8843,nonsec,0.5583,nonsec,0.5573,nonsec,0.5255
+Portable Python 2.7.3.2 PyScripter,nonsec,nonsec,nonsec,0.5112,nonsec,0.659,nonsec,0.8533,nonsec,0.5881,nonsec,0.8358,nonsec,0.9573,nonsec,0.582,nonsec,0.5556,nonsec,0.5875
+Postgresql - Split one big and often updated table into two for performance [migrated],nonsec,nonsec,sec,0.5246,nonsec,0.777,nonsec,0.8425,nonsec,0.6379,nonsec,0.5609,nonsec,0.9323,sec,0.53,nonsec,0.5208,nonsec,0.5562
+MapReduce or a batch job?,nonsec,nonsec,sec,0.5501,nonsec,0.6028,nonsec,0.7249,nonsec,0.5978,nonsec,0.8607,nonsec,0.9343,nonsec,0.5369,nonsec,0.5406,nonsec,0.5765
+Is there a scalability issue in having a one-to-many relationship between participants and conversation?,nonsec,nonsec,nonsec,0.6113,nonsec,0.8909,nonsec,0.923,nonsec,0.5974,nonsec,0.8348,nonsec,0.9376,nonsec,0.5349,nonsec,0.5299,nonsec,0.5325
+How to convert unix epoch time to datetime with timezone in pandas,nonsec,nonsec,nonsec,0.568,nonsec,0.8927,nonsec,0.9047,nonsec,0.5865,nonsec,0.8922,nonsec,0.9447,nonsec,0.5273,nonsec,0.5619,nonsec,0.544
+The same AVX instruction set code has a huge performance gap between Intel Core and AMD Ryzen,nonsec,nonsec,nonsec,0.7132,nonsec,0.7452,nonsec,0.9166,nonsec,0.6133,nonsec,0.8814,nonsec,0.9399,nonsec,0.5451,nonsec,0.5569,nonsec,0.6002
+Measuring time taken by a function to execute for runtime analysis [closed],nonsec,nonsec,nonsec,0.5312,nonsec,0.7956,nonsec,0.9185,nonsec,0.6074,nonsec,0.8304,nonsec,0.9329,sec,0.5439,nonsec,0.5552,nonsec,0.5274
+Delphi: Maintainability Virtual vs Virtual Abstract,nonsec,nonsec,nonsec,0.5715,nonsec,0.7006,nonsec,0.9588,nonsec,0.5881,nonsec,0.8739,nonsec,0.9042,nonsec,0.5291,nonsec,0.5646,nonsec,0.566
+Running out of memory while joining csv files with pandas,nonsec,nonsec,sec,0.5083,nonsec,0.907,nonsec,0.8115,nonsec,0.6144,nonsec,0.8559,nonsec,0.9476,nonsec,0.568,nonsec,0.5692,nonsec,0.5753
+DDOS in Cloud Run,sec,nonsec,sec,0.5821,nonsec,0.6578,nonsec,0.8745,nonsec,0.5839,nonsec,0.8567,nonsec,0.9452,nonsec,0.5104,nonsec,0.5551,nonsec,0.5499
+Best practice for storing external API secrets in server using AWS?,sec,nonsec,nonsec,0.5071,nonsec,0.9375,nonsec,0.8401,nonsec,0.5769,nonsec,0.9013,nonsec,0.9537,nonsec,0.5703,nonsec,0.5493,nonsec,0.592
+Memcached Fault-Tolerance and failover property,nonsec,nonsec,nonsec,0.5863,nonsec,0.6545,nonsec,0.8389,nonsec,0.5792,nonsec,0.8824,nonsec,0.9313,nonsec,0.547,nonsec,0.5556,nonsec,0.5588
+Is there a better way to remove parts with consecutive zeros that have length equal or above threshold?,nonsec,nonsec,nonsec,0.5215,nonsec,0.9615,nonsec,0.8143,nonsec,0.6045,nonsec,0.9472,nonsec,0.9389,nonsec,0.5172,nonsec,0.5308,nonsec,0.558
+TLS/SSL RABBIT MQ (Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..),sec,nonsec,nonsec,0.5639,nonsec,0.8457,nonsec,0.9695,nonsec,0.6836,nonsec,0.9408,nonsec,0.9405,nonsec,0.5359,nonsec,0.5591,nonsec,0.5819
+Scaling the maxPoolSize using ThreadPoolExecutor; Why the pool does not increases dynamically its size?,nonsec,nonsec,sec,0.5039,nonsec,0.8008,nonsec,0.9059,nonsec,0.5773,nonsec,0.6962,nonsec,0.8881,nonsec,0.536,nonsec,0.529,nonsec,0.5583
+Best practice to prevent sharing page url,sec,nonsec,nonsec,0.5915,nonsec,0.7881,nonsec,0.9178,nonsec,0.6006,nonsec,0.9376,nonsec,0.9445,nonsec,0.5178,nonsec,0.5593,nonsec,0.585
+Returning NACKed requests in RabbitMQ work queues,nonsec,nonsec,sec,0.538,nonsec,0.888,nonsec,0.8099,nonsec,0.6011,nonsec,0.803,nonsec,0.9573,nonsec,0.5613,nonsec,0.5552,nonsec,0.5359
+Vue Lazy Loading banners,nonsec,nonsec,nonsec,0.6303,nonsec,0.7772,nonsec,0.9588,nonsec,0.6342,nonsec,0.8962,nonsec,0.9573,nonsec,0.5758,nonsec,0.5565,nonsec,0.5223
+how to load the license for validation using portable.Licensing,nonsec,nonsec,nonsec,0.6805,nonsec,0.894,nonsec,0.9823,nonsec,0.5561,nonsec,0.9169,nonsec,0.9409,nonsec,0.5549,nonsec,0.5605,nonsec,0.6138
+openstack overkill for HA website stack?,nonsec,nonsec,sec,0.6074,nonsec,0.7643,nonsec,0.5317,nonsec,0.6005,nonsec,0.8568,nonsec,0.9562,nonsec,0.531,nonsec,0.5503,nonsec,0.5842
+Could not initialize corosync configuration API error 12,nonsec,nonsec,nonsec,0.5532,nonsec,0.6886,nonsec,0.8613,nonsec,0.5436,nonsec,0.8901,nonsec,0.9534,nonsec,0.5546,nonsec,0.5576,nonsec,0.5842
+Faster way to check can image be open?,nonsec,nonsec,nonsec,0.6761,nonsec,0.7205,nonsec,0.9338,nonsec,0.6443,nonsec,0.8761,nonsec,0.9518,nonsec,0.5519,nonsec,0.5634,nonsec,0.5822
+How to determine if 2 paths reference the same file in portable C++,nonsec,nonsec,nonsec,0.5389,nonsec,0.9301,nonsec,0.9343,nonsec,0.5842,nonsec,0.7631,nonsec,0.9315,nonsec,0.5165,nonsec,0.5413,nonsec,0.5819
+Using memset() on struct which contains a floating point number,nonsec,nonsec,sec,0.6053,nonsec,0.6085,nonsec,0.6947,nonsec,0.5748,nonsec,0.8074,nonsec,0.9044,sec,0.5478,nonsec,0.5376,nonsec,0.5403
+Symfony: Retrieve user from a different firewall than the firewall being used in the current request,sec,nonsec,nonsec,0.5025,nonsec,0.8469,nonsec,0.9156,nonsec,0.6448,nonsec,0.9198,nonsec,0.9573,sec,0.5069,nonsec,0.5659,nonsec,0.5033
+can't calculate document.body.pageYOffset when using overflow-x: hidden in my css,nonsec,nonsec,nonsec,0.5638,nonsec,0.69,nonsec,0.915,nonsec,0.5646,nonsec,0.9051,nonsec,0.9484,nonsec,0.5231,nonsec,0.5644,nonsec,0.5744
+Cannot login using listener name on secondary server after failover,nonsec,sec,nonsec,0.5084,nonsec,0.9367,nonsec,0.81,nonsec,0.5483,nonsec,0.8889,nonsec,0.8959,nonsec,0.5544,nonsec,0.5534,nonsec,0.5586
+Flutter - performance drop (jank) with too many Stack children,nonsec,nonsec,nonsec,0.5877,nonsec,0.8406,nonsec,0.9398,nonsec,0.6618,nonsec,0.9124,nonsec,0.9444,nonsec,0.5641,nonsec,0.5444,nonsec,0.5712
+Parallelizing a 1D matrix multiplication using OpenMP,nonsec,nonsec,sec,0.5868,sec,0.5773,nonsec,0.7123,nonsec,0.5881,nonsec,0.8063,nonsec,0.9557,sec,0.5085,nonsec,0.5614,sec,0.5261
+Overhead of iterating over list in Java,nonsec,nonsec,nonsec,0.5744,nonsec,0.6849,nonsec,0.9539,nonsec,0.5881,nonsec,0.8691,nonsec,0.9525,nonsec,0.5904,nonsec,0.5641,nonsec,0.6165
+How to create a program that pulls the changelog of os changes live to mirror file,sec,nonsec,nonsec,0.5987,nonsec,0.8606,nonsec,0.9572,nonsec,0.5507,nonsec,0.7755,nonsec,0.9304,nonsec,0.5274,nonsec,0.5533,nonsec,0.5404
+Python: Element-wise multiplication of 3d with 3d arrays,nonsec,nonsec,nonsec,0.5952,nonsec,0.8595,nonsec,0.8496,nonsec,0.5671,nonsec,0.9076,nonsec,0.9525,nonsec,0.5135,nonsec,0.567,nonsec,0.5859
+Able to access an API without having any values in Header part of JWT Access Token,sec,sec,sec,0.6172,nonsec,0.6596,nonsec,0.6313,nonsec,0.6378,nonsec,0.7709,nonsec,0.9034,sec,0.5457,sec,0.5092,nonsec,0.5059
+Too much time on a request making calls to https://dc.services.visualstudio.com/v2/track,nonsec,nonsec,nonsec,0.6552,nonsec,0.8307,nonsec,0.9476,nonsec,0.6753,nonsec,0.9279,nonsec,0.9524,nonsec,0.5454,nonsec,0.5391,nonsec,0.5398
+Oracle Update Query Data masking for column,sec,nonsec,nonsec,0.5025,nonsec,0.9053,nonsec,0.7173,nonsec,0.5789,nonsec,0.8374,nonsec,0.8818,nonsec,0.5287,nonsec,0.5482,nonsec,0.5682
+Time complexity of while loop until list is empty?,nonsec,nonsec,nonsec,0.5274,nonsec,0.8167,nonsec,0.7825,nonsec,0.5389,nonsec,0.832,nonsec,0.9445,nonsec,0.5318,nonsec,0.5538,nonsec,0.5545
+Julia - Speed up String to Date or DateTime conversion,nonsec,nonsec,nonsec,0.5444,nonsec,0.5957,nonsec,0.8665,nonsec,0.5917,nonsec,0.9044,nonsec,0.9491,nonsec,0.5373,nonsec,0.5603,nonsec,0.5826
+Performance : Vector vs ArrayBuffer vs Array,nonsec,nonsec,sec,0.5023,nonsec,0.591,nonsec,0.7082,nonsec,0.6161,nonsec,0.7886,nonsec,0.9512,nonsec,0.5384,nonsec,0.5587,nonsec,0.5624
+AFRAME three.js performance improvement,nonsec,nonsec,sec,0.5333,nonsec,0.7902,nonsec,0.8087,nonsec,0.64,nonsec,0.8227,nonsec,0.9571,nonsec,0.5913,nonsec,0.5602,nonsec,0.5755
+c# .net core read appsettings.json with ConfigurationBuilder class performance problem,nonsec,nonsec,nonsec,0.5765,nonsec,0.6351,nonsec,0.7087,nonsec,0.653,nonsec,0.8339,nonsec,0.9514,nonsec,0.5604,nonsec,0.5507,nonsec,0.5097
+How to understand checkpoint in Flink correctly,nonsec,nonsec,nonsec,0.6048,nonsec,0.6978,nonsec,0.9319,nonsec,0.5847,nonsec,0.7926,nonsec,0.9512,nonsec,0.5443,nonsec,0.5645,nonsec,0.5842
+How to get performance of Eigen Matrix operator+ in C++,nonsec,nonsec,nonsec,0.5541,nonsec,0.7081,nonsec,0.7623,nonsec,0.6671,nonsec,0.8157,nonsec,0.9501,nonsec,0.5319,nonsec,0.5582,nonsec,0.5509
+Sync two PostgreSQL databases over two different DataCenters,nonsec,nonsec,nonsec,0.5579,nonsec,0.8256,nonsec,0.9047,nonsec,0.5881,nonsec,0.8539,nonsec,0.9573,nonsec,0.5385,nonsec,0.5561,nonsec,0.5686
+How do I bypass plaid iframe with Cypress.io?,nonsec,nonsec,sec,0.5283,nonsec,0.7052,nonsec,0.9053,nonsec,0.6192,nonsec,0.7455,nonsec,0.9183,nonsec,0.5144,sec,0.5217,nonsec,0.5461
+Is there ever a scenario in which the VI protocol would be preferable to the MSI protocol?,nonsec,nonsec,nonsec,0.6918,nonsec,0.9651,nonsec,0.9503,nonsec,0.6011,nonsec,0.9303,nonsec,0.9549,nonsec,0.5633,nonsec,0.5563,nonsec,0.5874
+How to Set Eclipse Workspace to Current Directory in Windows,nonsec,nonsec,nonsec,0.5688,nonsec,0.8337,nonsec,0.9239,nonsec,0.5695,nonsec,0.8972,nonsec,0.9291,nonsec,0.5429,nonsec,0.558,nonsec,0.5744
+High Availability ASP.Net MVC on Azure Web App throwing 500 Internal Server Error,nonsec,nonsec,sec,0.5394,nonsec,0.8732,nonsec,0.7594,nonsec,0.644,nonsec,0.6817,nonsec,0.9534,nonsec,0.5687,nonsec,0.5462,nonsec,0.5699
+Token Storage Problems Symfony 5 Custom Login Authenticator,sec,sec,sec,0.5618,nonsec,0.5019,nonsec,0.5581,sec,0.5685,sec,0.6552,sec,0.9221,sec,0.6899,sec,0.7139,sec,0.7883
+How to remove the PUT and DELETE methods from the Allow header on Tomcat,sec,nonsec,nonsec,0.5735,nonsec,0.9878,nonsec,0.985,nonsec,0.6098,nonsec,0.893,nonsec,0.9086,nonsec,0.5453,nonsec,0.5574,nonsec,0.5688
+Why no <string.h> in getopt library?,nonsec,nonsec,nonsec,0.5174,nonsec,0.7725,nonsec,0.9096,nonsec,0.5881,nonsec,0.8041,nonsec,0.9573,nonsec,0.5359,nonsec,0.5602,nonsec,0.5811
+how to block anyone from requesting a url and with another user's cookie,sec,nonsec,nonsec,0.5413,nonsec,0.8552,nonsec,0.7,nonsec,0.6433,nonsec,0.8986,nonsec,0.9427,nonsec,0.5385,nonsec,0.5513,nonsec,0.5636
+How to set element of array to zero by index in cuda?,nonsec,nonsec,nonsec,0.5942,nonsec,0.8695,nonsec,0.9224,nonsec,0.6198,nonsec,0.9058,nonsec,0.9345,nonsec,0.535,nonsec,0.5586,nonsec,0.5676
+Define relative path in java eclipse?,nonsec,nonsec,nonsec,0.5162,nonsec,0.9055,nonsec,0.9294,nonsec,0.5515,nonsec,0.8836,nonsec,0.9373,nonsec,0.5641,nonsec,0.5648,nonsec,0.6001
+Is there any way to hide encryption key or algorythm in php?,sec,sec,nonsec,0.5041,sec,0.5403,sec,0.9289,sec,0.5439,sec,0.6558,sec,0.8301,sec,0.6684,sec,0.7518,sec,0.7851
+Good language to learn? [closed],nonsec,nonsec,nonsec,0.584,nonsec,0.6939,nonsec,0.8156,nonsec,0.5583,nonsec,0.8036,nonsec,0.9306,nonsec,0.545,nonsec,0.5255,nonsec,0.5765
+MPI : Sending and receiving dynamically allocated sub-matrix,nonsec,nonsec,sec,0.5074,nonsec,0.5331,nonsec,0.6742,nonsec,0.6194,nonsec,0.7444,nonsec,0.9456,nonsec,0.5332,nonsec,0.5477,nonsec,0.6091
+Android app slow to start (1s lost before layout inflation),nonsec,nonsec,nonsec,0.5276,nonsec,0.8376,nonsec,0.8845,nonsec,0.5991,nonsec,0.8955,nonsec,0.9532,nonsec,0.5819,nonsec,0.5405,nonsec,0.5225
+Target specific Azure Web App Instance with Header instead of a Cookie,nonsec,nonsec,sec,0.5087,sec,0.612,nonsec,0.5391,nonsec,0.594,nonsec,0.8876,nonsec,0.9336,sec,0.5158,nonsec,0.5446,nonsec,0.5725
+How to exchange a number between two processes securely,sec,sec,sec,0.6148,sec,0.7905,sec,0.5657,sec,0.536,sec,0.8559,sec,0.8475,sec,0.6581,sec,0.7341,sec,0.7853
+how to find the name of the main activity of an mobile application?,sec,nonsec,sec,0.5599,nonsec,0.938,nonsec,0.6003,nonsec,0.5561,nonsec,0.8745,nonsec,0.9281,nonsec,0.5471,nonsec,0.5619,nonsec,0.5962
+Prevent Other Apps from Getting My App's Package Name and Name [closed],sec,nonsec,sec,0.504,nonsec,0.6538,nonsec,0.78,nonsec,0.6365,nonsec,0.9438,nonsec,0.9186,nonsec,0.5446,nonsec,0.5498,nonsec,0.5708
+Data security during dynamic memory allocation,sec,sec,sec,0.5158,sec,0.828,sec,0.5293,sec,0.5205,sec,0.8491,sec,0.8472,sec,0.6737,sec,0.7284,sec,0.7573
+When to quantify ignored pattern match in the C sscanf function,nonsec,nonsec,nonsec,0.5868,nonsec,0.8595,nonsec,0.9599,nonsec,0.63,nonsec,0.9236,nonsec,0.8862,nonsec,0.5762,nonsec,0.5742,nonsec,0.5326
+Technology stack for Highly Scalable REST Web Service implementation,nonsec,nonsec,sec,0.5426,nonsec,0.874,nonsec,0.7244,nonsec,0.5881,nonsec,0.8064,nonsec,0.9481,nonsec,0.5604,nonsec,0.5475,nonsec,0.5608
+perf results show a lot of finish_task_switch and seems inconsistent with atop results,nonsec,nonsec,nonsec,0.5351,nonsec,0.8515,nonsec,0.8449,nonsec,0.5834,nonsec,0.8594,nonsec,0.9519,nonsec,0.5235,nonsec,0.5486,nonsec,0.5565
+Portable C++ multithreading,nonsec,nonsec,nonsec,0.5389,nonsec,0.6443,nonsec,0.8705,nonsec,0.5881,nonsec,0.8904,nonsec,0.9456,nonsec,0.5651,nonsec,0.5588,nonsec,0.5847
+OS Command Injection (CWE ID 78) (1 flaw) Java code,sec,nonsec,sec,0.5132,sec,0.5347,nonsec,0.8108,nonsec,0.61,nonsec,0.8245,nonsec,0.9542,nonsec,0.5289,nonsec,0.5586,nonsec,0.5831
+Same API Get diffrent response time,nonsec,nonsec,sec,0.5443,nonsec,0.7367,nonsec,0.83,nonsec,0.5531,nonsec,0.8708,nonsec,0.9048,nonsec,0.5358,nonsec,0.5412,nonsec,0.5318
+Is Vulkan suitable for software that uses the least possible resources?,nonsec,nonsec,sec,0.6121,sec,0.5861,nonsec,0.6978,nonsec,0.5881,nonsec,0.7548,nonsec,0.9511,sec,0.5202,nonsec,0.554,sec,0.5315
+Is there a way for a web application to report on the quality of the user's internet connection?,nonsec,nonsec,nonsec,0.5931,nonsec,0.9122,nonsec,0.9449,nonsec,0.5853,nonsec,0.7053,nonsec,0.9221,nonsec,0.5948,nonsec,0.5409,nonsec,0.5671
+Committee change in PBFT,nonsec,nonsec,nonsec,0.5239,nonsec,0.6488,nonsec,0.8705,nonsec,0.5966,nonsec,0.897,nonsec,0.9499,nonsec,0.5517,nonsec,0.5636,nonsec,0.5852
+NumPy efficiency in dataset preprocessing,nonsec,nonsec,sec,0.5803,sec,0.5397,nonsec,0.5286,nonsec,0.5993,nonsec,0.7703,nonsec,0.9504,nonsec,0.5408,nonsec,0.5493,nonsec,0.5585
+"Looking for ""portability oriented mobile application development"" learning resource? [closed]",nonsec,nonsec,nonsec,0.5174,nonsec,0.9097,nonsec,0.8799,nonsec,0.6333,nonsec,0.8543,nonsec,0.956,nonsec,0.5634,nonsec,0.5533,nonsec,0.5901
+"What is considered a ""padded"" UDP package - when does it actually have no payload?",sec,nonsec,nonsec,0.6115,nonsec,0.8247,nonsec,0.9514,nonsec,0.6294,nonsec,0.8786,nonsec,0.9311,nonsec,0.524,nonsec,0.5558,nonsec,0.588
+How can I block vulnerability scans when the hackers are spoofing Google-bots IP address?,sec,nonsec,nonsec,0.6011,nonsec,0.7513,nonsec,0.9378,nonsec,0.6072,nonsec,0.9347,nonsec,0.9526,nonsec,0.5618,nonsec,0.5605,nonsec,0.5879
+Need help understanding a CSP Report and set the right frame-ancestor url,sec,nonsec,nonsec,0.6742,nonsec,0.9756,nonsec,0.9455,nonsec,0.5954,nonsec,0.9359,nonsec,0.9504,nonsec,0.558,nonsec,0.5509,nonsec,0.5425
+How to get S3 Secure Access form Application?,sec,sec,sec,0.64,sec,0.8393,sec,0.7583,sec,0.5176,sec,0.9069,sec,0.8947,sec,0.6949,sec,0.7623,sec,0.8166
+Where to keep static information securely in Android app?,sec,sec,sec,0.5805,sec,0.8225,sec,0.7961,nonsec,0.506,sec,0.8891,sec,0.7972,sec,0.6564,sec,0.7579,sec,0.794
+How can I measure Blazor server render performance?,nonsec,nonsec,sec,0.6372,sec,0.5726,sec,0.5304,nonsec,0.5783,nonsec,0.7756,nonsec,0.9428,nonsec,0.5058,nonsec,0.5513,nonsec,0.5445
+Sharding (sic!) the web tier in order to prevent a load balancer bottleneck?,nonsec,nonsec,nonsec,0.5501,nonsec,0.7725,nonsec,0.8974,nonsec,0.6314,nonsec,0.7337,nonsec,0.9573,nonsec,0.5313,nonsec,0.5603,nonsec,0.577
+Azure AD B2C and Individual Accounts Blazor Wasm ASP .NET Core 5,sec,nonsec,nonsec,0.5721,nonsec,0.7576,nonsec,0.9328,nonsec,0.5647,nonsec,0.5873,nonsec,0.9428,sec,0.5205,nonsec,0.5283,nonsec,0.5434
+Is it possible to update the security patch level of Android 7.1.2 to 2019-10-01?,sec,sec,nonsec,0.5596,sec,0.7793,nonsec,0.5263,nonsec,0.5648,nonsec,0.7948,nonsec,0.8655,nonsec,0.524,nonsec,0.5333,nonsec,0.526
+PostgreSQL - Not using indexes when querying multiple values along with CTE,nonsec,nonsec,nonsec,0.5218,nonsec,0.8286,nonsec,0.8817,nonsec,0.6011,nonsec,0.9261,nonsec,0.9523,nonsec,0.556,nonsec,0.5664,nonsec,0.5695
+How to protect a NFC chip from being copied?,sec,sec,nonsec,0.5311,sec,0.732,nonsec,0.5453,nonsec,0.5119,sec,0.8802,sec,0.8654,sec,0.6821,sec,0.684,sec,0.757
+How to add unauthorized WWW-Authenticate field to response header using Micronaut Security?,sec,sec,sec,0.6102,sec,0.7109,sec,0.7145,nonsec,0.5369,sec,0.8566,sec,0.796,sec,0.7048,sec,0.7403,sec,0.7841
+Can we restrict websites access on AWS Workspaces?,sec,sec,sec,0.5679,sec,0.595,sec,0.564,nonsec,0.6076,nonsec,0.8103,nonsec,0.9165,sec,0.5168,sec,0.5323,nonsec,0.5588
+How OAuthV2 applications protect from replay attacks on the callback from the authorization server?,sec,sec,sec,0.5872,nonsec,0.5913,nonsec,0.6376,nonsec,0.5527,sec,0.7767,sec,0.7899,sec,0.6964,sec,0.8034,sec,0.8409
+Porting to which gaming platforms? [closed],nonsec,nonsec,sec,0.5033,nonsec,0.5824,nonsec,0.6039,nonsec,0.5881,nonsec,0.7448,nonsec,0.9471,nonsec,0.5505,nonsec,0.5518,nonsec,0.5527
+Failover Clustering with live client connections,nonsec,nonsec,nonsec,0.5389,nonsec,0.6532,nonsec,0.8367,nonsec,0.6088,nonsec,0.9197,nonsec,0.9526,nonsec,0.5486,nonsec,0.5532,nonsec,0.5679
+DB4O scalability,nonsec,nonsec,sec,0.5316,nonsec,0.6283,nonsec,0.747,nonsec,0.5881,nonsec,0.817,nonsec,0.9573,nonsec,0.5478,nonsec,0.5574,nonsec,0.582
+Why can't we store every hashed password ever in storage(HDD) and use that to match the hashed password instead of use brute force password cracking?,sec,sec,nonsec,0.575,nonsec,0.7454,nonsec,0.8477,nonsec,0.6572,nonsec,0.9134,nonsec,0.9497,sec,0.5284,nonsec,0.5379,sec,0.5271
+Boost::Spirit::Qi autorules -- avoiding repeated copying of AST data structures,nonsec,nonsec,nonsec,0.5102,nonsec,0.7789,nonsec,0.8716,nonsec,0.5638,nonsec,0.8524,nonsec,0.9453,nonsec,0.5104,nonsec,0.5465,nonsec,0.5438
