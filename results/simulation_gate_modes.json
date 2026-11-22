@@ -1,0 +1,996 @@
+{
+  "seeds": 3,
+  "n_estimators": 300,
+  "rows": [
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8399715504978662,
+      "val_swing": 0.019066750526080645,
+      "best_n_trees": 50,
+      "seconds": 0.6072630882263184
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.3374558303886926,
+      "val_swing": 0.0059260429835651385,
+      "best_n_trees": 50,
+      "seconds": 0.4080467224121094
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9066560461990343,
+      "val_swing": 0.17199199866494608,
+      "best_n_trees": 25,
+      "seconds": 0.7440519332885742
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9066560461990343,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.743685245513916
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9066427672150738,
+      "val_swing": 0.013500670992134034,
+      "best_n_trees": 250,
+      "seconds": 2.783674955368042
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8932961529706351,
+      "val_swing": 0.6755988431568122,
+      "best_n_trees": 25,
+      "seconds": 1.939074993133545
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8932961529706351,
+      "val_swing": 0.030846272034378064,
+      "best_n_trees": 25,
+      "seconds": 0.5259709358215332
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9093172119487909,
+      "val_swing": 0.009065912102967255,
+      "best_n_trees": 125,
+      "seconds": 2.9300220012664795
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9039938556067588,
+      "val_swing": 0.049196996909374624,
+      "best_n_trees": 25,
+      "seconds": 0.44724607467651367
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9119899864162322,
+      "val_swing": 0.004374431662053868,
+      "best_n_trees": 50,
+      "seconds": 0.5529880523681641
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 0,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9173121652476367,
+      "val_swing": 0.013303003090625376,
+      "best_n_trees": 50,
+      "seconds": 2.24381685256958
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9359886201991465,
+      "val_swing": 0.013520505429059249,
+      "best_n_trees": 25,
+      "seconds": 0.503633975982666
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.33035714285714285,
+      "val_swing": 0.017780938833570403,
+      "best_n_trees": 25,
+      "seconds": 0.36003923416137695
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9786592305941271,
+      "val_swing": 0.06288327423181483,
+      "best_n_trees": 25,
+      "seconds": 0.6112680435180664
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9839971550497866,
+      "val_swing": 0.0044727577657809325,
+      "best_n_trees": 50,
+      "seconds": 0.5968499183654785
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9786592305941271,
+      "val_swing": 0.004464827882556532,
+      "best_n_trees": 25,
+      "seconds": 1.6187660694122314
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9706533106622748,
+      "val_swing": 0.6755139097118108,
+      "best_n_trees": 75,
+      "seconds": 2.3429667949676514
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9813312092398068,
+      "val_swing": 0.004464827882556532,
+      "best_n_trees": 25,
+      "seconds": 0.5309150218963623
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9813312092398068,
+      "val_swing": 0.013358108514967548,
+      "best_n_trees": 25,
+      "seconds": 1.8351030349731445
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9759972690226089,
+      "val_swing": 0.01814189767188845,
+      "best_n_trees": 25,
+      "seconds": 0.374269962310791
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9759972690226089,
+      "val_swing": 0.004426871222345863,
+      "best_n_trees": 25,
+      "seconds": 0.45497584342956543
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 1,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9813312092398068,
+      "val_swing": 0.008893280632411127,
+      "best_n_trees": 50,
+      "seconds": 1.8587861061096191
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9382716049382716,
+      "val_swing": 0.014561817339400429,
+      "best_n_trees": 25,
+      "seconds": 0.4840409755706787
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.3556701030927835,
+      "val_swing": 0.04548490867860849,
+      "best_n_trees": 50,
+      "seconds": 0.4116988182067871
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9811185038662111,
+      "val_swing": 0.021107259549672852,
+      "best_n_trees": 25,
+      "seconds": 0.6058471202850342
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9811185038662111,
+      "val_swing": 0.00012681504431810708,
+      "best_n_trees": 25,
+      "seconds": 0.739854097366333
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9784334023464458,
+      "val_swing": 0.004408462053541395,
+      "best_n_trees": 50,
+      "seconds": 1.8041741847991943
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9811396670522556,
+      "val_swing": 0.782244101680274,
+      "best_n_trees": 25,
+      "seconds": 1.8357632160186768
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9811396670522556,
+      "val_swing": 0.004404646614791563,
+      "best_n_trees": 25,
+      "seconds": 0.5328397750854492
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9811396670522556,
+      "val_swing": 0.004404646614791563,
+      "best_n_trees": 25,
+      "seconds": 1.8545217514038086
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9784085674804237,
+      "val_swing": 0.013774945974665442,
+      "best_n_trees": 25,
+      "seconds": 0.3514087200164795
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9784085674804237,
+      "val_swing": 0.008826400871855378,
+      "best_n_trees": 25,
+      "seconds": 0.6772079467773438
+    },
+    {
+      "scenario": "Binary, balanced",
+      "seed": 2,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9784085674804237,
+      "val_swing": 0.013348385766192239,
+      "best_n_trees": 25,
+      "seconds": 1.6244990825653076
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7376007613076578,
+      "val_swing": 0.04943213468559082,
+      "best_n_trees": 125,
+      "seconds": 0.7706255912780762
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.4596541786743516,
+      "val_swing": 0.2777777777777778,
+      "best_n_trees": 50,
+      "seconds": 0.4147021770477295
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8511904761904762,
+      "val_swing": 0.12541152230330432,
+      "best_n_trees": 25,
+      "seconds": 0.7008247375488281
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.845408636504174,
+      "val_swing": 0.010223388131370581,
+      "best_n_trees": 50,
+      "seconds": 0.7376282215118408
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8572283259001414,
+      "val_swing": 0.016173087981598666,
+      "best_n_trees": 200,
+      "seconds": 2.6961910724639893
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8223927252060245,
+      "val_swing": 0.39984270442238395,
+      "best_n_trees": 25,
+      "seconds": 1.8211402893066406
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8223927252060245,
+      "val_swing": 0.021374824651435587,
+      "best_n_trees": 25,
+      "seconds": 0.5273010730743408
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8351955679260611,
+      "val_swing": 0.03129756276884521,
+      "best_n_trees": 200,
+      "seconds": 3.202739953994751
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8687128019605554,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.39043688774108887
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.858987824328004,
+      "val_swing": 0.0008548575907825207,
+      "best_n_trees": 50,
+      "seconds": 0.5283288955688477
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 0,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8651600101213227,
+      "val_swing": 0.020952638327975892,
+      "best_n_trees": 50,
+      "seconds": 2.1548640727996826
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9414885317522235,
+      "val_swing": 0.035857823571026626,
+      "best_n_trees": 50,
+      "seconds": 0.4972701072692871
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.46808510638297873,
+      "val_swing": 0.2733276095137189,
+      "best_n_trees": 50,
+      "seconds": 0.41608190536499023
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.049636908431023974,
+      "best_n_trees": 25,
+      "seconds": 0.5825700759887695
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.735975980758667
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.008781742647265944,
+      "best_n_trees": 25,
+      "seconds": 1.6705999374389648
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9467169763660188,
+      "val_swing": 0.3132683868803635,
+      "best_n_trees": 25,
+      "seconds": 1.8482630252838135
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9380533897185146,
+      "val_swing": 0.006130770608301361,
+      "best_n_trees": 50,
+      "seconds": 0.5346620082855225
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9578143832864604,
+      "val_swing": 0.008816588769752443,
+      "best_n_trees": 50,
+      "seconds": 2.134690046310425
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.3316831588745117
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.43387389183044434
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 1,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9747474747474747,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 1.5758090019226074
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9280177187153931,
+      "val_swing": 0.02865048972795492,
+      "best_n_trees": 25,
+      "seconds": 0.4907419681549072
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.4642857142857143,
+      "val_swing": 0.3278604841104841,
+      "best_n_trees": 50,
+      "seconds": 0.4167807102203369
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9653846153846153,
+      "val_swing": 0.03838754876075423,
+      "best_n_trees": 25,
+      "seconds": 0.578096866607666
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9653846153846153,
+      "val_swing": 0.007157786626786122,
+      "best_n_trees": 25,
+      "seconds": 0.7010519504547119
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.9653846153846153,
+      "val_swing": 0.007157786626786122,
+      "best_n_trees": 25,
+      "seconds": 1.597449779510498
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9560529708191726,
+      "val_swing": 0.42244433198380565,
+      "best_n_trees": 25,
+      "seconds": 1.82407808303833
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.9647865281081758,
+      "val_swing": 0.007157786626786122,
+      "best_n_trees": 50,
+      "seconds": 0.5306751728057861
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.966509883305549,
+      "val_swing": 0.01415945501791327,
+      "best_n_trees": 50,
+      "seconds": 2.1446239948272705
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9713954446292087,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.3279139995574951
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9713954446292087,
+      "val_swing": 0.017117425539198927,
+      "best_n_trees": 50,
+      "seconds": 0.6094307899475098
+    },
+    {
+      "scenario": "Binary, 13% minority",
+      "seed": 2,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.9825443373830471,
+      "val_swing": 0.017117425539198927,
+      "best_n_trees": 50,
+      "seconds": 1.7874419689178467
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7237727768578408,
+      "val_swing": 0.02242556840430454,
+      "best_n_trees": 75,
+      "seconds": 1.8529508113861084
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.6822052367629378,
+      "val_swing": 0.06809010414487904,
+      "best_n_trees": 100,
+      "seconds": 1.552103042602539
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7677836028503551,
+      "val_swing": 0.29318997328807217,
+      "best_n_trees": 25,
+      "seconds": 1.5721139907836914
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7692820774678074,
+      "val_swing": 0.0014849831124462698,
+      "best_n_trees": 50,
+      "seconds": 1.3419289588928223
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7684838745976511,
+      "val_swing": 0.012439199053006056,
+      "best_n_trees": 175,
+      "seconds": 4.944695949554443
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.7601213699150787,
+      "val_swing": 0.22759626423772528,
+      "best_n_trees": 25,
+      "seconds": 6.445678949356079
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.7809328085923025,
+      "val_swing": 0.05994380691364476,
+      "best_n_trees": 100,
+      "seconds": 4.496438026428223
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.7637599047836436,
+      "val_swing": 0.019618969474111903,
+      "best_n_trees": 50,
+      "seconds": 7.2351508140563965
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.7835954717683074,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.6174180507659912
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.7835954717683074,
+      "val_swing": 0.008664508578585806,
+      "best_n_trees": 25,
+      "seconds": 0.9683871269226074
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 0,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.7703116228443782,
+      "val_swing": 0.011706388108257304,
+      "best_n_trees": 150,
+      "seconds": 5.641904830932617
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8400527692378287,
+      "val_swing": 0.030075926589725133,
+      "best_n_trees": 75,
+      "seconds": 1.1882309913635254
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7231273310193973,
+      "val_swing": 0.04903439318731051,
+      "best_n_trees": 100,
+      "seconds": 1.3215830326080322
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8596814905737576,
+      "val_swing": 0.04527916813091415,
+      "best_n_trees": 25,
+      "seconds": 1.1510839462280273
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8689840455654568,
+      "val_swing": 0.011598561445844924,
+      "best_n_trees": 75,
+      "seconds": 1.41379714012146
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8758913651635944,
+      "val_swing": 0.010057670992055567,
+      "best_n_trees": 200,
+      "seconds": 4.28378701210022
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.7997863968441319,
+      "val_swing": 0.16818785481443455,
+      "best_n_trees": 200,
+      "seconds": 9.773369073867798
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.85552866013043,
+      "val_swing": 0.02427183246192599,
+      "best_n_trees": 25,
+      "seconds": 3.5932650566101074
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8645112197743776,
+      "val_swing": 0.018635049138137294,
+      "best_n_trees": 50,
+      "seconds": 7.245785713195801
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8578432718354198,
+      "val_swing": 0.0,
+      "best_n_trees": 25,
+      "seconds": 0.5383212566375732
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8578432718354198,
+      "val_swing": 0.00270189078307137,
+      "best_n_trees": 25,
+      "seconds": 0.8537619113922119
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 1,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8578432718354198,
+      "val_swing": 0.008011211755235559,
+      "best_n_trees": 25,
+      "seconds": 3.048287868499756
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective gate",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7674482085772408,
+      "val_swing": 0.03232916862969071,
+      "best_n_trees": 225,
+      "seconds": 1.7334558963775635
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "XGBoost \u00b7 objective, margin 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.7377007134293745,
+      "val_swing": 0.039370883942135615,
+      "best_n_trees": 150,
+      "seconds": 1.8880817890167236
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8744026007693897,
+      "val_swing": 0.23359855682733943,
+      "best_n_trees": 25,
+      "seconds": 1.5028321743011475
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "XGBoost \u00b7 staged, floor 0.1",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.854403600233806,
+      "val_swing": 0.022551892551892605,
+      "best_n_trees": 50,
+      "seconds": 1.809730052947998
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "XGBoost \u00b7 ungated",
+      "adapter": "xgboost",
+      "test_macro_f1": 0.8789776796647721,
+      "val_swing": 0.013543983333526688,
+      "best_n_trees": 275,
+      "seconds": 4.768015146255493
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8827076708061661,
+      "val_swing": 0.3586153533836089,
+      "best_n_trees": 25,
+      "seconds": 6.367557764053345
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "CatBoost \u00b7 staged, floor 0.1",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8827076708061661,
+      "val_swing": 0.07195774042759007,
+      "best_n_trees": 25,
+      "seconds": 5.4317121505737305
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "CatBoost \u00b7 ungated",
+      "adapter": "catboost",
+      "test_macro_f1": 0.8827076708061661,
+      "val_swing": 0.016647097349033357,
+      "best_n_trees": 25,
+      "seconds": 6.394146203994751
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8645519173059761,
+      "val_swing": 0.01342732866732299,
+      "best_n_trees": 25,
+      "seconds": 0.5934507846832275
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "LightGBM \u00b7 staged, floor 0.1",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8572715102835584,
+      "val_swing": 0.004723651352196656,
+      "best_n_trees": 50,
+      "seconds": 0.9370298385620117
+    },
+    {
+      "scenario": "4-class, skewed",
+      "seed": 2,
+      "config": "LightGBM \u00b7 ungated",
+      "adapter": "lightgbm",
+      "test_macro_f1": 0.8887161219620316,
+      "val_swing": 0.008775406571989608,
+      "best_n_trees": 125,
+      "seconds": 5.023224115371704
+    }
+  ]
+}
